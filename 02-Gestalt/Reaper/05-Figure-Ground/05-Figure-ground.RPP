@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.48/macOS-arm64" 1760457019
+<REAPER_PROJECT 0.1 "7.48/macOS-arm64" 1760474114
   RIPPLE 0 0
   GROUPOVERRIDE 1 0 0 0
   AUTOXFADE 128
@@ -203,7 +203,7 @@
       CHANMODE 0
       GUID {9F4988C0-728B-4C45-A6C6-0856C81BD93F}
       <SOURCE WAVE
-        FILE "wind.wav"
+        FILE "Media/wind.wav"
       >
     >
     <ITEM
@@ -225,7 +225,7 @@
       CHANMODE 0
       GUID {C3BC013A-2413-0646-A814-D344F7A0B8CA}
       <SOURCE WAVE
-        FILE "trockeneis.wav"
+        FILE "Media/trockeneis.wav"
       >
     >
     <ITEM
@@ -247,7 +247,7 @@
       CHANMODE 0
       GUID {35B100F7-A026-9D4E-A5FE-640DD94A5049}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -269,7 +269,7 @@
       CHANMODE 0
       GUID {CB21C4F2-1263-1648-BFF7-51AC69B60EEC}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -291,7 +291,7 @@
       CHANMODE 0
       GUID {12488A9F-2336-154C-AD7F-CD8D89142B17}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -313,7 +313,7 @@
       CHANMODE 0
       GUID {A5C4C866-1944-BE4E-8AF7-D09600EC916F}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -335,7 +335,7 @@
       CHANMODE 0
       GUID {CA2D09A7-6C81-284C-BE08-A7D1034206B8}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -357,7 +357,7 @@
       CHANMODE 0
       GUID {643E758C-B270-1C41-A9A1-1316801C4446}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -379,7 +379,7 @@
       CHANMODE 0
       GUID {D0A90BA0-C946-D24D-82AC-2F1ACE40DAD9}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -401,7 +401,7 @@
       CHANMODE 0
       GUID {8F6FF42C-D506-364A-89F4-D1D51129B87F}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -423,7 +423,7 @@
       CHANMODE 0
       GUID {8928CA1A-A7C4-9E42-8102-F714C6843DDD}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -445,7 +445,7 @@
       CHANMODE 0
       GUID {A415564C-EF54-D949-B9AF-6A2B5A8C369F}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -467,7 +467,7 @@
       CHANMODE 0
       GUID {FD8A6FEF-7821-9C4A-A340-F9ADF73CE1EA}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -489,7 +489,7 @@
       CHANMODE 0
       GUID {4CF1128E-0631-7841-BA2A-E3291318C33C}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -511,7 +511,7 @@
       CHANMODE 0
       GUID {0F0EEF91-C922-3843-894A-45FAB250F745}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -533,7 +533,7 @@
       CHANMODE 0
       GUID {B9A7E5C3-24CC-374B-B1F7-32CB3D30919A}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -555,7 +555,7 @@
       CHANMODE 0
       GUID {3CEAE675-977C-3747-814F-4ACEFAED4439}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -577,7 +577,7 @@
       CHANMODE 0
       GUID {9E01E157-4FEE-6A43-9DF6-4093831B71F9}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -599,7 +599,7 @@
       CHANMODE 0
       GUID {07E5F5FE-F5B1-4D43-966F-FCFF9A3C7782}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -621,7 +621,7 @@
       CHANMODE 0
       GUID {9FFE27D9-A01B-B042-8480-21384CFF3CF3}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -643,7 +643,7 @@
       CHANMODE 0
       GUID {DD38CFC2-7256-5945-A9BC-6D74CAAACB6C}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -665,7 +665,7 @@
       CHANMODE 0
       GUID {5389307B-AA87-AD46-A5E7-366DC014F2B7}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -687,7 +687,7 @@
       CHANMODE 0
       GUID {97CEB180-4199-184B-8962-6FB24615558E}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -709,7 +709,7 @@
       CHANMODE 0
       GUID {5DB51182-016E-264E-9E29-E21B477B9BFE}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -731,7 +731,7 @@
       CHANMODE 0
       GUID {E572A720-579A-EA4F-8ED5-928280741BF7}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -753,7 +753,7 @@
       CHANMODE 0
       GUID {0552B56D-948B-6747-A1C4-254336960750}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -775,7 +775,7 @@
       CHANMODE 0
       GUID {02A2E386-13D4-A144-BA07-D1D059BCD905}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -797,7 +797,7 @@
       CHANMODE 0
       GUID {09490EFD-DC6D-BC46-B4C0-A16BA61A8FAB}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -819,7 +819,7 @@
       CHANMODE 0
       GUID {90DE46BC-B192-4D41-ABAF-1823244FA1E2}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -841,7 +841,7 @@
       CHANMODE 0
       GUID {B6523F4F-B764-994A-A030-5980C8B00842}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -863,7 +863,7 @@
       CHANMODE 0
       GUID {2214A99F-7A06-6D40-848D-DB23A7FC3CD5}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -885,7 +885,7 @@
       CHANMODE 0
       GUID {9DE25D31-6885-A544-B9F4-784C8A44B779}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -907,7 +907,7 @@
       CHANMODE 0
       GUID {0E465EFD-BC59-5342-9541-EFE30DB70BD3}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -929,7 +929,7 @@
       CHANMODE 0
       GUID {FA762912-AF2B-3E4A-A889-420CF01CF050}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -951,7 +951,7 @@
       CHANMODE 0
       GUID {F1098EB4-8CDE-3E4A-B911-63DB327A4B9D}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -973,7 +973,7 @@
       CHANMODE 0
       GUID {EC9F2DA4-9654-F44E-9D24-951AFA5E6B41}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -995,7 +995,7 @@
       CHANMODE 0
       GUID {6EBBD70F-2CD1-2343-9184-C105C895BE6F}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -1017,7 +1017,7 @@
       CHANMODE 0
       GUID {0C5FD6BD-C36D-744D-B885-C0C7FF922789}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -1039,7 +1039,7 @@
       CHANMODE 0
       GUID {7AAFEC4E-ED1B-9541-9694-F9872E2A5B47}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -1061,7 +1061,7 @@
       CHANMODE 0
       GUID {D164D3E2-CCEA-C547-A44F-2F608FACC6B0}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -1083,7 +1083,7 @@
       CHANMODE 0
       GUID {FFCAE66E-8041-CB48-AC2E-8371F100FC9F}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -1105,7 +1105,7 @@
       CHANMODE 0
       GUID {2D4BD0CF-DC6E-374E-B3F6-D5A5F84BAA8C}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
   >
@@ -1151,7 +1151,7 @@
       CHANMODE 0
       GUID {4E6F7F62-E5D7-4A49-9D6C-7C922703554F}
       <SOURCE WAVE
-        FILE "grille-01.wav"
+        FILE "Media/grille-01.wav"
       >
     >
     <ITEM
@@ -1173,7 +1173,7 @@
       CHANMODE 0
       GUID {B84F3AED-96AA-E243-9868-BC9DA20BBB8A}
       <SOURCE WAVE
-        FILE "moeve1.wav"
+        FILE "Media/moeve1.wav"
       >
     >
     <ITEM
@@ -1195,7 +1195,7 @@
       CHANMODE 0
       GUID {9C05A951-DF86-F341-888F-D7CCCE466F97}
       <SOURCE WAVE
-        FILE "piano-flag-01.wav"
+        FILE "Media/piano-flag-01.wav"
       >
     >
     <ITEM
@@ -1217,7 +1217,7 @@
       CHANMODE 0
       GUID {8BF82E45-1C52-6248-A99B-732EF09791AC}
       <SOURCE WAVE
-        FILE "Am Meer-Seemöwen.wav"
+        FILE "Media/Am Meer-Seemöwen.wav"
       >
     >
     <ITEM
@@ -1239,7 +1239,7 @@
       CHANMODE 0
       GUID {97A929EC-C324-004B-85B3-09D812140101}
       <SOURCE WAVE
-        FILE "Am Meer-Seemöwen.wav"
+        FILE "Media/Am Meer-Seemöwen.wav"
       >
     >
     <ITEM
@@ -1261,7 +1261,7 @@
       CHANMODE 0
       GUID {C8483456-0F8F-1F4E-9E6E-3E8A291454B0}
       <SOURCE WAVE
-        FILE "Am Meer-Seemöwen.wav"
+        FILE "Media/Am Meer-Seemöwen.wav"
       >
     >
     <ITEM
@@ -1283,7 +1283,7 @@
       CHANMODE 0
       GUID {50763D5D-9779-8245-BFCA-728216398384}
       <SOURCE WAVE
-        FILE "Am Meer-Seemöwen.wav"
+        FILE "Media/Am Meer-Seemöwen.wav"
       >
     >
     <ITEM
@@ -1305,7 +1305,7 @@
       CHANMODE 0
       GUID {6F023072-47B4-5943-8259-8DEC13653FB7}
       <SOURCE WAVE
-        FILE "Am Meer-Seemöwen.wav"
+        FILE "Media/Am Meer-Seemöwen.wav"
       >
     >
     <ITEM
@@ -1327,7 +1327,7 @@
       CHANMODE 0
       GUID {A05B81BB-5157-4B4B-B2D9-959DDE81B081}
       <SOURCE WAVE
-        FILE "Am Meer-Seemöwen.wav"
+        FILE "Media/Am Meer-Seemöwen.wav"
       >
     >
     <ITEM
@@ -1349,7 +1349,7 @@
       CHANMODE 0
       GUID {F78213F6-FD19-984A-9FC1-8A92DE58A5A0}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -1371,7 +1371,7 @@
       CHANMODE 0
       GUID {1E282074-7671-FB4A-A584-351D9E4E16CE}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -1393,7 +1393,7 @@
       CHANMODE 0
       GUID {6A6E3470-73B3-3F43-9305-6B077A5FCA3F}
       <SOURCE WAVE
-        FILE "bell.wav"
+        FILE "Media/bell.wav"
       >
     >
     <ITEM
@@ -1415,7 +1415,7 @@
       CHANMODE 0
       GUID {2E7A88A1-44C6-1240-B84E-D5179E099D35}
       <SOURCE WAVE
-        FILE "Piano.mf.B2-06.wav"
+        FILE "Media/Piano.mf.B2-06.wav"
       >
     >
     <ITEM
@@ -1437,7 +1437,7 @@
       CHANMODE 0
       GUID {3C8558B2-E803-7848-8AD2-FFF3DA435E26}
       <SOURCE WAVE
-        FILE "Piano.mf.B2-06.wav"
+        FILE "Media/Piano.mf.B2-06.wav"
       >
     >
     <ITEM
@@ -1459,7 +1459,7 @@
       CHANMODE 0
       GUID {D4274CB8-E94B-5742-BBFE-E45702DEDD98}
       <SOURCE WAVE
-        FILE "Piano.mf.B2-06.wav"
+        FILE "Media/Piano.mf.B2-06.wav"
       >
     >
     <ITEM
@@ -1481,7 +1481,7 @@
       CHANMODE 0
       GUID {A6B05174-51D7-8C46-871F-7EF6E834C95E}
       <SOURCE WAVE
-        FILE "Piano.mf.B2-06.wav"
+        FILE "Media/Piano.mf.B2-06.wav"
       >
     >
     <ITEM
@@ -1503,7 +1503,7 @@
       CHANMODE 0
       GUID {3E3A81A3-15BC-0546-9D19-B30A59F8C1D8}
       <SOURCE WAVE
-        FILE "Piano.mf.B2.wav"
+        FILE "Media/Piano.mf.B2.wav"
       >
     >
     <ITEM
@@ -1525,7 +1525,7 @@
       CHANMODE 0
       GUID {6FD188CB-2008-D244-AE03-B7FEB3FCF2D7}
       <SOURCE WAVE
-        FILE "Piano.mf.B2.wav"
+        FILE "Media/Piano.mf.B2.wav"
       >
     >
     <ITEM
@@ -1547,7 +1547,7 @@
       CHANMODE 0
       GUID {310E7137-96C3-DC4E-B29A-449A41E5A0F6}
       <SOURCE WAVE
-        FILE "Piano.mf.B2.wav"
+        FILE "Media/Piano.mf.B2.wav"
       >
     >
     <ITEM
@@ -1569,7 +1569,7 @@
       CHANMODE 0
       GUID {F9812156-08EE-104A-AB76-B6C627A783B6}
       <SOURCE WAVE
-        FILE "Piano.mf.B2.wav"
+        FILE "Media/Piano.mf.B2.wav"
       >
     >
   >
@@ -1615,7 +1615,7 @@
       CHANMODE 0
       GUID {FF0F8300-CF0D-D545-BF72-1BD65A81028B}
       <SOURCE WAVE
-        FILE "moeve1.wav"
+        FILE "Media/moeve1.wav"
       >
     >
     <ITEM
@@ -1637,7 +1637,7 @@
       CHANMODE 0
       GUID {B18EFC94-33F9-B344-88B6-3579533DE644}
       <SOURCE WAVE
-        FILE "grille-01.wav"
+        FILE "Media/grille-01.wav"
       >
     >
     <ITEM
@@ -1659,7 +1659,7 @@
       CHANMODE 0
       GUID {95E4AE0D-04F0-A043-975B-41953B3D9840}
       <SOURCE WAVE
-        FILE "Trumpet.novib.pp.G4-01.wav"
+        FILE "Media/Trumpet.novib.pp.G4-01.wav"
       >
     >
   >
@@ -1705,7 +1705,7 @@
       CHANMODE 0
       GUID {F4F54587-F372-0C44-9BC7-837C32FA8C27}
       <SOURCE VIDEO
-        FILE "gute-gestalt.jpg"
+        FILE "Media/gute-gestalt.jpg"
       >
     >
     <ITEM
@@ -1727,7 +1727,7 @@
       CHANMODE 0
       GUID {DC80E593-53BE-AC4B-B868-F8B7ECFE7972}
       <SOURCE VIDEO
-        FILE "figur-grund.jpg"
+        FILE "Media/figur-grund.jpg"
       >
     >
     <ITEM
@@ -1749,7 +1749,7 @@
       CHANMODE 0
       GUID {9FE2E760-67E4-E64B-8ABD-FA065B8D7E2A}
       <SOURCE VIDEO
-        FILE "hidden-images_four-women.jpeg"
+        FILE "Media/hidden-images_four-women.jpeg"
       >
     >
     <ITEM
@@ -1771,7 +1771,7 @@
       CHANMODE 0
       GUID {82B4C9FE-011A-BC40-BF22-7F0DFA458C06}
       <SOURCE WAVE
-        FILE "area0.wav"
+        FILE "Media/area0.wav"
       >
     >
     <ITEM
@@ -1793,7 +1793,7 @@
       CHANMODE 0
       GUID {19694083-91D9-9948-AD9D-E2684041A8BF}
       <SOURCE WAVE
-        FILE "area1.wav"
+        FILE "Media/area1.wav"
       >
     >
   >
