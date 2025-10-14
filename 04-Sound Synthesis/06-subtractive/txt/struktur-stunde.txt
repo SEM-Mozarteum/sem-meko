@@ -1,0 +1,7 @@
+Subtraktion Synthese:
+
+1. Grundlagen
+2. PD
+3. Ligeti
+5. Cerha
+6. Spear
