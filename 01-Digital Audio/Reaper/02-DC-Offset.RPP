@@ -1,0 +1,379 @@
+<REAPER_PROJECT 0.1 "7.27/macOS-arm64" 1733315211
+  TITLE "DC Offset"
+  AUTHOR "Achim Bornhoeft"
+  <NOTES 0 2
+    |To remove the DC Offset 
+    |- add "DC-Filter" as FX
+    |- right click on item: Apply track/take FX to items as new take"
+    |- You can switch between the old and the new by clicking on it.
+    |- If you want to have only the new item right click again, select "Take/Crop to active take"
+  >
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 129
+  ENVATTACH 2
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 0
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 0 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 6
+  ZOOM 4.35501799594493 0 0
+  VZOOMEX 15.64166641 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "Media" ""
+  <RECORD_CFG
+    ZXZhdxgAAQ==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN ""
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 0
+  TEMPOENVLOCKMODE 0
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 48000 1 0
+  <RENDER_CFG
+    ZXZhdxgAAQ==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    BEATLEN 4
+    FREQ 800 1600 1
+    SAMPLES "" ""
+    SPLIGNORE 0 0
+    SPLDEF 2 660 "" 0
+    SPLDEF 3 440 "" 0
+    PATTERN 0 169
+    PATTERNSTR ABBB
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 0 0
+  SELECTION2 0 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 107 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 1 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {220BC008-E711-B146-BD0C-E22DCE1280F7}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {724F3326-6D17-EC46-826A-F57D00961152}
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  MARKER 1 0 "DC Offset" 0 0 1 B {E5D025B2-8CF7-DA4D-8283-9EE3B879C204} 0
+  MARKER 2 44 "Remove DC Offset with DC Filter" 0 0 1 B {ECD249FF-D9D5-0548-A416-9591CC03CE2E} 0
+  MARKER 3 88 "Original with DC" 0 0 1 B {C54AB61C-444F-0F48-82A2-1781DC62D02A} 0
+  MARKER 4 132 "Sound with DC removed" 0 0 1 B {098579DA-CCC3-3D4D-AD23-DB93079D100A} 0
+  MARKER 5 176 "Remove DC with Highpass" 0 0 1 B {53D32F56-73B5-6043-AA5E-9F7D6CC208FB} 0
+  <PROJBAY
+  >
+  <TRACK {8EE4CE48-BF8D-224F-A101-1DA66F9629F1}
+    NAME clm-guitar
+    PEAKCOL 32435950
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 216 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {8EE4CE48-BF8D-224F-A101-1DA66F9629F1}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 509 11 837 573
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 44
+      SNAPOFFS 0
+      LENGTH 40.072
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EA900F3D-BDCE-DB4C-8C83-8D200F7DC5F6}
+      IID 1
+      NAME clm-guitar.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A7775C39-E071-E34C-A382-BCCF96F0E4A7}
+      <SOURCE WAVE
+        FILE "Media/clm-guitar.wav"
+      >
+      <TAKEFX
+        WNDRECT 922 541 793 150
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS filters/dc_remove ""
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        >
+        FLOATPOS 0 0 0 0
+        FXID {C7A85166-3A3A-D24C-B39B-5136CD997B99}
+        WAK 0 0
+      >
+    >
+    <ITEM
+      POSITION 88
+      SNAPOFFS 0
+      LENGTH 40.072
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DFC68FEA-DFC5-E344-9606-A95F1043FBAD}
+      IID 1
+      NAME clm-guitar.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B6AC7474-5D25-0245-976C-8C3797DDAF77}
+      <SOURCE WAVE
+        FILE "Media/clm-guitar.wav"
+      >
+      <TAKEFX
+        WNDRECT 1106 432 793 579
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS schwa/audio_statistics ""
+          300 -30 -18.17 -19.72 -15.76 3.96 -19.11 -20.28 -16.38 3.9 -8.61 -9.7 -17.62 -18.17 0.11975 -0.115012 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        >
+        FLOATPOS 0 0 0 0
+        FXID {45E9387E-BC8E-8945-A8CD-5E35F4D37AF5}
+        WAK 0 0
+      >
+    >
+    <ITEM
+      POSITION 132
+      SNAPOFFS 0
+      LENGTH 42.072
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E8B02654-BD9B-3F44-88B5-859EE03197D0}
+      IID 3
+      NAME "clm-guitar render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {431B0597-9DBA-4841-ACAC-CA47FE4FE0F0}
+      <SOURCE WAVE
+        FILE "Media/clm-guitar render 001.wav"
+      >
+      <TAKEFX
+        WNDRECT 1127 105 793 579
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS schwa/audio_statistics ""
+          300 -30 -24.12 -30.26 -22.25 8.01 -27 -32.1 -24.22 7.88 -11.98 -14.16 -25.72 -27.85 -0.000053 0.000009 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        >
+        FLOATPOS 0 0 0 0
+        FXID {79923D0F-6E9C-E945-A593-1D42CCCE7304}
+        WAK 0 0
+      >
+    >
+    <ITEM
+      POSITION 176
+      SNAPOFFS 0
+      LENGTH 40.072
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5723B111-B536-9D46-AEB0-6C3331AA4715}
+      IID 1
+      NAME clm-guitar.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {18499180-9837-5D4B-833F-2520F661785B}
+      <SOURCE WAVE
+        FILE "Media/clm-guitar.wav"
+      >
+      <TAKEFX
+        WNDRECT 247 398 815 444
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: ReaEQ (Cockos)" reaeq.vst.dylib 0 "" 1919247729<56535472656571726561657100000000> ""
+          cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAagAAAAEAAAAAABAA
+          IQAAAAIAAAAEAAAAAAAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEEAAAAAQAAAHWjo4pEOkFAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAEAC
+          AABrAQAAAgAAAA==
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {A681B7EF-EC00-A045-AA47-8CC49B7BDCAD}
+        WAK 0 0
+      >
+    >
+  >
+  <TRACK {FD04530E-10DE-DB48-B51D-C9484CAAD4F0}
+    NAME DcOffset
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 79 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {FD04530E-10DE-DB48-B51D-C9484CAAD4F0}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 11
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9977CC3A-C630-8D48-9929-D56F4750B9F7}
+      IID 7
+      NAME "digital-audio (verschoben).jpeg"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EEE66840-8F6C-1B48-8DA3-1D7A6D7D2D84}
+      <SOURCE VIDEO
+        FILE "Media/digital-audio (verschoben).jpeg"
+      >
+    >
+    <ITEM
+      POSITION 12
+      SNAPOFFS 0
+      LENGTH 13
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BECBA125-4466-0146-800C-2AD594BD45FD}
+      IID 8
+      NAME DcOffset.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DD9D03D8-20BD-824D-B1DA-713E6C8C1AB1}
+      <SOURCE VIDEO
+        FILE "Media/DcOffset.png"
+      >
+    >
+    <ITEM
+      POSITION 26
+      SNAPOFFS 0
+      LENGTH 11
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F1EAF92C-850E-6740-9BC7-4725B0ABEC58}
+      IID 9
+      NAME "digital-audio (verschoben) 3.jpeg"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ACF5D0DA-3764-0941-9AEA-E7B8478C1C14}
+      <SOURCE VIDEO
+        FILE "Media/digital-audio (verschoben) 3.jpeg"
+      >
+    >
+  >
+  <EXTENSIONS
+  >
+>
