@@ -1,2 +1,2 @@
-# sem-meco
+# sem-meko
 Media Composition
