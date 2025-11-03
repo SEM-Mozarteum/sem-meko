@@ -1,2 +1,4 @@
 # sem-meko
-Media Composition
+**Media Composition**<br>
+Studio Electronic Music (SEM)<br>
+University Mozarteum, Salzburg, Austria
