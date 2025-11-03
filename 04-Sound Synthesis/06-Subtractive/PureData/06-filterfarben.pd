@@ -1,0 +1,118 @@
+#N canvas 408 326 1061 497 12;
+#X obj 329 57 bng 15 250 50 0 empty empty empty 0 -6 0 8 -262144 -1
+-1;
+#X obj 20 144 noise~;
+#X obj 19 222 bp~ 0 50;
+#X obj 48 175 random 10000;
+#X floatatom 48 201 5 0 0 0 - - -;
+#X obj 95 137 bng 15 250 50 0 empty empty empty 0 -6 0 8 -262144 -1
+-1;
+#X obj 148 144 noise~;
+#X obj 147 222 bp~ 0 50;
+#X obj 176 175 random 10000;
+#X floatatom 176 201 5 0 0 0 - - -;
+#X obj 223 137 bng 15 250 50 0 empty empty empty 0 -6 0 8 -262144 -1
+-1;
+#X obj 276 142 noise~;
+#X obj 275 220 bp~ 0 50;
+#X obj 304 173 random 10000;
+#X floatatom 304 199 5 0 0 0 - - -;
+#X obj 351 135 bng 15 250 50 0 empty empty empty 0 -6 0 8 -262144 -1
+-1;
+#X obj 404 142 noise~;
+#X obj 403 220 bp~ 0 50;
+#X obj 432 173 random 10000;
+#X floatatom 432 199 5 0 0 0 - - -;
+#X obj 479 135 bng 15 250 50 0 empty empty empty 0 -6 0 8 -262144 -1
+-1;
+#X obj 532 137 noise~;
+#X obj 531 215 bp~ 0 50;
+#X obj 560 168 random 10000;
+#X floatatom 560 194 5 0 0 0 - - -;
+#X obj 607 130 bng 15 250 50 0 empty empty empty 0 -6 0 8 -262144 -1
+-1;
+#X obj 660 137 noise~;
+#X obj 659 215 bp~ 0 50;
+#X obj 688 168 random 10000;
+#X floatatom 688 194 5 0 0 0 - - -;
+#X obj 735 130 bng 15 250 50 0 empty empty empty 0 -6 0 8 -262144 -1
+-1;
+#X obj 788 135 noise~;
+#X obj 787 213 bp~ 0 50;
+#X obj 816 166 random 10000;
+#X floatatom 816 192 5 0 0 0 - - -;
+#X obj 863 128 bng 15 250 50 0 empty empty empty 0 -6 0 8 -262144 -1
+-1;
+#X obj 916 135 noise~;
+#X obj 915 213 bp~ 0 50;
+#X obj 944 166 random 10000;
+#X floatatom 944 192 5 0 0 0 - - -;
+#X obj 991 128 bng 15 250 50 0 empty empty empty 0 -6 0 8 -262144 -1
+-1;
+#X obj 391 393 dac~;
+#X text 358 53 neue Farbe;
+#X text 89 52 3.3.2.1. Filter-Farben;
+#X text 732 416 Johannes Kreidler;
+#X text 723 442 www.pd-tutorial.com;
+#X obj 329 0 key;
+#X obj 330 29 sel 32;
+#X obj 469 351 key;
+#X obj 403 356 *~;
+#X obj 468 377 sel 109;
+#X obj 468 407 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0.3
+0.3;
+#X connect 0 0 5 0;
+#X connect 0 0 10 0;
+#X connect 0 0 15 0;
+#X connect 0 0 20 0;
+#X connect 0 0 25 0;
+#X connect 0 0 30 0;
+#X connect 0 0 35 0;
+#X connect 0 0 40 0;
+#X connect 1 0 2 0;
+#X connect 2 0 49 0;
+#X connect 3 0 4 0;
+#X connect 4 0 2 1;
+#X connect 5 0 3 0;
+#X connect 6 0 7 0;
+#X connect 7 0 49 0;
+#X connect 8 0 9 0;
+#X connect 9 0 7 1;
+#X connect 10 0 8 0;
+#X connect 11 0 12 0;
+#X connect 12 0 49 0;
+#X connect 13 0 14 0;
+#X connect 14 0 12 1;
+#X connect 15 0 13 0;
+#X connect 16 0 17 0;
+#X connect 17 0 49 0;
+#X connect 18 0 19 0;
+#X connect 19 0 17 1;
+#X connect 20 0 18 0;
+#X connect 21 0 22 0;
+#X connect 22 0 49 0;
+#X connect 23 0 24 0;
+#X connect 24 0 22 1;
+#X connect 25 0 23 0;
+#X connect 26 0 27 0;
+#X connect 27 0 49 0;
+#X connect 28 0 29 0;
+#X connect 29 0 27 1;
+#X connect 30 0 28 0;
+#X connect 31 0 32 0;
+#X connect 32 0 49 0;
+#X connect 33 0 34 0;
+#X connect 34 0 32 1;
+#X connect 35 0 33 0;
+#X connect 36 0 37 0;
+#X connect 37 0 49 0;
+#X connect 38 0 39 0;
+#X connect 39 0 37 1;
+#X connect 40 0 38 0;
+#X connect 46 0 47 0;
+#X connect 47 0 0 0;
+#X connect 48 0 50 0;
+#X connect 49 0 41 0;
+#X connect 49 0 41 1;
+#X connect 50 0 51 0;
+#X connect 51 0 49 1;

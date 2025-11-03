@@ -1,0 +1,44 @@
+Klangsynthese
+
+Additiv
+subtraktiv
+AM
+RM
+FM
+Sampling
+Waveshaping
+Granular
+
+Wavestacking
+Stochastisch
+Graphic
+	UPIC - Iannix
+
+--------
+
+In dieser Lehrveranstaltung wird die Technik verschiedener Arten der Klangsynthese anhand von interaktiven Beispielen einfach erklärt und ihre Implementierung in unterschiedlichen Anwenderprogrammen vorgestellt:
+
+Samplesynthese
+Wavestacking
+Granularsynthese
+Additive Synthese
+FFT Analyse - additive Resynthese
+Convolution
+Subtraktive Synthese
+Waveshaping
+Modulationssynthese:
+	Amplitudenmodulation
+	Ringmodulation
+	Frequenzmodulation
+Dynamische Stochastische Synthese
+Physikalische Modelle
+Graphische Synthese
+
+Darüber hinaus gilt das Augenmerk dieser Veranstaltung vornehmlich der ästhetischen Einordnung und Diskussion der, aus dem Klangresultierenden kompositorischen Möglichkeiten.
+Desweiteren wird aufgezeigt wie und in welcher Form diese Techniken in analoge Methoden der zeitgenössischen Instrumentalkomposition eingeflossen sind.
+
+Dieses einsemestrige Seminar kann entweder mit einer Klausur über den gesamten Semesterstoff (Datum, 1,5std) oder mit einem selbstgewählten Projekt zu dem Thema abgeschlossen werden. 
+
+
+
+
