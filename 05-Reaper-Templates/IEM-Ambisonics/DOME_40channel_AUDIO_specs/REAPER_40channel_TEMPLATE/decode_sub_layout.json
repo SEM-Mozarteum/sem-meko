@@ -1,0 +1,96 @@
+{
+  "Name": "All-Round Ambisonic decoder (AllRAD) and loudspeaker layout",
+  "Description": "This configuration file was created with the IEM AllRADecoder v0.9.4 plug-in. 12 Jan 2025 12:02:26pm",
+  "Decoder": {
+    "Name": "Decoder",
+    "Description": "A 1st order Ambisonics decoder using the AllRAD approach.",
+    "ExpectedInputNormalization": "n3d",
+    "Weights": "inPhase",
+    "WeightsAlreadyApplied": false,
+    "Matrix": [
+      [
+        0.288668692111969,
+        0.2164789140224457,
+        2.423487103442312e-6,
+        0.2534703314304352
+      ],
+      [
+        0.2886782586574554,
+        0.2534697651863098,
+        4.594578513206216e-6,
+        -0.2164802700281143
+      ],
+      [
+        0.2886684834957123,
+        -0.2164852172136307,
+        2.427572553642676e-6,
+        -0.253465473651886
+      ],
+      [
+        0.288677990436554,
+        -0.2534663081169128,
+        4.60425553683308e-6,
+        0.2164839804172516
+      ]
+    ],
+    "Routing": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "LoudspeakerLayout": {
+    "Name": "A loudspeaker layout",
+    "Loudspeakers": [
+      {
+        "Azimuth": 40.5,
+        "Elevation": 0.0,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 1,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": 130.5,
+        "Elevation": 0.0,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 2,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": -139.5,
+        "Elevation": 0.0,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 3,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": -49.5,
+        "Elevation": 0.0,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 4,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": 0.0,
+        "Elevation": 90.0,
+        "Radius": 1.0,
+        "IsImaginary": true,
+        "Channel": 5,
+        "Gain": 0.0
+      },
+      {
+        "Azimuth": 0.0,
+        "Elevation": -90.0,
+        "Radius": 1.0,
+        "IsImaginary": true,
+        "Channel": 6,
+        "Gain": 0.0
+      }
+    ]
+  }
+}
