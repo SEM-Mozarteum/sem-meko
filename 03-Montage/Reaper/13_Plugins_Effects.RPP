@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.48/macOS-arm64" 1765638013
+<REAPER_PROJECT 0.1 "7.55/macOS-arm64" 1766145868 0
   <NOTES 0 2
   >
   RIPPLE 0 0
@@ -15,12 +15,12 @@
   PROJOFFS 0 0 0
   MAXPROJLEN 0 0
   GRID 3454 8 1 8 1 0 0 0
-  TIMEMODE 1 5 -1 30 0 0 -1
+  TIMEMODE 1 5 -1 30 0 0 -1 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 357.77462455136651
-  ZOOM 2.146602769727 450 0
-  VZOOMEX 0 487
+  CURSOR 330.96237342803369
+  ZOOM 5.15164301712003 1139 0
+  VZOOMEX 3.6500001 915
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -130,6 +130,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -156,6 +157,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -182,6 +184,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -208,6 +211,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -323,7 +327,7 @@
       CHANMODE 0
       GUID {93AD87CA-D063-254E-9DA5-9C23F6249111}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/03-Montage/Reaper/01-Cut/Media/high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
     >
   >
@@ -341,6 +345,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -398,7 +403,7 @@
       CHANMODE 0
       GUID {0E67E9D5-7E9C-3E47-85B6-F3A93679E317}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/03-Montage/Reaper/01-Cut/Media/high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
     >
   >
@@ -416,6 +421,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -438,7 +444,7 @@
         IQAAAAUAAAAFAAAAAQAAAAAAAAAAAFlAAAAAAAAA8D+amZmZmZnpPwEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEFAAAAAQAAAGOczVdP2INAAAAAAAAA
         8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAiLNAAAAAAAAA8D+amZmZmZnpPwEEAAAAAAAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAA
         AEACAABrAQAABAAAAA==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {24FE2C84-2672-8A4F-BB91-58FA9C01CBD0}
@@ -466,7 +472,7 @@
       CHANMODE 0
       GUID {13A54276-B9A3-D74B-A539-D95B4E89BAA7}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/03-Montage/Reaper/01-Cut/Media/high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
     >
   >
@@ -484,6 +490,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -506,7 +513,7 @@
         IQAAAAUAAAAFAAAAAQAAAObhg/RLPJRAAAAAAAAA8D+amZmZmZnpPwEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEFAAAAAQAAAGOczVdP2INAAAAAAAAA
         8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAiLNAAAAAAAAA8D+amZmZmZnpPwEEAAAAAAAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAA
         AEACAABrAQAABAAAAA==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {B509D6B4-A01B-D446-8F3A-FEC10DCF40C9}
@@ -534,7 +541,7 @@
       CHANMODE 0
       GUID {2572F403-772F-B14E-8C76-83880B45F454}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/03-Montage/Reaper/01-Cut/Media/high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
     >
   >
@@ -552,6 +559,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -573,7 +581,7 @@
         cmZlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAggAAAAEAAAAAABAA
         mxIAAAEAAIA/AACAP///////////////////////////////////////////ngAAtMIAAMBBABAAAAAAgD8AAAAAAQAAAAIAAADXOb9DAAAAAKUrSEUAAAAABAAAAAAA
         AABOccQ8AACAP7OiBDgAAAA+AAAAAAAAAAACAAAAAACAPw==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {C83477A8-D1F5-8246-9569-C7BBBED2B9F5}
@@ -598,7 +606,7 @@
       CHANMODE 0
       GUID {FB19FB2A-DD9B-074C-AD71-147D8E1B100E}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/03-Montage/Reaper/01-Cut/Media/high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
     >
   >
@@ -616,6 +624,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -683,7 +692,7 @@
       CHANMODE 0
       GUID {09719546-6C39-7F48-991C-4BF23A55DE6E}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/01-Digital Audio/Reaper/@Alexander-Todo/Compressor:Limiter:MIDI/Media/monte.wav"
+        FILE "Media/monte.wav"
       >
     >
   >
@@ -701,6 +710,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -731,7 +741,7 @@
       CHANMODE 0
       GUID {3E9B5973-1D25-5E46-8057-5971056764CF}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/03-Montage/Reaper/01-Cut/Media/glocke.wav"
+        FILE "Media/glocke.wav"
       >
     >
   >
@@ -749,6 +759,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -820,7 +831,7 @@
       CHANMODE 0
       GUID {B90AC2AB-E5BF-444A-BAD2-C7935ECDF44A}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/03-Montage/Reaper/01-Cut/Media/high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
     >
     <ITEM
@@ -842,7 +853,7 @@
       CHANMODE 0
       GUID {36B1407E-021C-7746-BDBD-1E60736F9EF5}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/01-Digital Audio/Reaper/@Alexander-Todo/Compressor:Limiter:MIDI/Media/monte.wav"
+        FILE "Media/monte.wav"
       >
     >
   >
@@ -860,6 +871,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -880,7 +892,7 @@
       <VST "VST: ReaComp (Cockos)" reacomp.vst.dylib 0 "" 1919247213<5653547265636D726561636F6D700000> ""
         bWNlcu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAFwAAAAAAAAAAAAQAA==
         776t3g3wrd5PTEU9ED74PKabxDu2DLI9AAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAnNEHMzchlj4AAAAAzcxMPQAAAAAAAIA/AAAAAAAAgD4AAAAAAAAAAAAAAAA=
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {86D64077-0F56-784B-8F55-B22E4E4CD6AA}
@@ -889,7 +901,7 @@
       <VST "VST: ReaLimit (Cockos)" realimit.vst.dylib 0 "" 1919708532<565354726C6D747265616C696D697400> ""
         dG1scu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAMAAAAAEAAAAAABAA
         AwAAAAAAAAAAAAAAAABOwDMzMzMzszPAAgAAAAAAAAAAAAAAAAAAAD+fduMQw8Y/
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {47CC9914-4432-BB42-ABF9-7A7AEB3A6E0A}
@@ -914,7 +926,7 @@
       CHANMODE 0
       GUID {B436499F-FDCE-524F-BE05-5FBD8ED043D7}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/03-Montage/Reaper/01-Cut/Media/glocke.wav"
+        FILE "Media/glocke.wav"
       >
     >
   >
@@ -932,6 +944,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -961,7 +974,7 @@
         OAAAAAQAAAAAAAAAAABpQAAAAAAAAPA/caGQ2ByO5z8AAAAAAAAAQAAAAAAAAAAADwAAAJYAAAAFAAAAEAAAAAAAAAAAQI9AAAAAAAAA8D9d+BHirQnhPwAAAAAAAABA
         AAAAAAAAAAAPAAAAlgAAAAUAAAAQAAAAgMX4MdqdvEAAAAAAAADwP1mMgsK62tw/AAAAAAAAAEAAAAAAAAAAAA8AAACWAAAABQAAABAAAAAAAAAAAHDXQAAAAAAAAPA/
         WJPZeOF1tz8AAAAAAAAAQAAAAAAAAAAADwAAAJYAAAAFAAAAEAAAAAEAAAABAAAAgPl4qqkn0j8AAAAAAAAAAAAAAAAAAAAAAgAAAA==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {343A30D2-FED6-1B4A-87D4-928047258C32}
@@ -986,7 +999,7 @@
       CHANMODE 0
       GUID {C099669E-D4EA-7847-B67F-70825D869E56}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/01-Digital Audio/Reaper/@Alexander-Todo/Compressor:Limiter:MIDI/Media/monte.wav"
+        FILE "Media/monte.wav"
       >
     >
   >
@@ -1004,6 +1017,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -1056,7 +1070,7 @@
       <VST "VST: ReaDelay (Cockos)" readelay.vst.dylib 0 "" 1919247468<5653547265646C72656164656C617900> ""
         bGRlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAATAAAAAEAAAAAABAA
         AAAAAAAAAAABAAAALAAAAAIAAAAAAAAAqx2CPctcljsAAAAAAACAPz9gJzsAAAAA+a1xPwAAgD8AAAAAAACAPwAAgD8AAIA/AAAAPw==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {D69EB1F8-E2A1-764D-9DE6-5088F18A9E19}
@@ -1081,7 +1095,7 @@
       CHANMODE 0
       GUID {A256E13F-CD25-5445-B9FE-56616DB87271}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/01-Digital Audio/Reaper/@Alexander-Todo/Compressor:Limiter:MIDI/Media/monte.wav"
+        FILE "Media/monte.wav"
       >
     >
   >
@@ -1099,6 +1113,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -1119,7 +1134,7 @@
       <VST "VST: ReaVerbate (Cockos)" reaverbate.vst.dylib 0 "" 1920361016<56535472766238726561766572626174> ""
         OGJ2cu9e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAKAAAAAAAAAAAABAA
         776t3g3wrd5DAgA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AAAAAA==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {FC54C8C4-DF2A-8047-B0D3-DFBCAA74399F}
@@ -1134,7 +1149,7 @@
         bGVtZW50LW5hbWU8L2tleT4KCTxkaWN0PgoJCTxrZXk+MTwva2V5PgoJCTxkaWN0PgoJCQk8a2V5PjA8L2tleT4KCQkJPHN0cmluZz5JbnB1dDwvc3RyaW5nPgoJCTwv
         ZGljdD4KCQk8a2V5PjI8L2tleT4KCQk8ZGljdD4KCQkJPGtleT4wPC9rZXk+CgkJCTxzdHJpbmc+T3V0cHV0PC9zdHJpbmc+CgkJPC9kaWN0PgoJPC9kaWN0PgoJPGtl
         eT5qdWNlUGx1Z2luU3RhdGU8L2tleT4KCTxkYXRhPgoJVmtNeUljb0JBQUE4UDNodGJDQjJaWEp6YVc5dVBTSXhMakFpSUdWdVkyOWthVzVuUFNKVlZFWXRPQ0kvUGlB
-        OFZtRnMKCWFHRnNiR0ZUZFhCbGNtMWhjM05wZG1VZ2NHeDFaMmx1Vm1WeWMybHZiajBpTWk0d0xqQWlJSEJ5WlhObGRFNWhiV1U5CglJa0psYm5OdmJrRnlhWHB2Ym1F
+        OFZtRnMKCWFHRnNiR0ZUZFhCbGNtMWhjM05wZG1VZ2NHeDFaMmx1Vm1WeWMybHZiajBpTXk0d0xqQWlJSEJ5WlhObGRFNWhiV1U5CglJa0psYm5OdmJrRnlhWHB2Ym1F
         aUlFMXBlRDBpTUM0Mk5qQXdNREF3TWpZeU1qWXdORE0zSWlCRVpXeGhlVk41Ym1NOQoJSWpBdU1qVWlJRVJsYkdGNVRtOTBaVDBpTUM0eU5TSWdSR1ZzWVhsZlRYTTlJ
         akF1T0RNNU9UazVPVGN6Tnpjek9UVTIKCU15SWdSR1ZzWVhsWFlYSndQU0l3TGpVaUlFTnNaV0Z5UFNJeExqQWlJRVpsWldSaVlXTnJQU0l3TGpVaUlFUmxibk5wCglk
         SGs5SWpBdU1DSWdWMmxrZEdnOUlqRXVNQ0lnVEc5M1EzVjBQU0l3TGpBaUlFaHBaMmhEZFhROUlqRXVNQ0lnVFc5awoJVW1GMFpUMGlNQzR5TVRnMU9EWTVNelkxT1RN
@@ -1167,7 +1182,7 @@
       CHANMODE 2
       GUID {A6EE7F90-FBA6-904C-A652-3089AD5AB04F}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Downloads/sem-pd-master/Sounds/pianophase.wav"
+        FILE "Media/pianophase.wav"
       >
     >
   >
@@ -1185,6 +1200,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -1216,7 +1232,7 @@
         YnZlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArwAAAAEAAAAAABAA
         AAAQwQAAAAAAAIA/AAAAAAAAgD8AAIA/AAAAPwAAgD8AAIA/AAAAQEZJTEVMRFIARAAAADwAAAAvVXNlcnMvYWxleGJhdWVyL0RvY3VtZW50cy9TRU0vTWVLbyAyNToy
         Ni9waWFub19iYWNrX3N0ZXJlby53YXYATk9STQAEAAAA004/PEJBU0lDRURJVAAcAAAAAACAP7jkhEQAQJxGGP2fQAAAAAAAAIA/AAAAAA==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {EFFDE222-DCB2-9548-B2B5-CF3F222FB974}
@@ -1263,7 +1279,7 @@
       CHANMODE 2
       GUID {D0DDD08A-D8F5-EA46-A184-0F85CB303557}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Downloads/sem-pd-master/Sounds/pianophase.wav"
+        FILE "Media/pianophase.wav"
       >
     >
     <ITEM
@@ -1307,7 +1323,7 @@
       CHANMODE 2
       GUID {67A6CA32-C40A-134B-A8F4-F3CEA139322F}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Downloads/sem-pd-master/Sounds/pianophase.wav"
+        FILE "Media/pianophase.wav"
       >
     >
   >
@@ -1325,7 +1341,8 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
-    SEL 1
+    LANEREC -1 -1 -1 0
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -1355,7 +1372,7 @@
       CHANMODE 0
       GUID {12E3B98D-F875-6F43-9123-350832391B60}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/01-Digital Audio/Reaper/@Alexander-Todo/Compressor:Limiter:MIDI/Media/monte.wav"
+        FILE "Media/monte.wav"
       >
     >
     <ITEM
@@ -1377,7 +1394,7 @@
       CHANMODE 0
       GUID {C156A135-983B-D14F-B521-896BE8E6D3FD}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/03-Montage/Reaper/01-Cut/Media/high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
     >
   >
@@ -1395,6 +1412,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -1431,7 +1449,7 @@
       CHANMODE 0
       GUID {0266BE35-BD42-D841-A3F9-3FB341865452}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/03-Montage/Reaper/01-Cut/Media/high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
     >
     <ITEM
@@ -1453,7 +1471,7 @@
       CHANMODE 0
       GUID {7BBCBD38-8D4E-4248-A806-286F3336F3FB}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/01-Digital Audio/Reaper/@Alexander-Todo/Compressor:Limiter:MIDI/Media/monte.wav"
+        FILE "Media/monte.wav"
       >
     >
   >
@@ -1471,6 +1489,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -1514,6 +1533,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -1557,7 +1577,7 @@
       CHANMODE 2
       GUID {F79B2FF6-2D2F-9447-9395-3B04147AD370}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Downloads/sem-pd-master/Sounds/pianophase.wav"
+        FILE "Media/pianophase.wav"
       >
     >
   >
@@ -1575,7 +1595,8 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
-    SEL 0
+    LANEREC -1 -1 -1 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -2422,7 +2443,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {A2BF5049-C760-924B-B1DE-11BE4CD52877}
       IID 33
       NAME cello.wav
@@ -2454,7 +2475,7 @@
       CHANMODE 2
       GUID {104263FC-0FE3-DC4F-924C-6171930AE3FB}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Downloads/sem-pd-master/Sounds/pianophase.wav"
+        FILE "Media/pianophase.wav"
       >
     >
   >
@@ -2472,6 +2493,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -2500,14 +2522,14 @@
       SEL 0
       IGUID {BB61E937-3311-514D-960C-56B277160D22}
       IID 1
-      NAME pianophase.aiff
+      NAME pianophase.wav
       VOLPAN 0.529412 0 5.240572 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 2
       GUID {6C8C58B2-CCF1-E24D-8CC3-CB35CD6ED01A}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/03-Montage/Reaper/05-Loop/Media/pianophase.aiff"
+        FILE "Media/pianophase.wav"
       >
     >
     <ITEM
@@ -2522,14 +2544,14 @@
       SEL 0
       IGUID {A1953F7E-137C-5740-930E-78886D67CF5C}
       IID 660
-      NAME pianophase.aiff
+      NAME pianophase.wav
       VOLPAN 0.529412 0 5.240572 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 2
       GUID {CE6389A7-4A18-C74A-8CD8-B1BE5CECA5B9}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/03-Montage/Reaper/05-Loop/Media/pianophase.aiff"
+        FILE "Media/pianophase.wav"
       >
     >
     <ITEM
@@ -2544,14 +2566,14 @@
       SEL 0
       IGUID {D1E3DA25-E3FE-8246-8EE6-E47F184E7895}
       IID 661
-      NAME pianophase.aiff
+      NAME pianophase.wav
       VOLPAN 0.529412 0 5.240572 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 2
       GUID {C5AFE9BE-B0AD-7E45-8CED-DC165AD0E745}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/03-Montage/Reaper/05-Loop/Media/pianophase.aiff"
+        FILE "Media/pianophase.wav"
       >
     >
     <ITEM
@@ -2566,14 +2588,14 @@
       SEL 0
       IGUID {A2B6A879-C488-3344-BD64-96EA31BE13A6}
       IID 662
-      NAME pianophase.aiff
+      NAME pianophase.wav
       VOLPAN 0.529412 0 5.240572 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 2
       GUID {358E9C37-E1B0-8D44-AB7F-B5F74A266D20}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/03-Montage/Reaper/05-Loop/Media/pianophase.aiff"
+        FILE "Media/pianophase.wav"
       >
     >
     <ITEM
@@ -2595,7 +2617,7 @@
       CHANMODE 0
       GUID {14582C0F-4837-CE42-A85E-C844254CDDED}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/03-Montage/Reaper/01-Cut/Media/glocke.wav"
+        FILE "Media/glocke.wav"
       >
     >
     <ITEM
@@ -2617,7 +2639,7 @@
       CHANMODE 0
       GUID {49F0DD65-5FA5-B44F-AD11-619AA2ADA59D}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/03-Montage/Reaper/01-Cut/Media/high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
     >
   >
@@ -2635,6 +2657,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -2677,7 +2700,7 @@
         bGVtZW50LW5hbWU8L2tleT4KCTxkaWN0PgoJCTxrZXk+MTwva2V5PgoJCTxkaWN0PgoJCQk8a2V5PjA8L2tleT4KCQkJPHN0cmluZz5JbnB1dDwvc3RyaW5nPgoJCTwv
         ZGljdD4KCQk8a2V5PjI8L2tleT4KCQk8ZGljdD4KCQkJPGtleT4wPC9rZXk+CgkJCTxzdHJpbmc+T3V0cHV0PC9zdHJpbmc+CgkJPC9kaWN0PgoJPC9kaWN0PgoJPGtl
         eT5qdWNlUGx1Z2luU3RhdGU8L2tleT4KCTxkYXRhPgoJVmtNeUlic0JBQUE4UDNodGJDQjJaWEp6YVc5dVBTSXhMakFpSUdWdVkyOWthVzVuUFNKVlZFWXRPQ0kvUGlB
-        OFZtRnMKCWFHRnNiR0ZUZFhCbGNtMWhjM05wZG1VZ2NHeDFaMmx1Vm1WeWMybHZiajBpTWk0d0xqQWlJSEJ5WlhObGRFNWhiV1U5CglJa0psYm5OdmJrRnlhWHB2Ym1F
+        OFZtRnMKCWFHRnNiR0ZUZFhCbGNtMWhjM05wZG1VZ2NHeDFaMmx1Vm1WeWMybHZiajBpTXk0d0xqQWlJSEJ5WlhObGRFNWhiV1U5CglJa0psYm5OdmJrRnlhWHB2Ym1F
         aUlFMXBlRDBpTVM0d0lpQkVaV3hoZVZONWJtTTlJakF1TWpVaUlFUmxiR0Y1VG05MAoJWlQwaU1DNHlOU0lnUkdWc1lYbGZUWE05SWpBdU9ETTVPVGs1T1Rjek56Y3pP
         VFUyTXlJZ1JHVnNZWGxYWVhKd1BTSXcKCUxqVWlJRU5zWldGeVBTSXhMakFpSUVabFpXUmlZV05yUFNJd0xqVWlJRVJsYm5OcGRIazlJakF1TUNJZ1YybGtkR2c5CglJ
         akV1TUNJZ1RHOTNRM1YwUFNJd0xqQWlJRWhwWjJoRGRYUTlJakV1TUNJZ1RXOWtVbUYwWlQwaU1DNHlNVGcxT0RZNQoJTXpZMU9UTXdOVFUzSWlCTmIyUkVaWEIwYUQw
@@ -2706,6 +2729,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -2869,6 +2893,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -3261,7 +3286,7 @@
       CHANMODE 0
       GUID {2BF4F3F8-1920-C047-A704-CC903301CA7C}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/03-Montage/Reaper/01-Cut/Media/high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
     >
   >
@@ -3279,6 +3304,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -3297,15 +3323,14 @@
       DOCKED 0
       BYPASS 1 0 0
       <VST "VST3: DDSP Effect (Magenta)" "DDSP Effect.vst3" 0 "" 1357782062{ABCDEF019182FAEB4D61676552616E6A} ""
-        LhzuUO5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAcQIAAAEAAAD//wAA
-        YQIAAAEAAABWQzIhHAIAADw/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IlVURi04Ij8+IDxQYXJlbnQ+PFBBUkFNRVRFUlM+PFBBUkFNIGlkPSJIYXJtb25pY0dh
-        aW4iIHZhbHVlPSIwLjE5OTk5OTk4ODA3OTA3MSIvPjxQQVJBTSBpZD0iSW5wdXRHYWluIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJJbnB1dFBpdGNoIiB2YWx1ZT0i
-        LTAuMDIwMDAwMDEwNzI4ODM2MDYiLz48UEFSQU0gaWQ9Ik5vaXNlR2FpbiIgdmFsdWU9IjAuNjEwMDAwMDE0MzA1MTE0NyIvPjxQQVJBTSBpZD0iT3V0cHV0R2FpbiIg
-        dmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iUGl0Y2hTaGlmdCIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iUmV2ZXJiRGFtcGluZyIgdmFsdWU9IjAuMDk5OTk5OTk0MDM5
-        NTM1NTIiLz48UEFSQU0gaWQ9IlJldmVyYlNpemUiIHZhbHVlPSIwLjM5OTk5OTk3NjE1ODE0MjEiLz48UEFSQU0gaWQ9IlJldmVyYldldCIgdmFsdWU9IjAuMCIvPjwv
-        UEFSQU1FVEVSUz48bW9kZWxUaW1lc3RhbXAgdGltZXN0YW1wPSIyMDIyLTA1LTA5VDE2OjA5OjA1LjEwNjg2OCIvPjwvUGFyZW50PgAAAAAAAAAAAEpVQ0VQcml2YXRl
-        RGF0YQABAUJ5cGFzcwABAQMAHQAAAAAAAABKVUNFUHJpdmF0ZURhdGEAAAAAAAAAAA==
-        AAAAAAAA
+        LhzuUO5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAcQIAAAEAAAD//wAAYQIAAAEAAABWQzIhHAIAADw/eG1sIHZlcnNpb249IjEuMCIg
+        ZW5jb2Rpbmc9IlVURi04Ij8+IDxQYXJlbnQ+PFBBUkFNRVRFUlM+PFBBUkFNIGlkPSJIYXJtb25pY0dhaW4iIHZhbHVlPSIwLjE5OTk5OTk4ODA3OTA3MSIvPjxQQVJB
+        TSBpZD0iSW5wdXRHYWluIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJJbnB1dFBpdGNoIiB2YWx1ZT0iLTAuMDIwMDAwMDEwNzI4ODM2MDYiLz48UEFSQU0gaWQ9Ik5v
+        aXNlR2FpbiIgdmFsdWU9IjAuNjEwMDAwMDE0MzA1MTE0NyIvPjxQQVJBTSBpZD0iT3V0cHV0R2FpbiIgdmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iUGl0Y2hTaGlmdCIg
+        dmFsdWU9IjAuMCIvPjxQQVJBTSBpZD0iUmV2ZXJiRGFtcGluZyIgdmFsdWU9IjAuMDk5OTk5OTk0MDM5NTM1NTIiLz48UEFSQU0gaWQ9IlJldmVyYlNpemUiIHZhbHVl
+        PSIwLjM5OTk5OTk3NjE1ODE0MjEiLz48UEFSQU0gaWQ9IlJldmVyYldldCIgdmFsdWU9IjAuMCIvPjwvUEFSQU1FVEVSUz48bW9kZWxUaW1lc3RhbXAgdGltZXN0YW1w
+        PSIyMDIyLTA1LTA5VDE2OjA5OjA1LjEwNjg2OCIvPjwvUGFyZW50PgAAAAAAAAAAAEpVQ0VQcml2YXRlRGF0YQABAUJ5cGFzcwABAQMAHQAAAAAAAABKVUNFUHJpdmF0
+        ZURhdGEAAAAAAAAAAAAAAAAAAA==
       >
       FLOATPOS 0 0 0 0
       FXID {31070A7E-719C-C746-8D9F-91310BB568FE}
@@ -3330,8 +3355,10 @@
       CHANMODE 0
       GUID {A4140BF0-A745-1941-BE7B-63293E8E4B88}
       <SOURCE WAVE
-        FILE "/Users/alexbauer/Documents/SEM/MeKo 25:26/sem-meko-main/03-Montage/Reaper/01-Cut/Media/high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
     >
+  >
+  <EXTENSIONS
   >
 >
