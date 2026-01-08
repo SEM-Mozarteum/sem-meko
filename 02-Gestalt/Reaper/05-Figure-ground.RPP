@@ -1,4 +1,19 @@
-<REAPER_PROJECT 0.1 "7.58/macOS-arm64" 1767721347 0
+<REAPER_PROJECT 0.1 "7.58/macOS-arm64" 1767795399 0
+  TITLE 01-Closeness
+  AUTHOR "Achim Bornhoeft"
+  <NOTES 3 3
+    |GESTALTPSYCHOLOGIE
+    |
+    |Als Gestaltpsychologie wird eine Richtung innerhalb der Psychologie bezeichnet, die die menschliche Wahrnehmung als Fähigkeit beschreibt, Strukturen und Ordnungsprinzipien in Sinneseindrücken auszumachen.
+    |
+    |Die Gestaltpsychologien unterschiedlicher Richtung leiten sich aus einer einzigen Arbeit aus dem Jahre 1890 her, in der der Philosoph Christian von Ehrenfels seine Erkenntnis berichtete, die Wahrnehmung enthalte Qualitäten, die sich nicht aus der Anordnung einfacher Sinnesqualitäten ergeben.
+    |
+    |Aufgrund der Beobachtungen v. Ehrenfels’ entstand zu Beginn des 20. Jahrhunderts die „Gestaltpsychologie“ als eine neue psychologische Richtung. Sie wurde zuerst im deutschsprachigen, dann auch im internationalen Raum einflussreich. Als ihre Begründer und Hauptexponenten gelten drei Studenten von Carl Stumpf: Max Wertheimer, Wolfgang Köhler und Kurt Koffka.
+    |
+    |- Struktur (Gefüge und Tektonik) wie gerade, rund, symmetrisch, geschlossen, spitz, wellig;
+    |- Ganzbeschaffenheit wie durchsichtig, leuchtend, rau, gelb;
+    |- „Wesen“ wie Charakter, Habitus, Gefühlswert.
+  >
   RIPPLE 0 0
   GROUPOVERRIDE 1 0 0 0
   AUTOXFADE 128
@@ -15,9 +30,9 @@
   TIMEMODE 0 5 -1 30 0 0 -1 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 157.68594560103929
-  ZOOM 60.94011716372436 9299 0
-  VZOOMEX 10 0
+  CURSOR 0
+  ZOOM 6.57697268531996 0 0
+  VZOOMEX 8.61548138 52
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
