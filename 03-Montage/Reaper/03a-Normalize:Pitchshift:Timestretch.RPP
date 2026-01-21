@@ -1,0 +1,1324 @@
+<REAPER_PROJECT 0.1 "7.48/macOS-arm64" 1768986654
+  TITLE "03 -Item Operations: Normalize / Reverse / Channel Modes / Pitchshift / Timestretch"
+  <NOTES 3 3
+    |All examples are done changing the Parameters in the Item's Settings.
+  >
+  RIPPLE 0 0
+  GROUPOVERRIDE 0 0 0 0
+  AUTOXFADE 129
+  ENVATTACH 0
+  POOLEDENVATTACH 0
+  TCPUIFLAGS 0
+  MIXERUIFLAGS 11 48
+  ENVFADESZ10 40
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 0
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 224
+  ZOOM 1.03847553940547 23 0
+  VZOOMEX 0 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "Media" ""
+  <RECORD_CFG
+    ZXZhdxgAAQ==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN ""
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  RENDER_TRIM 0.000001 0.000001 0 0
+  TIMELOCKMODE 0
+  TEMPOENVLOCKMODE 0
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    ZXZhdxgAAQ==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    BEATLEN 4
+    FREQ 800 1600 1
+    SAMPLES "" "" "" ""
+    SPLIGNORE 0 0
+    SPLDEF 2 660 "" 0 ""
+    SPLDEF 3 440 "" 0 ""
+    PATTERN 0 169
+    PATTERNSTR ABBB
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4 0
+  PLAYRATE 1 0 0.25 4
+  SELECTION 97.5 98.5
+  SELECTION2 97.5 98.5
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 74 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 1 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0 1
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {E567C020-8299-D348-91A3-ECDB68D3C559}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {626C6BA3-15B4-C748-A3C3-78946C000E16}
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  MARKER 1 12 "Normalized to 0db" 0 0 1 B {287ACA98-6C94-8C48-BA22-1FA8345252CA} 0
+  MARKER 1 12 "" 1 0 1 B {85CFDD06-8A59-5F4B-A6C6-E95CC2A5E377} 0
+  MARKER 1 40 "" 1
+  MARKER 2 20 "Normalized to -3 db" 0 0 1 B {31F80E69-BD6A-674D-B0E6-597167199988} 0
+  MARKER 3 32 "Less good: Volume Automation" 0 0 1 B {F1762383-8FF2-F345-B117-DC016E37DF15} 0
+  MARKER 4 48 Stereo 0 0 1 B {FB5B0369-08F2-CC49-8A85-047D861084B6} 0
+  MARKER 2 48 "" 1 0 1 B {819F5FD0-94F9-8D47-99D2-4BDB7DA37672} 0
+  MARKER 2 88 "" 1
+  MARKER 5 54.5 "reverse Stereo" 0 0 1 B {5BE701E9-F69B-E64C-8D21-797FA729692F} 0
+  MARKER 7 60.5 "only Left" 0 0 1 B {6782F910-35EB-CD43-B904-0AAAB9403F11} 0
+  MARKER 6 66.5 "Only Right" 0 0 1 B {55D1DDB3-E47F-C34D-96D0-593210539531} 0
+  MARKER 8 73.5 "mix L & R" 0 0 1 B {2B943BDB-C7C6-EE47-8759-55DCD0577893} 0
+  MARKER 9 80.5 "Panning w/ Stereofiles" 0 0 1 B {4DD669D3-DB89-9B47-A959-7338272BE616} 0
+  MARKER 10 97 Reverse 0 0 1 B {87090BA6-76EB-3743-BE54-6020738269BB} 0
+  MARKER 3 97 "" 1 0 1 B {F5C41520-6B0A-A443-8018-21F18340C6CB} 0
+  MARKER 3 104 "" 1
+  MARKER 11 110 "Timestretch/-compression without Pitch Correction" 0 0 1 B {A88D0857-5237-8145-97E8-2DE0BFBD11D6} 0
+  MARKER 4 110 "" 1 0 1 B {9540C5D8-7040-A544-9727-50872D198ED7} 0
+  MARKER 4 274 "" 1
+  MARKER 12 168.5 "Playback Rates Octaves" 0 0 1 B {E3BEF5E8-9F82-8A47-874E-E9913D4251A7} 0
+  MARKER 19 202 "Polyrhythms / Intervals" 0 0 1 B {0DDBAE47-CDD3-C344-B936-835CD1761403} 0
+  MARKER 13 286 "Timestretch with Pitch Correction" 0 0 1 B {CBE3E69A-70A4-6D45-B3F7-53388B3B8C90} 0
+  MARKER 5 286 "" 1 0 1 B {BA0C5A96-5935-2248-A2E9-E2D6F3184DD8} 0
+  MARKER 5 554 "" 1
+  MARKER 14 382 "Different Algorithms: Rrrrrreeeeaaa" 0 0 1 B {2AC9A701-1E2A-2C44-85FE-BD64B62E8534} 0
+  MARKER 15 474 "Different Algoriths: ReaReaRea" 0 0 1 B {CE5589F3-99B9-4B46-8898-355902767342} 0
+  MARKER 6 558 "Stretching Layers" 1 0 1 B {8065C245-E319-DE4C-927A-97DB5910637F} 0
+  MARKER 6 588 "" 1
+  MARKER 16 610 "Pitchshift: -1 Octave" 0 0 1 B {5C2A5E34-E5CE-0E45-9B80-05997B40413E} 0
+  MARKER 7 610 "" 1 0 1 B {59B08240-D33C-7840-BE4A-594796F4137A} 0
+  MARKER 7 637 "" 1
+  MARKER 17 624 "+ 2 Octave" 0 0 1 B {BCF6F2E2-8D01-B044-93CA-86A3ACF2CDF6} 0
+  MARKER 18 632 "" 8 0 1 B {8B4A6BFA-3A79-1541-87B3-85C9CDA4C620} 0
+  <PROJBAY
+  >
+  <TRACK {6F07E114-F7EB-9849-85C1-620E1B3BD38A}
+    NAME pianophase
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {6F07E114-F7EB-9849-85C1-620E1B3BD38A}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <VOLENV2
+      EGUID {1C19E1D4-74B1-4840-97BD-419A36C88F21}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 1 0
+      PT 31 1 0
+      PT 32 2 0
+      PT 37 2 0
+      PT 39 0.97723722 0
+      PT 180 0.97723722 0
+      PT 182 0.97723722 0
+      PT 252 0.97723722 0
+      PT 270 0.97723722 0
+      PT 558 0.97723722 0
+      PT 582 0.97723722 0
+    >
+    <PANENV2
+      EGUID {A744CFCF-E709-B04D-8506-02F5073167FD}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      PT 0 0 0
+      PT 80.5 0 0
+      PT 81.5 1 0
+      PT 83 -0.01449275 0
+      PT 84 -0.98 0
+      PT 85.5 -0.01449275 0
+      PT 180 -0.01449275 0
+      PT 182 -0.01449275 0
+      PT 252 -0.01449275 0
+      PT 270 -0.01449275 0
+      PT 558 -0.01449275 0
+      PT 582 -0.01449275 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 4.967
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DC6D3D64-44DB-0843-A6AA-383C784D630D}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 2
+      GUID {1328751A-7ACD-DF4E-97B4-2FDE6D538017}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 12
+      SNAPOFFS 0
+      LENGTH 4.967
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3077EFAA-6191-144E-A923-057944D72B56}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 3.713887 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 2
+      GUID {CF00FA0E-6C0A-1248-958E-5DF8AA1B4F39}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 20
+      SNAPOFFS 0
+      LENGTH 4.967
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EE946069-3FD3-704F-BF87-1A60D6783D70}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 2.62923 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 2
+      GUID {CF837C34-6C92-B245-9283-4B4661A5072A}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 32
+      SNAPOFFS 0
+      LENGTH 4.967
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {744B5562-91C3-3047-A7E6-0928E7E7B6A9}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 2
+      GUID {7F92F91A-9B38-DE4A-A98C-2AA569C5613B}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 48
+      SNAPOFFS 0
+      LENGTH 5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F6D4B82F-44D8-654C-9A69-605F8432601D}
+      IID 125
+      NAME piano_back_stereo.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1570DB82-B87E-EB45-8975-4B16E2094F57}
+      <SOURCE WAVE
+        FILE "Media/piano_back_stereo.wav"
+      >
+    >
+    <ITEM
+      POSITION 54.5
+      SNAPOFFS 0
+      LENGTH 5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3C0890A2-F6B0-F345-BD58-8208046DE5AE}
+      IID 125
+      NAME piano_back_stereo.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 1
+      GUID {43DCA637-7190-A842-8CBE-9D47B05207D4}
+      <SOURCE WAVE
+        FILE "Media/piano_back_stereo.wav"
+      >
+    >
+    <ITEM
+      POSITION 60.5
+      SNAPOFFS 0
+      LENGTH 5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C60187DB-4395-CA4F-8F22-5C8973944387}
+      IID 125
+      NAME piano_back_stereo.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 3
+      GUID {4DAC9669-C477-604F-A520-C38097BB5C4F}
+      <SOURCE WAVE
+        FILE "Media/piano_back_stereo.wav"
+      >
+    >
+    <ITEM
+      POSITION 66.5
+      SNAPOFFS 0
+      LENGTH 5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {238C47C5-D653-5141-B8C5-D7515A7F1810}
+      IID 125
+      NAME piano_back_stereo.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 4
+      GUID {FEC790EB-E684-854F-923B-E9D88F2C7641}
+      <SOURCE WAVE
+        FILE "Media/piano_back_stereo.wav"
+      >
+    >
+    <ITEM
+      POSITION 73.5
+      SNAPOFFS 0
+      LENGTH 5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6BFA2B1C-1924-D740-B0B0-CED4452AC8C3}
+      IID 125
+      NAME piano_back_stereo.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 2
+      GUID {386D4C60-5295-F244-BA6E-2BF4ECD1A5FF}
+      <SOURCE WAVE
+        FILE "Media/piano_back_stereo.wav"
+      >
+    >
+    <ITEM
+      POSITION 80.5
+      SNAPOFFS 0
+      LENGTH 5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {94C14411-C195-5842-956E-96924BFCCED0}
+      IID 125
+      NAME piano_back_stereo.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {870219A0-3ED5-8940-9C13-9A9D5B719587}
+      <SOURCE WAVE
+        FILE "Media/piano_back_stereo.wav"
+      >
+    >
+    <ITEM
+      POSITION 97
+      SNAPOFFS 0
+      LENGTH 4.967
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5341F2B1-BF9E-0B43-B66E-E5C9C7A551DE}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 2
+      GUID {63573E76-CF18-0440-A89D-AF13EACF2899}
+      <SOURCE SECTION
+        LENGTH 4.967
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "Media/pianophase.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 110
+      SNAPOFFS 0
+      LENGTH 4
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D181EBCE-64FC-5841-8FAB-6CED2EA5ACAD}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.5 0 0 -1 0 0.0025
+      CHANMODE 2
+      GUID {FC68365E-41F5-6148-80EA-0BCA0B3AA712}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 125
+      SNAPOFFS 0
+      LENGTH 19.868
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D452D539-9D1D-A142-B382-A93EFCCF09B9}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.25 0 0 -1 0 0.0025
+      CHANMODE 2
+      GUID {7BCC01DA-8593-BD46-AAD0-88C689E86D27}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 152
+      SNAPOFFS 0
+      LENGTH 2.4835
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {34D6809F-8290-D54E-93D8-ABB24BC0A356}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 2 0 0 -1 0 0.0025
+      CHANMODE 2
+      GUID {66396A43-014C-ED46-B1E9-AAC84A9BD98A}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 156
+      SNAPOFFS 0
+      LENGTH 1.24175
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {ABCF3EF4-5659-D944-9FDE-CA9259BDB12B}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 4 0 0 -1 0 0.0025
+      CHANMODE 2
+      GUID {C2CB916B-29A3-A94E-9B81-98CF1CBED03C}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 173.80812958325262
+      SNAPOFFS 0
+      LENGTH 2.05363541666668
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E6982647-D04B-AA4D-A75E-0BE5B4597857}
+      IID 136
+      NAME cello.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 2 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B2180A4F-9C66-B942-9004-7FE8B5BBBE2C}
+      <SOURCE WAVE
+        FILE "Media/cello.wav"
+      >
+    >
+    <ITEM
+      POSITION 202
+      SNAPOFFS 0
+      LENGTH 22
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {195E4C78-2E5F-EA49-83ED-5125A8891EB4}
+      IID 320
+      NAME ching_01.wav
+      VOLPAN 0.372549 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1F5D523D-C565-DF4F-91D5-CD7C04E3809C}
+      <SOURCE WAVE
+        FILE "Media/ching_01.wav"
+      >
+    >
+    <ITEM
+      POSITION 224
+      SNAPOFFS 0
+      LENGTH 41.06063492063492
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {A7B606EF-1CE3-1545-87CF-8D6D7FE4387D}
+      IID 320
+      NAME ching_01.wav
+      VOLPAN 0.372549 0 1 -1
+      SOFFS 22
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5D08C170-3222-AE45-ADBC-9C0C4AB959CD}
+      <SOURCE WAVE
+        FILE "Media/ching_01.wav"
+      >
+    >
+    <ITEM
+      POSITION 286
+      SNAPOFFS 0
+      LENGTH 9.93856405409211
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D447FC9C-051D-BD47-B318-D01FAD36B8BF}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.49977038664402 1 0 -1 0 0.0025
+      CHANMODE 2
+      GUID {9CF92193-7B89-604D-9A1D-C485B461D8FF}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 301
+      SNAPOFFS 0
+      LENGTH 19.868
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5FCF46B3-303A-5D4D-94CE-267FA51EDCA9}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.25 1 0 -1 0 0.0025
+      CHANMODE 2
+      GUID {22630CA9-AA7D-5440-B69D-037586E25653}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 324
+      SNAPOFFS 0
+      LENGTH 39.736
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {49ECE966-3521-F44C-A8B8-DB696EF1F1F2}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.125 1 0 -1 0 0.0025
+      CHANMODE 2
+      GUID {1C8541B4-9E28-9843-B138-5F6AF0F8A1BA}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 382
+      SNAPOFFS 0
+      LENGTH 9.93856405409211
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1312794B-A969-014D-8DF8-377EEC0417B1}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.49977038664402 1 0 917504 0 0.0025
+      CHANMODE 2
+      GUID {8A4CD3B3-46D8-114F-8B7C-F0AC8CFEB5AD}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 397
+      SNAPOFFS 0
+      LENGTH 19.868
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {116DE98D-D546-754B-88BC-049B0853E970}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.25 1 0 917504 0 0.0025
+      CHANMODE 2
+      GUID {13605809-CE81-8540-8745-BBB6885E30CF}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 420
+      SNAPOFFS 0
+      LENGTH 40
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6FC9A2AF-BF5B-354E-8D24-91B0F47202FC}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.124175 1 0 917504 0 0.0025
+      CHANMODE 2
+      GUID {B18705D9-757E-564B-8955-D807C86D520C}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 474
+      SNAPOFFS 0
+      LENGTH 9.93856405409211
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B38A7B9F-EF7B-A443-ACA7-F5C474227E61}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.49977038664402 1 0 983040 0 0.0025
+      CHANMODE 2
+      GUID {2C0802A7-5C8A-0442-B722-0D2F840C939B}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 489
+      SNAPOFFS 0
+      LENGTH 19.868
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D8D4CF28-635B-6840-9B33-3AB1C09A9B1D}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.25 1 0 983040 0 0.0025
+      CHANMODE 2
+      GUID {05063B74-D16F-8046-9987-5379CA24CDE8}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 512
+      SNAPOFFS 0
+      LENGTH 40
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7BCB3344-1E17-6B45-B197-175BC82F80E9}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.124175 1 0 983040 0 0.0025
+      CHANMODE 2
+      GUID {33453521-9FA0-0448-A2F9-19595180984E}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 558
+      SNAPOFFS 0
+      LENGTH 8.39207505648874
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 1.19887 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {10157083-40A6-5745-BDFE-B285562D73DF}
+      IID 123
+      NAME bach.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4EF7F718-2CB9-FC45-A4F9-7B4593E20E98}
+      <SOURCE WAVE
+        FILE "Media/bach.wav"
+      >
+    >
+    <ITEM
+      POSITION 610
+      SNAPOFFS 0
+      LENGTH 4.967
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5C8750D3-794A-F645-A44C-1EC591D7413D}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 -12 -1 0 0.0025
+      CHANMODE 2
+      GUID {3C71528D-68D9-384C-8C56-B3318E78F238}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 624
+      SNAPOFFS 0
+      LENGTH 4.967
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0FDDD0BA-30A9-C543-AA40-16FB07F0E4BD}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 24 917504 0 0.0025
+      CHANMODE 2
+      GUID {03FFEB19-2E0F-B343-8ECA-0365CD7B6D34}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 632
+      SNAPOFFS 0
+      LENGTH 4.967
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DE7FFE16-E147-DA4D-AB6A-D9A2483131CD}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 24 -1 0 0.0025
+      CHANMODE 2
+      GUID {FE2629AA-41E7-0E48-987A-F54DCCB6F5B8}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+    <ITEM
+      POSITION 641
+      SNAPOFFS 0
+      LENGTH 93
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {476B4E35-281E-9B4A-A0DD-84208D82DA24}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.05340860215054 1 0 -1 0 0.0025
+      CHANMODE 2
+      GUID {27408D64-E6BB-F84D-AFD9-D758AEAC5A03}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+  >
+  <TRACK {BB9ED89B-8831-9D46-9BD4-18E3EEF5F045}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {BB9ED89B-8831-9D46-9BD4-18E3EEF5F045}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 173.20462913331079
+      SNAPOFFS 0
+      LENGTH 4.10727083333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BBD6C0FA-0E56-E543-9E0C-24090B583DE2}
+      IID 136
+      NAME cello.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F38F8A4D-2248-E248-8EE5-C87E70944354}
+      <SOURCE WAVE
+        FILE "Media/cello.wav"
+      >
+    >
+    <ITEM
+      POSITION 208.42070476163644
+      SNAPOFFS 0
+      LENGTH 15.57929523836356
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FB5E8C2A-CDA6-0344-B0BD-693262B07134}
+      IID 320
+      NAME ching_01.wav
+      VOLPAN 0.372549 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.50120926037823 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FDA0B348-DFF9-784E-8C72-B449AA09DE98}
+      <SOURCE WAVE
+        FILE "Media/ching_01.wav"
+      >
+    >
+    <ITEM
+      POSITION 224
+      SNAPOFFS 0
+      LENGTH 26.42725388160238
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {87D4E062-3B36-724B-A71D-9F36D03FEB4B}
+      IID 320
+      NAME ching_01.wav
+      VOLPAN 0.372549 0 1 -1
+      SOFFS 23.38778228199784
+      PLAYRATE 1.50120926037823 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E45F8FE5-A50A-FD43-BD13-A32C7F2A2584}
+      <SOURCE WAVE
+        FILE "Media/ching_01.wav"
+      >
+    >
+    <ITEM
+      POSITION 558.10828483942896
+      SNAPOFFS 0
+      LENGTH 13.37317767065606
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.848191 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0314D5F4-9B43-2F49-8794-1F289C113C18}
+      IID 123
+      NAME bach.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.62753036437278 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {11BA805D-BCD4-B741-9CD2-391934B4FCF2}
+      <SOURCE WAVE
+        FILE "Media/bach.wav"
+      >
+    >
+    <ITEM
+      POSITION 641
+      SNAPOFFS 0
+      LENGTH 90
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2C96A796-C299-B640-84A8-6FA9E3547C14}
+      IID 2
+      NAME pianophase.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.05518888888889 1 0.5 -1 0 0.0025
+      CHANMODE 2
+      GUID {73136E99-3A9B-DE4F-9C80-11BCBA16936F}
+      <SOURCE WAVE
+        FILE "Media/pianophase.wav"
+      >
+    >
+  >
+  <TRACK {6F7006CC-296A-A44A-8C31-DB654A33791A}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {6F7006CC-296A-A44A-8C31-DB654A33791A}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 171.14725607421497
+      SNAPOFFS 0
+      LENGTH 6.17783237242318
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F80FF95A-39F1-2E45-93C6-1A96DEB9B617}
+      IID 136
+      NAME cello.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.50012789214907 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AB6853E7-57A9-AF4C-93F5-886A7542E532}
+      <SOURCE WAVE
+        FILE "Media/cello.wav"
+      >
+    >
+    <ITEM
+      POSITION 212.63703311653808
+      SNAPOFFS 0
+      LENGTH 11.36296688346192
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {268746DD-530A-F445-BA3B-FBAD31E4AD78}
+      IID 320
+      NAME ching_01.wav
+      VOLPAN 0.372549 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.78784212026932 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E8BC0C39-5B5F-6A45-BFE3-F671E0A59740}
+      <SOURCE WAVE
+        FILE "Media/ching_01.wav"
+      >
+    >
+    <ITEM
+      POSITION 224
+      SNAPOFFS 0
+      LENGTH 23.90896937765428
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {35943E5E-A367-684C-8DAD-382E4E77C8DD}
+      IID 320
+      NAME ching_01.wav
+      VOLPAN 0.372549 0 1 -1
+      SOFFS 20.31519080547863
+      PLAYRATE 1.78784212026932 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {741AC0A4-44DB-DA4C-B164-BECDD86D735C}
+      <SOURCE WAVE
+        FILE "Media/ching_01.wav"
+      >
+    >
+    <ITEM
+      POSITION 558.05414241971448
+      SNAPOFFS 0
+      LENGTH 17.70457124819384
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.762055 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2CB2B712-9C15-FA46-8579-C454E4059FA2}
+      IID 123
+      NAME bach.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.47400611620826 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CB0ADFB4-465C-5A41-B810-43EB444F3C41}
+      <SOURCE WAVE
+        FILE "Media/bach.wav"
+      >
+    >
+  >
+  <TRACK {B6FC3270-EB77-914D-B468-37F0A8063A6D}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {B6FC3270-EB77-914D-B468-37F0A8063A6D}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 168.5
+      SNAPOFFS 0
+      LENGTH 8.85598670216118
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {89843302-C637-C647-99BE-369F44A52BD1}
+      IID 136
+      NAME cello.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.25106032228748 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {893E3674-7551-7445-A4F7-FEAAB7555460}
+      <SOURCE WAVE
+        FILE "Media/cello.wav"
+      >
+    >
+    <ITEM
+      POSITION 216.20484427153133
+      SNAPOFFS 0
+      LENGTH 7.79515572846867
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {70875300-8A1C-014A-B312-FA62DDC5BC6D}
+      IID 320
+      NAME ching_01.wav
+      VOLPAN 0.372549 0 1 -1
+      SOFFS 0
+      PLAYRATE 2.0003030684199 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B6C9C3C8-968E-0442-BFAC-1898B5D41DF0}
+      <SOURCE WAVE
+        FILE "Media/ching_01.wav"
+      >
+    >
+    <ITEM
+      POSITION 224
+      SNAPOFFS 0
+      LENGTH 23.73039372784041
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {2C213BB7-F72D-8B46-A563-EA2208590DE8}
+      IID 320
+      NAME ching_01.wav
+      VOLPAN 0.372549 0 1 -1
+      SOFFS 15.59267392246685
+      PLAYRATE 2.0003030684199 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EC560E20-D736-6146-B5C5-7DC893AF8B23}
+      <SOURCE WAVE
+        FILE "Media/ching_01.wav"
+      >
+    >
+    <ITEM
+      POSITION 558.05414241971448
+      SNAPOFFS 0
+      LENGTH 23.76852225675344
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 1.272605 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {95AEAA54-4582-F94F-8EE7-8FFE621EB875}
+      IID 123
+      NAME bach.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.35307517084299 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6F6DC90C-77DB-4A4D-9A01-C7C05801ACBC}
+      <SOURCE WAVE
+        FILE "Media/bach.wav"
+      >
+    >
+  >
+  <TRACK {446C9CD2-9FFD-1B46-A9CE-A7BF823F9B52}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {446C9CD2-9FFD-1B46-A9CE-A7BF823F9B52}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 558
+      SNAPOFFS 0
+      LENGTH 29.72418842586968
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.770717 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {89EC5F53-7F3B-5841-AE31-70571248D22A}
+      IID 123
+      NAME bach.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.28233151183986 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7AC1157D-7E8E-E440-BEDB-A80673E7314D}
+      <SOURCE WAVE
+        FILE "Media/bach.wav"
+      >
+    >
+  >
+>
