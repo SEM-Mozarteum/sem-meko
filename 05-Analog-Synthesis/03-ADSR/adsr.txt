@@ -1,0 +1,8 @@
+- Analoge Klangsynthese (Präsentation)
+
+- Envelope vs. AM
+
+- Übung: 
+	Langsame Melodie mit fadein und fadeout
+	AM Patch
+	

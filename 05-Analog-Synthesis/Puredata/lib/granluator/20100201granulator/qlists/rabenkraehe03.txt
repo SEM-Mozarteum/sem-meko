@@ -1,0 +1,17 @@
+# rabenkraehe03;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/rabenkraehe03.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 2 49.9709 0 75.0094 0 1 0 0 4 100;
+
+500
+cue Cue_2; granulator 5 921.654 476.378 999.89 0.0984252 0.501102 -0.566929 12 1.1811 6000;
+
+24000
+cue Stop; granulator 0; rec-end 0;
+
+

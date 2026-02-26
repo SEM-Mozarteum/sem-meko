@@ -1,0 +1,15 @@
+# Donnergrollen;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/donnergrollen.wav;
+granulator 0 0 0 0 0 0 0 0 0 100;
+
+0
+cue Cue_1; granulator 3 73.4748 19.685 75.0094 0 1 0 0.755906 4 4000;
+
+12000
+cue Cue_2; granulator 3 833.435 460.63 12.2665 0.5 0.86748 1.88976 10.8661 2.51969 4000;
+
+3000
+cue Stop; granulator 0; rec-end 0;

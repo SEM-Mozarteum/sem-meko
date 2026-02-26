@@ -1,0 +1,17 @@
+# Honigbiene;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/honigbiene.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 2 49.9709 0 75.0094 0 1 0 0 4 500;
+
+10000
+cue Cue_2; granulator 8 49.9709 11.811 2005.75 0 0.618032 -4.53543 0.283465 1.40157 6000;
+
+4000
+cue Stop; granulator 0; rec-end 0;
+
+

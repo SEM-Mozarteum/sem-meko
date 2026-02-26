@@ -1,0 +1,18 @@
+# Gehen Blätter;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/gehen-blaetter.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 2 49.9709 0 75.0094 0 1 0 0 4 500;
+
+2000
+cue Cue_1; granulator 4 73.4748 11.811 935.032 0 0.664803 -2.3622 2.83465 4 4000;
+
+10000
+cue Cue_1; granulator 7 974.459 39.3701 935.032 0 0.85189 -10.2992 11.811 4 6000;
+
+20000
+cue Stop; granulator 0; rec-end 0;

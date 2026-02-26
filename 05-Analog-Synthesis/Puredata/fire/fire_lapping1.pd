@@ -1,0 +1,8 @@
+#N canvas 17 288 170 245 10;
+#X obj 41 114 dac~;
+#X obj 41 47 noise~;
+#X obj 41 75 lop~ 30;
+#X text 35 12 lapping 1st try;
+#X connect 1 0 2 0;
+#X connect 2 0 0 0;
+#X connect 2 0 0 1;

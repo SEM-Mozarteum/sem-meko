@@ -1,0 +1,14 @@
+# Grillenautos;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/grillenautos.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 5 49.9709 0 401.106 0 1 -1.32283 0.944882 4 6000;
+
+4000
+cue Stop; granulator 0; rec-end 0;
+
+

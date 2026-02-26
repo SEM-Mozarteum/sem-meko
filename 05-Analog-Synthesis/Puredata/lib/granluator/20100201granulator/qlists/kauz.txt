@@ -1,0 +1,14 @@
+# Kauz;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/kauz.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 14 982.294 287.402 57.3605 0 0.251654 -0.0944882 9.54331 0 500;
+
+4000
+cue Stop; granulator 0; rec-end 0;
+
+

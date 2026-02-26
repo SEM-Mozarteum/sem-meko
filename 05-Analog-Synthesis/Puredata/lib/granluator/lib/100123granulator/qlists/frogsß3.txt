@@ -1,0 +1,18 @@
+# Frogs03;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/frogs03.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+
+0
+cue Cue_1; granulator 2 175.325 444.882 715.028 0.425197 0.493307 -8.40945 1.88976 0.299213 6000;
+
+4000
+cue Cue_1; granulator 6 386.861 444.882 584.717 0.42126 0.119134 -5.76378 6 0.299213 6000;
+
+4000
+cue Stop; granulator 0; rec-end 0;
+
+

@@ -1,0 +1,29 @@
+# Auerhahn;
+
+pd dsp 1;
+filename ../../../snd/samples/auerhahn.wav;
+cue Cue_0; granulator 0;
+
+10
+cue Cue_1; granulator 2 50 0 75 0 1 0 0 4 1000;
+
+12000
+cue Cue_8; granulator 9 57.8055 110.236 130.788 0 0.625827 0.00755905 0 2.1811 4000;
+
+12000
+cue Cue_5; granulator 13 111.473 30 999.89 0.446457 0.734961 -3.00094 8.7874 1 4000;
+
+12000
+cue Cue_6; granulator 16 44.1732 30 3343.61 0.267717 0.095748 -12 11.811 8.18898 8000;
+
+12000
+cue Cue_7; granulator 20 968.505 299.213 2.86023 0 0.0489764 0 5.19685 1 4000;
+
+12000
+cue Cue_9; granulator 15 51.8512 0 534.821 0 0.35 -6.23622 12 1.70866 4000;
+
+12000
+cue Cue_10; granulator 16 36.1819 236.22 34.2021 0 0.212677 -5.66929 2.92913 1 4000;
+
+12000
+cue Stop; granulator 0; rec-end 0;

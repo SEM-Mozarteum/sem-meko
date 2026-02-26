@@ -1,0 +1,17 @@
+# Geschirr fegen;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/geschirr-fegen.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 7 929.488 267.717 1533.82 0.38189 0.0879528 -4.44094 12 5.35433 1000;
+
+6000
+cue Cue_2; granulator 5 67.6772 62.9921 75.0094 0 0.454331 7.74803 9.16535 4 15000;
+
+25000
+cue Stop; granulator 0; rec-end 0;
+
+

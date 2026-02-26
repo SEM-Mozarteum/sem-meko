@@ -1,0 +1,23 @@
+# Feldgrille;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/feldgrille.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+
+0
+cue Cue_2; granulator 6 96.9787 125.984 1025.7 0.177165 0.58685 -2.83465 9.44882 1.49606  6000;
+
+
+4000
+cue Cue_3; granulator 3 57.8055 39.3701 250.83 0 0.820709 -1.88976 1.41732 1.49606 6000;
+
+
+4000
+cue Cue_1; granulator 6 120.483 125.984 1025.7 0 0.0411811 -7.37008 12 1.49606 20000;
+
+
+
+3000
+cue Stop; granulator 0; rec-end 0;

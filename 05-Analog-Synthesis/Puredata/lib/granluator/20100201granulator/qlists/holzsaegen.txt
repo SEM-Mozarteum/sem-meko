@@ -1,0 +1,17 @@
+# Holzseagen;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/holzsaegen.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 16 880.443 98.4252 75.0094 0 0.734961 -0.0944882 11.0551 2.28346 8000;
+
+10000
+cue Cue_1; granulator 14 872.609 263.78 1875.65 0.212598 0.0723622 5.00787 12 3.22835 6000;
+
+4000
+cue Stop; granulator 0; rec-end 0;
+
+

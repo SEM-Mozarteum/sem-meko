@@ -1,0 +1,17 @@
+# Grasfrosch1;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/grasfrosch1.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 3 49.9709 39.3701 75.0094 0.0511811 0.618032 0 3.02362 3.29134 1000;
+
+8000
+cue Cue_2; granulator 13 87.9689 30 999.89 0.1 0.516693 -1.11118 7.27559 1 15000;
+
+25000
+cue Stop; granulator 0; rec-end 0;
+
+

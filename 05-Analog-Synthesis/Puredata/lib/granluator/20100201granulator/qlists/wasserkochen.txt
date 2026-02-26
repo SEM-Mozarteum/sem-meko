@@ -1,0 +1,12 @@
+# wasserkochen;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/wasserkochen.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 2 18.6323 23.622 1172.93 0 0.890866 -3.11811 0.188976 0 100;
+
+20000
+cue Stop; granulator 0; rec-end 0;

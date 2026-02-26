@@ -1,0 +1,17 @@
+# Gluehbirne01;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/gluehbirne01.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 3 49.9709 43.3071 75.0094 0 1 0 0 4 1000;
+
+8000
+cue Cue_2; granulator 5 34.3016 19.685 524.52 0.00787402 0.189291 -4.62992 5.10236 4.7874 15000;
+
+25000
+cue Stop; granulator 0; rec-end 0;
+
+

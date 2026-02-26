@@ -1,0 +1,18 @@
+# gaense;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/gaense.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+
+0
+cue Cue_1; granulator 4 67.6772 23.622 75.0094 0 0.454331 -8.88189 1.98425 4 1000;
+
+4000
+cue Cue_1; granulator 5 67.6772 27.5591 75.0094 0 0.454331 7.74803 7.27559 4 5000;
+
+4000
+cue Stop; granulator 0; rec-end 0;
+
+

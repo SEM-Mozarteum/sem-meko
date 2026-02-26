@@ -1,0 +1,21 @@
+# Blaumeise;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/blaumeise.wav;
+granulator 0;
+
+0
+cue Cue_1; granulator 2 120 0 75.0094 0 1 0 0 4 3000;
+
+3000
+cue Cue_2; granulator 2 65.6402 62.9921 1434.33 0.299213 0.773937 0 10.0157 0 3000;
+
+3000
+cue Cue_3; granulator 2 120.013 0 75.0094 0 0.391969 -2.07874 6.99213 0 4000;
+
+3000
+cue Cue_4; granulator 2 57.3354 98.4252 75.0094 0 0.914252 0.944882 9.25984 1.02362 3000;
+
+3000
+cue Stop; rec-end 0;

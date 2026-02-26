@@ -1,0 +1,15 @@
+# Blaettern;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/blaettern.wav;
+granulator 0;
+
+0
+cue Cue_1; granulator 20 44 0 500 0 1 0 0 1 3000;
+
+3000
+cue Cue_2; granulator 3 49.9709 19.685 85.7763 0 1 0 8.40945 6.67717 3000;
+
+3000
+cue Stop; rec-end 0;

@@ -1,0 +1,15 @@
+# windrad;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/windrad.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 2 49.9709 0 75.0094 0 1 0 0 4 100;
+
+400
+cue Cue_2; granulator 7 1000 500 65.594 0 0.86748 0.0944882 12 0 5000;
+
+20000
+cue Stop; granulator 0; rec-end 0;

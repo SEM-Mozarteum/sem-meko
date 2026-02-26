@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+
+
+<meta name="resource-type" content="document">
+<meta name="description" content="Page contains some sound design tutorials in PureData.">
+<meta name="keywords" content="synthesis puredata examples">
+<meta name="distribution" content="global">
+<meta http-equiv="content-type" content="text/html;charset=us-ascii"><title>Lion roar sound effect</title>
+
+<link rel="icon" href="http://www.obiwannabe.co.uk/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://www.obiwannabe.co.uk/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="tutorial_roar-Dateien/stylesheet.css"></head><body bgcolor="#ffffff" text="#000000">
+
+<div id="head">
+  <div class="tit"> Obiwannabe </div>
+  <div class="subt"> Use the source...</div>
+  <div class="sponsor"> Sponsored by the number Sponsored by the number 6.0221415E-23</div>
+</div>
+
+
+
+<h1>Roar!!</h1>
+
+
+
+<p>
+I've based this on a lion or big cat growl, which is a standard
+starting point for many of the "monsters" in films and games. The core
+of the sound is a "ripple" waveform. If you take a balloon and inflate
+it fully and holding the balloon neck tightly in two places release
+some air, it will produce an almost perfectly periodic relaxation waveform. But if you
+loosen the tension it begins to oscillate in a more complex mode to
+make a farting noise as well as reducing the pitch. Speech and many
+sounds that mammals make are based on a similar physical process. Air
+moves across the vocal cords or laryngeal membranes which loosen or
+tighten to control their pitch and tone. Lions and tigers (and bears oh
+my!) don't purr, and apparently cats that purr never roar. This is almost
+certainly due to the position of the components of the larynx which
+varies between animals, in particular the thyroid cartilage and
+arytenoid cartilages which control the openness and tension
+of the vocalising membranes. A big cat has a quite loose membranes and
+quite different glottis to a human. Our glottis is lowered which makes
+a wider range of sounds possible and probably accounts for our ability to
+speak. When a lion roars it expels a lot of air from its lungs. One
+possibility is that the sound is a signal to demonstrate the creatures
+fitness, it's lung capacity as a warning to others. When it growls and
+roars the tension in the larynx is just right to create a complex
+ripple signal.
+</p>
+
+
+
+<p>
+Normally, in speech synthesis we create an exciter-resonator system,
+the former being a regular periodic pulse wave and the latter a set of
+parallel bandpass filters constructed to mimic the resonance of the
+vocal tract for articulation. We will use a standard vocal tract
+resonator based on a comb filter but extended to mimic a larger animal
+than a human. For the excitation signal however we will use a ripple
+waveform and move its complexity throughout the sound.
+</p>
+
+
+
+
+    
+<h2>Ripple source</h2>
+
+<p>
+Taking a normal [phasor~] gives us a periodic signal that will be the
+base frequency of the sound. We apply a [wrap~] function to the square
+of the phasor and then take the square root of the result. For a phasor
+in its normal range of zero to one the circuit has no effect (the
+square of one is one, the wrap of one is one, and the root of one is
+one). But if we add a little extra amplitude to our phasor something
+interesting happens. Values above one quickly grow and they are wrapped
+back on themselves to produce new scans in the 0-1 range. Taking the
+cosine of the square root of these results in little groups waves that
+aren't unlike the movement of a critically damped membrane clamped at
+two ends, basically we get a farting noise. (This is a nonlinear
+synthesis - a different way of doing FM and very like FM in the sounds
+we get. Basically we get a way to change the complexity of a wave while
+keeping its frequency steady.) The real lions roar has a
+much more elaborate signal since it is a real membrane vibrating over
+its whole area giving us the superposition of vibrations on many
+fronts, but our simple ripple source will give us a good enough
+starting point for further experimentation.
+</p>
+
+<div class="cb"><img style="width: 122px; height: 174px;" alt="roar1" src="tutorial_roar-Dateien/roar1.jpg"></div>
+
+
+
+
+      
+<h2>Tract filter</h2>
+
+
+
+<p>
+To simulate a pipe or tube a group of 8 parallel bandpass filters are
+used. The spacing of each band is not linear but increases in the ratio
+of (1.414 * D), where D is a distance constant to be added to each
+space between the current and previous band. We have a resonance inlet
+which controls the resonance of all filters. The more resonant we make
+them the more the tube will seem to ring, and the more it will seem to
+have a "wet" sound. Finally we offset all of these frequencies by a
+fixed amount to set the "base" of the format we produce. Varying these
+parameters obtains us a tube that we can vary in width, length and
+reflectivity. A base and spacing of a few hundred Hz and a Q of about
+60 gets us something a bit like an animal roar.
+</p>
+
+
+<div class="cb"><img style="width: 496px; height: 542px;" alt="roar2" src="tutorial_roar-Dateien/roar2.jpg"></div>
+
+      
+<h2>Architecture</h2>
+
+<p>
+All we do is connect the larynx to the vocal tract by feeding the
+ripple source into the bandpass filters. We can get a range of growling
+"ahh" like outputs from the system by changing the phasor level and the
+tract parameters.
+</p>
+
+
+
+      
+<h2>Control system</h2>
+
+
+
+<p>
+Changing inputs correctly over time is essential to making this patch
+work. A roar seems to follow a familiar trigonometric curve, rising
+fast and slowly converging on a peak before falling off in roughly the
+same shape, only a little more quickly. A linear rise and fall seems to
+make the lion sound lazy and not really very scary. Having the rise and
+fall be symmetrical isn't quite right either, he builds up power in the
+roar in a gentle curve but neither stops abruptly nor leaves the roar
+trailing too long, a ratio of about 2:1 seems right. Starting with a
+normalised line segment that rises over two seconds and falls away over
+800ms we derive a half cosine cycle. The control rate [cos] is not
+normalised like the audio rate [cos~] object used with a [phasor~] so
+we have to shift our line into the range of zero to half pi, done with
+the [* 3.1415926] and [* 0.5] functions. We take the reciprocal of
+this because it's out of phase, it starts at one and goes down to zero
+and back, so we need to flip it. Finally I've shifted it's range again
+in this patch, which is not essential in any way, just a feature of the
+way I designed the values in and had to make a little tweak. All the
+other parts are to place the range, minimums and maximums of our
+parameters.
+</p>
+
+
+<ul>
+<li>1) The pitch of the growl rises and falls slightly
+</li><li>2) Complexity of the ripple wave grows and decays during the sound
+</li><li>3) The openness of the tract moves up and down a bit
+</li><li>4) A little extra resonance comes in as the roar peaks
+</li><li>5) Amplitude is helped by a sqrt function to adjust its curve
+</li></ul>
+
+
+      
+<div class="cb"><img style="width: 347px; height: 627px;" alt="roar3" src="tutorial_roar-Dateien/roar3.jpg"></div>
+<p><a href="http://obiwannabe.co.uk/tutorials/puredata/roar/roar.pd">Puredata file .pd</a></p>
+<p><a href="http://obiwannabe.co.uk/tutorials/sounds/roar/roar.mp3">Audio .mp3</a></p>
+
+
+
+<h2>Links</h2>
+
+
+
+
+<h4>"Acoustical consequences of lip, tongue and larynx movement" (Lindbolm
+and Sundberg 1971) - Journal of the Acoustical Society of America 50
+
+"Hyoid apparatus and pharynx in the lion (Panthera leo), jaguar
+(Panthera onca), tiger (Panthera tigris), cheetah (Acinonyx jubatus)
+and domestic cat (Felis silvestris f. catus)" (G. E. Weissengruber, G.
+Forstenpointner, G. Peters, A. K&#252;bber-Heiss and W. T. Fitch
+2002) - Journal of Anatomy Volume 201 Page 195 </h4>
+
+<h4><a href="http://obiwannabe.co.uk/tutorials/html/catch_error.html">to the NEXT SECTION</a></h4>
+<h4><a href="http://obiwannabe.co.uk/tutorials/html/tutorials_main.html">tutorials list</a></h4>
+
+</body></html>

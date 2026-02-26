@@ -1,0 +1,13 @@
+# Fliege;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/fliege.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+
+0
+cue Cue_1; granulator 12 73.4748 7.87402 1172.93 0 0.937638 0 2.74016 4 6000;
+
+3000
+cue Stop; granulator 0; rec-end 0;

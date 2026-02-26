@@ -1,0 +1,17 @@
+# Herring Gull;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/herringgull.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 3 49.9709 0 75.0094 0 1 0 0 4 3000;
+
+10000
+cue Cue_1; granulator 16 880.443 98.4252 75.0094 0 0.734961 -0.0944882 11.0551 2.28346 6000;
+
+4000
+cue Stop; granulator 0; rec-end 0;
+
+

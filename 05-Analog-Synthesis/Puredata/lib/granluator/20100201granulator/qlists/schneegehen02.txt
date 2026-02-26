@@ -1,0 +1,17 @@
+# schneegehen02;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/schneegehen02.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 2 49.9709 0 75.0094 0 1 0 0 4 100;
+
+1000
+cue Cue_2; granulator 2 1000 448.819 838.769 0 0.298425 0 12 6.44094 6000;
+
+20000
+cue Stop; granulator 0; rec-end 0;
+
+

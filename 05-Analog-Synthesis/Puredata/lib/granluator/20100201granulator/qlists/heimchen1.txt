@@ -1,0 +1,17 @@
+# Heimchen1;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/heimchen1.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 4 49.9709 0 75.0094 0 0.516693 -0.283465 1.13386 0 1000;
+
+10000
+cue Cue_1; granulator 17 49.9709 0 75.0094 0 0.516693 -0.283465 8.88189 0 6000;
+
+4000
+cue Stop; granulator 0; rec-end 0;
+
+

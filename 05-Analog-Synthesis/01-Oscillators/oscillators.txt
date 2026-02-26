@@ -1,0 +1,7 @@
+- Analoge Klangsynthese (Präsentation)
+
+- Typen von Oszillatoren (mit Oszilloskop)
+- Frequenz vs. Tonhöhe
+- Additive Synthese
+
+- Übung: Intervalle

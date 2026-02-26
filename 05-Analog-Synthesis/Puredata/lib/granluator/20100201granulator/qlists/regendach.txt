@@ -1,0 +1,20 @@
+# regendach;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/regendach.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 2 49.9709 0 75.0094 0 1 0 0 4 100;
+
+1000
+cue Cue_2; granulator 2 42.1362 11.811 2005.75 0 0.898661 0 12 4 6000;
+
+40000
+cue Cue_3; granulator 18 42.1362 11.811 2005.75 0 0.898661 0 12 4 12000;
+
+40000
+cue Stop; granulator 0; rec-end 0;
+
+

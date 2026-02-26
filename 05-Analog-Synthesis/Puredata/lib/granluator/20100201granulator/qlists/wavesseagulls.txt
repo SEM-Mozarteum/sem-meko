@@ -1,0 +1,15 @@
+# waves seagulls;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/wavesseagulls.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 2 49.9709 0 75.0094 0 1 0 0 4 100;
+
+500
+cue Cue_2; granulator 9 57.9622 79.0157 130.964 0 0.280028 0.00944882 0 1.5748 6000;
+
+20000
+cue Stop; granulator 0; rec-end 0;

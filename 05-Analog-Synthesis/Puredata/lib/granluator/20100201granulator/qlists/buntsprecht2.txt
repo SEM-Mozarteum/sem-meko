@@ -1,0 +1,24 @@
+# Buntspecht1;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/buntspecht2.wav;
+granulator 0 0 0 0 0 0 0 0 0 100;
+
+0
+cue Cue_1; granulator 6 945.001 300 2.99971 0 0.649992 12 0.999685 10 6000;
+
+3000
+cue Cue_2; granulator 6 866.654 300 2.99971 0 0.626606 12 8.46425 10 3000;
+
+3000
+cue Cue_3; granulator 7 866.654 366.142 2.99971 0 0.743535 1.41732 6.4252 7.87402 4000;
+
+3000
+cue Cue_4; granulator 7 866.654 366.142 2.99971 0 0.45511 -9.16535 12 5.19685 4000;
+
+3000
+cue Cue_5; granulator 2 237.532 283.465 75.0094 0 0.914252 0.944882 9.25984 1.02362 6000;
+
+3000
+cue Stop; granulator 0; rec-end 0;

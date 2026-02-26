@@ -1,0 +1,14 @@
+# Kukuck;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/kukuck.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 15 49.9709 271.654 306.73 0 1 0 0.566929 4 6000;
+
+4000
+cue Stop; granulator 0; rec-end 0;
+
+

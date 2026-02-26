@@ -1,0 +1,14 @@
+# Kohlmeise5;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/kohlmeise5.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 13 112.648 0 234.56 0 1 -1.70079 3.11811 4 500;
+
+4000
+cue Stop; granulator 0; rec-end 0;
+
+

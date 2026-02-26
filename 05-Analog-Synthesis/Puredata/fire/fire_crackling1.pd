@@ -1,0 +1,17 @@
+#N canvas 119 343 256 216 10;
+#X obj 66 156 *~;
+#X msg 129 52 bang;
+#X obj 66 181 dac~;
+#X obj 65 52 noise~;
+#X obj 129 95 line~;
+#X obj 129 123 *~;
+#X msg 129 74 1 \, 0 20;
+#X text 60 20 crackling 1st attempt;
+#X connect 0 0 2 0;
+#X connect 0 0 2 1;
+#X connect 1 0 6 0;
+#X connect 3 0 0 0;
+#X connect 4 0 5 0;
+#X connect 4 0 5 1;
+#X connect 5 0 0 1;
+#X connect 6 0 4 0;

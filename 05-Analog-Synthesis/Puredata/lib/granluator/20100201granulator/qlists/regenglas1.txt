@@ -1,0 +1,20 @@
+# regenglas1;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/regenglas1.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 2 49.9709 0 75.0094 0 1 0 0 4 100;
+
+1000
+cue Cue_2; granulator 12 49.9709 0 65.594 0 1 -12 7.55906 5.41732 6000;
+
+40000
+cue Cue_3; granulator 12 28.5039 0 91.7261 0 1 -12 12 3.68504 12000;
+
+40000
+cue Stop; granulator 0; rec-end 0;
+
+

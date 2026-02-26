@@ -1,0 +1,26 @@
+#N canvas 407 268 604 391 16;
+#X obj 42 291 r send1;
+#X obj 42 317 line;
+#X obj 45 343 hsl 128 15 0 8 0 0 empty empty empty -2 -6 0 8 -262144
+-1 -1 0 1;
+#X obj 198 317 line;
+#X obj 201 343 hsl 128 15 0 8 0 0 empty empty empty -2 -6 0 8 -262144
+-1 -1 1587 1;
+#X obj 198 291 r send2;
+#X text 36 249 See;
+#X text 259 108 space = 1 line forward;
+#X text 259 131 backspace = 1 line backward;
+#X text 259 154 r = reset to first line;
+#X obj 74 249 pddplink qlist.txt;
+#X text 258 176 enter number to jump to cue;
+#X text 37 219 (Cue_0 is actually the first line in the qlist file.)
+;
+#X text 172 249 for values:;
+#X obj 36 101 qlstp qlist.txt;
+#X text 36 21 [qlstp];
+#X text 37 61 Creation: [qlstp <name_of_qlistfile>];
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 3 0 4 0;
+#X connect 5 0 3 0;
+#X coords 0 0 1 1 200 80 0;

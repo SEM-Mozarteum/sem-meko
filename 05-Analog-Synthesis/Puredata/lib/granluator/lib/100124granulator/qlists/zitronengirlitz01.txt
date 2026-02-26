@@ -1,0 +1,14 @@
+# Zitronengirlitz01;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/zitronengirlitz01.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 17 12.8346 31.4961 1533.82 0 0.633622 -7.08661 0.377953 0.866142 6000;
+
+4000
+cue Stop; granulator 0; rec-end 0;
+
+

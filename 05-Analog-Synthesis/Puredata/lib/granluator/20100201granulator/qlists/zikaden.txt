@@ -1,0 +1,15 @@
+# zikaden;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/zikaden.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 2 49.9709 0 75.0094 0 1 0 0 4 100;
+
+400
+cue Cue_2; granulator 2 715.916 192.913 75.0094 0 0.236063 0 0 1.55906 5000;
+
+20000
+cue Stop; granulator 0; rec-end 0;

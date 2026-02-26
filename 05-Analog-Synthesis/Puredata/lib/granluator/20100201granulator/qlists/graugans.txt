@@ -1,0 +1,17 @@
+# Graugans;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/graugans.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 4 75.5118 15.748 999.89 0 0.797323 0 0.755906 06000;
+
+4000
+cue Cue_2; granulator 5 694.449 500 1.59912 0 0.29063 -5.29134 3.40157 6.3622 6000;
+
+4000
+cue Stop; granulator 0; rec-end 0;
+
+

@@ -1,0 +1,14 @@
+# Kroete;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/kroete.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 4 747.254 448.819 524.52 0 1 0 11.7165 7.85827 6000;
+
+4000
+cue Stop; granulator 0; rec-end 0;
+
+

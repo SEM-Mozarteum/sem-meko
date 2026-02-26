@@ -1,0 +1,12 @@
+# wasseramsel02;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/wasseramsel02.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1;granulator 2 49.9709 23.622 75.0094 0 0.29063 2.83465 0.566929 0 100;
+
+15000
+cue Stop; granulator 0; rec-end 0;

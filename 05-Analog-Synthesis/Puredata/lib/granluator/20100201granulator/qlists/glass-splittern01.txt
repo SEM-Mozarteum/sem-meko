@@ -1,0 +1,17 @@
+# Glassplitternn01;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/glass-splittern01.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 15 49.9709 66.9291 350.758 0.0551181 0.1 -11.2441 0.377953 5.1811 6000;
+
+4000
+cue Cue_2; granulator 4 67.6772 208.661 418.136 0 0.618032 -11.3386 11.7165 5.02362 6000;
+
+4000
+cue Stop; granulator 0; rec-end 0;
+
+

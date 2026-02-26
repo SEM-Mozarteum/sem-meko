@@ -1,0 +1,18 @@
+# zilpzalp01;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/zilpzalp01.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 2 49.9709 0 75.0094 0 1 0 0 4 100;
+
+400
+cue Cue_2; granulator 12 99.0157 15.748 75.0094 0 0.399764 0 12 0 5000;
+
+20000
+cue Cue_3; granulator 18 99.0157 15.748 75.0094 0 0.0879528 -12 12 0 4000;
+
+20000
+cue Stop; granulator 0; rec-end 0;

@@ -1,0 +1,17 @@
+# nachtigall02;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/nachtigall02.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 2 49.9709 0 75.0094 0 1 0 0 4 100;
+
+500
+cue Cue_2; granulator 2 49.9709 0 599.81 0.00393701 0.228268 0 0 3.6063 6000;
+
+24000
+cue Stop; granulator 0; rec-end 0;
+
+

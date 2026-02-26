@@ -1,0 +1,26 @@
+body {background-color: white; font-size: 1em;}
+body {font-family: verdana,sans-serif;}
+h1 {color: #3366cc; font-size:2em;}
+h2 {color: #3366cc; font-size:1.2em;}
+h3 {color: #3366cc; margin-left: 1em; font-size:1em;}
+h4 {color: orange; font-size:0.8em;}
+h5 {color: brown; font-size:1em; text-align: center;}
+h6 {color: white; font-size:1em; text-align: left;}
+
+.tit { margin-left: 20px; font-size:3em;}
+.subt {color: #ffffff; margin-left: 25px; font-size:1em;}
+.sponsor {color: #ffffff; text-align: right; margin-right: 25px; font-size:1em;}
+.cb {color: #ffffff; text-align: center;}
+.mnu {color: #ffffff; font-size:0.9em;}
+
+p {margin-left: 1em;}
+a:link      { text-decoration: none;      color: #00FF00                 }
+a:visited   { text-decoration: none;      color: #008000                 }
+a:active    { text-decoration: none;      color: #80FF80                 }
+a:hover     { text-decoration: underline; color: #80FF80                 }
+
+
+
+img {border: 5px solid #3366cc;}
+#head {background: #3366cc; color: #ffffff; height: 7em;}
+#menu {background: #3366cc; color: #ffffff; height: 2em; width: 8em; text-align: center;}

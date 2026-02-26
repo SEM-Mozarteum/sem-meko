@@ -1,0 +1,20 @@
+# Glas fegen;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/glas-fegen.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 16 65.6402 0 137.166 0 1 4.25197 11.622 4;
+
+12000
+cue Cue_2; granulator 18 929.488 448.819 1533.82 0.38189 0.485512 -4.44094 12 5.35433 1000;
+
+6000
+cue Cue_3; granulator 5 28.5039 59.0551 75.0094 0 0.906457 -9.82677 9.73228 4 15000;
+
+25000
+cue Stop; granulator 0; rec-end 0;
+
+

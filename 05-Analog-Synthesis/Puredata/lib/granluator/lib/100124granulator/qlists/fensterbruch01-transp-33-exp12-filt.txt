@@ -1,0 +1,17 @@
+# fensterbruch01-transp-33-exp12-filt;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/snd/fensterbruch01-transp-33-exp12-filt.aiff;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 3 49.9709 39.3701 75.0094 0.0511811 0.618032 0 3.02362 3.29134 1000;
+
+8000
+cue Cue_2; granulator 20 81.3094 19.685 1307.54 0 0.797323 0 0.0944882 4.70866 15000;
+
+25000
+cue Stop; granulator 0; rec-end 0;
+
+

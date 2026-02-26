@@ -1,0 +1,15 @@
+# Dusche;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/dusche.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 10 788.465 500 1533.82 0 0.368583 -6.99213 12 2.51969 10000;
+
+15000
+cue Cue_2; granulator 7 929.488 267.717 1533.82 0.38189 0.0879528 -4.44094 12 5.35433 10000;
+
+15000
+cue Stop; granulator 0; rec-end 0;

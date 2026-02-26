@@ -1,0 +1,17 @@
+# relay;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/relay.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 2 49.9709 0 75.0094 0 1 0 0 4 100;
+
+1000
+cue Cue_2; granulator 3 731.585 102.362 18.3432 0 0.922047 -4.06299 12 4 6000;
+
+30000
+cue Stop; granulator 0; rec-end 0;
+
+

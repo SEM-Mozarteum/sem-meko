@@ -1,0 +1,15 @@
+# windheulen1;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/windheulen1.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 2 49.9709 0 75.0094 0 1 0 0 4 100;
+
+400
+cue Cue_2; granulator 8 1000 409.449 65.594 0 0.734961 12 8.97638 0 4000;
+
+20000
+cue Stop; granulator 0; rec-end 0;

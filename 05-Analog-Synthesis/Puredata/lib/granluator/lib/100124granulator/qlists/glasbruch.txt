@@ -1,0 +1,20 @@
+# Glasbruch;
+
+pd dsp 1;
+cue Cue_0;
+filename ../../../snd/samples/glasbruch.wav;
+granulator 0 10 0 10 0 1 0 0 0 100;
+
+0
+cue Cue_1; granulator 10 49.9709 82.6772 65.594 0 0.812913 0 1.79528 4 1000;
+
+12000
+cue Cue_2; granulator 12 49.9709 82.6772 70.1439 0 0.711575 -6.33071 0.755906 0.472441 1000;
+
+6000
+cue Cue_3; granulator 15 159.656 66.9291 70.1439 0 0.220472 -10.4882 4.62992 0.472441 15000;
+
+25000
+cue Stop; granulator 0; rec-end 0;
+
+
