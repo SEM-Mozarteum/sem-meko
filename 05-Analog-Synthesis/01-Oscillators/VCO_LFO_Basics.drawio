@@ -89,6 +89,105 @@
             <mxPoint y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-21" edge="1" parent="1" source="lNL1Y9I6BRNfuNdJwdDb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lNL1Y9I6BRNfuNdJwdDb-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-23" connectable="0" parent="lNL1Y9I6BRNfuNdJwdDb-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Audio IN&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="0.5855" as="geometry">
+            <mxPoint x="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="VCO" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="Mixer" vertex="1">
+          <mxGeometry height="60" width="50" x="260" y="514.09" as="geometry" />
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-20" edge="1" parent="1" source="lNL1Y9I6BRNfuNdJwdDb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="lNL1Y9I6BRNfuNdJwdDb-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-22" connectable="0" parent="lNL1Y9I6BRNfuNdJwdDb-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="CV" vertex="1">
+          <mxGeometry relative="1" x="0.7961" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="LFO" vertex="1">
+          <mxGeometry height="60" width="30" x="60" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Tremolo" vertex="1">
+          <mxGeometry height="30" width="60" x="69" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-15" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;labelBackgroundColor=default;labelBorderColor=default;" value="" vertex="1">
+          <mxGeometry height="13.09" width="10" x="96" y="483" as="geometry" />
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-16" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270.4878048780487" y="574.09" as="sourcePoint" />
+            <mxPoint x="270" y="634.09" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-17" connectable="0" parent="lNL1Y9I6BRNfuNdJwdDb-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="OUT" vertex="1">
+          <mxGeometry relative="1" x="0.522" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-24" edge="1" parent="1" source="lNL1Y9I6BRNfuNdJwdDb-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="lNL1Y9I6BRNfuNdJwdDb-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="VCA" vertex="1">
+          <mxGeometry height="60" width="30" x="210" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-26" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;labelBackgroundColor=default;labelBorderColor=default;" value="" vertex="1">
+          <mxGeometry height="13.09" width="10" x="94" y="561" as="geometry" />
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-27" edge="1" parent="1" source="lNL1Y9I6BRNfuNdJwdDb-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lNL1Y9I6BRNfuNdJwdDb-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-28" connectable="0" parent="lNL1Y9I6BRNfuNdJwdDb-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Audio IN&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="0.5855" as="geometry">
+            <mxPoint x="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="Noise" vertex="1">
+          <mxGeometry height="60" width="30" x="510" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="Mixer" vertex="1">
+          <mxGeometry height="60" width="50" x="690" y="514.09" as="geometry" />
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-31" edge="1" parent="1" source="lNL1Y9I6BRNfuNdJwdDb-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="lNL1Y9I6BRNfuNdJwdDb-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-32" connectable="0" parent="lNL1Y9I6BRNfuNdJwdDb-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="CV" vertex="1">
+          <mxGeometry relative="1" x="0.7961" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="LFO" vertex="1">
+          <mxGeometry height="60" width="30" x="490" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-35" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700.4878048780487" y="574.09" as="sourcePoint" />
+            <mxPoint x="700" y="634.09" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-36" connectable="0" parent="lNL1Y9I6BRNfuNdJwdDb-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="OUT" vertex="1">
+          <mxGeometry relative="1" x="0.522" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-37" edge="1" parent="1" source="lNL1Y9I6BRNfuNdJwdDb-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="lNL1Y9I6BRNfuNdJwdDb-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="VCA" vertex="1">
+          <mxGeometry height="60" width="30" x="640" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-39" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;labelBackgroundColor=default;labelBorderColor=default;" value="" vertex="1">
+          <mxGeometry height="13.09" width="10" x="524" y="561" as="geometry" />
+        </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Tremolo 2" vertex="1">
+          <mxGeometry height="30" width="60" x="501" y="370" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
