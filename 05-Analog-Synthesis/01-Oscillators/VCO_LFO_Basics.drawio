@@ -188,6 +188,9 @@
         <mxCell id="lNL1Y9I6BRNfuNdJwdDb-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Tremolo 2" vertex="1">
           <mxGeometry height="30" width="60" x="501" y="370" as="geometry" />
         </mxCell>
+        <mxCell id="lNL1Y9I6BRNfuNdJwdDb-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Basic Setup" vertex="1">
+          <mxGeometry height="30" width="60" x="36" y="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
