@@ -9,3 +9,7 @@ https://aspress.co.uk/sd/
 
 Making block charts:
 https://app.smartdraw.com
+
+
+VCV Rack (Eurorack Simulation)
+https://vcvrack.com/
