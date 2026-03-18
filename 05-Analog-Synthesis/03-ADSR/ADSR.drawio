@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.3">
   <diagram name="Seite-1" id="C5M8Izz2Yb7fH9lny7Du">
-    <mxGraphModel dx="455" dy="288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1822" dy="1151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yb5ijQDMl9Cc_qtp5jBE-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=south;fontSize=8;" value="Envelope" vertex="1">
+        <mxCell id="yb5ijQDMl9Cc_qtp5jBE-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=south;fontSize=8;" value="Envelope&lt;br&gt;(ADSR)" vertex="1">
           <mxGeometry height="80" width="40" x="200" y="189" as="geometry" />
         </mxCell>
         <mxCell id="yb5ijQDMl9Cc_qtp5jBE-8" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=pulse;" value="" vertex="1">
@@ -122,8 +122,11 @@
         <mxCell id="yb5ijQDMl9Cc_qtp5jBE-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" value="Mixer" vertex="1">
           <mxGeometry height="80" width="40" x="700" y="339" as="geometry" />
         </mxCell>
-        <mxCell id="yb5ijQDMl9Cc_qtp5jBE-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;" value="ADSR" vertex="1">
-          <mxGeometry height="60" width="120" x="20" y="20" as="geometry" />
+        <mxCell id="yb5ijQDMl9Cc_qtp5jBE-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;" value="ENVELOPE GENERATORS" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yb5ijQDMl9Cc_qtp5jBE-73" parent="1" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://doepfer.de/a100_man/A142_2_sketch.gif;" value="" vertex="1">
+          <mxGeometry height="218.75" width="250" x="380" y="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
