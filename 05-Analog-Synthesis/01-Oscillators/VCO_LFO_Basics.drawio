@@ -206,7 +206,7 @@
           <mxGeometry height="60" width="30" x="130" y="780" as="geometry" />
         </mxCell>
         <mxCell id="mg4lkZ-NWf4S0JCdP0wx-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="Mixer" vertex="1">
-          <mxGeometry height="60" width="30" x="240" y="923.09" as="geometry" />
+          <mxGeometry height="60" width="30" x="290" y="923.09" as="geometry" />
         </mxCell>
         <mxCell id="mg4lkZ-NWf4S0JCdP0wx-13" edge="1" parent="1" source="mg4lkZ-NWf4S0JCdP0wx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="mg4lkZ-NWf4S0JCdP0wx-12">
           <mxGeometry relative="1" as="geometry" />
@@ -225,8 +225,8 @@
         </mxCell>
         <mxCell id="mg4lkZ-NWf4S0JCdP0wx-10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250.48780487804868" y="983.09" as="sourcePoint" />
-            <mxPoint x="250" y="1043.09" as="targetPoint" />
+            <mxPoint x="300.4878048780487" y="983.09" as="sourcePoint" />
+            <mxPoint x="300" y="1043.09" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mg4lkZ-NWf4S0JCdP0wx-11" connectable="0" parent="mg4lkZ-NWf4S0JCdP0wx-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="OUT" vertex="1">
@@ -274,6 +274,12 @@
         </mxCell>
         <mxCell id="mg4lkZ-NWf4S0JCdP0wx-17" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;labelBackgroundColor=default;labelBorderColor=default;" value="" vertex="1">
           <mxGeometry height="13.09" width="10" x="240" y="826.91" as="geometry" />
+        </mxCell>
+        <mxCell id="mg4lkZ-NWf4S0JCdP0wx-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="LFO" vertex="1">
+          <mxGeometry height="56.91" width="30" x="210" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="mg4lkZ-NWf4S0JCdP0wx-23" edge="1" parent="1" source="mg4lkZ-NWf4S0JCdP0wx-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.071;entryY=0.653;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" target="mg4lkZ-NWf4S0JCdP0wx-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
