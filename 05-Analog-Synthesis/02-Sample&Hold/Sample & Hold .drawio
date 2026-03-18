@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.3">
   <diagram name="Seite-1" id="1AWSUo8swdDct3cQeUaf">
-    <mxGraphModel dx="911" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="358" dy="226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -101,6 +101,18 @@
         </mxCell>
         <mxCell id="twyN4OC1mVX0468AUoiK-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="STEPPED&lt;br&gt;VALUES" vertex="1">
           <mxGeometry height="30" width="60" x="40" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="twyN4OC1mVX0468AUoiK-14" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=ac;" value="" vertex="1">
+          <mxGeometry height="15" width="15" x="40" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="twyN4OC1mVX0468AUoiK-15" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=triangular;" value="" vertex="1">
+          <mxGeometry height="15" width="15" x="55" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="twyN4OC1mVX0468AUoiK-16" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=sawtooth;" value="" vertex="1">
+          <mxGeometry height="15" width="15" x="70" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="twyN4OC1mVX0468AUoiK-17" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=pulse;" value="" vertex="1">
+          <mxGeometry height="15" width="15" x="85" y="710" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
