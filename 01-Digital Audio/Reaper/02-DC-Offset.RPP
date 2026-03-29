@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.27/macOS-arm64" 1733315211
+<REAPER_PROJECT 0.1 "7.65/macOS-arm64" 1774293610 0
   TITLE "DC Offset"
   AUTHOR "Achim Bornhoeft"
   <NOTES 0 2
@@ -8,11 +8,12 @@
     |- You can switch between the old and the new by clicking on it.
     |- If you want to have only the new item right click again, select "Take/Crop to active take"
   >
-  RIPPLE 0
-  GROUPOVERRIDE 0 0 0
+  RIPPLE 0 0
+  GROUPOVERRIDE 0 0 0 0
   AUTOXFADE 129
   ENVATTACH 2
   POOLEDENVATTACH 0
+  TCPUIFLAGS 0
   MIXERUIFLAGS 11 48
   PEAKGAIN 1
   FEEDBACK 0
@@ -20,11 +21,11 @@
   PROJOFFS 0 0 0
   MAXPROJLEN 0 0
   GRID 3199 8 1 8 1 0 0 0
-  TIMEMODE 0 5 -1 30 0 0 -1
+  TIMEMODE 0 5 -1 30 0 0 -1 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 6
-  ZOOM 4.35501799594493 0 0
+  CURSOR 142.07862500000502
+  ZOOM 4.35501799594493 72 0
   VZOOMEX 15.64166641 0
   USE_REC_CFG 0
   RECMODE 1
@@ -46,6 +47,7 @@
   RENDER_ADDTOPROJ 0
   RENDER_STEMS 0
   RENDER_DITHER 0
+  RENDER_TRIM 0.000001 0.000001 0 0
   TIMELOCKMODE 0
   TEMPOENVLOCKMODE 0
   ITEMMIX 1
@@ -60,16 +62,16 @@
     VOL 0.25 0.125
     BEATLEN 4
     FREQ 800 1600 1
-    SAMPLES "" ""
+    SAMPLES "" "" "" ""
     SPLIGNORE 0 0
-    SPLDEF 2 660 "" 0
-    SPLDEF 3 440 "" 0
+    SPLDEF 2 660 "" 0 ""
+    SPLDEF 3 440 "" 0 ""
     PATTERN 0 169
     PATTERNSTR ABBB
     MULT 1
   >
   GLOBAL_AUTO -1
-  TEMPO 120 4 4
+  TEMPO 120 4 4 0
   PLAYRATE 1 0 0.25 4
   SELECTION 0 0
   SELECTION2 0 0
@@ -77,7 +79,7 @@
   MASTERTRACKHEIGHT 107 0
   MASTERPEAKCOL 16576
   MASTERMUTESOLO 0
-  MASTERTRACKVIEW 1 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0
+  MASTERTRACKVIEW 1 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0 0
   MASTERHWOUT 0 0 1 0 0 0 0 -1
   MASTER_NCH 2 2
   MASTER_VOLUME 1 0 -1 -1 1
@@ -100,11 +102,14 @@
     ARM 0
     DEFSHAPE 1 -1 -1
   >
-  MARKER 1 0 "DC Offset" 0 0 1 B {E5D025B2-8CF7-DA4D-8283-9EE3B879C204} 0
-  MARKER 2 44 "Remove DC Offset with DC Filter" 0 0 1 B {ECD249FF-D9D5-0548-A416-9591CC03CE2E} 0
-  MARKER 3 88 "Original with DC" 0 0 1 B {C54AB61C-444F-0F48-82A2-1781DC62D02A} 0
-  MARKER 4 132 "Sound with DC removed" 0 0 1 B {098579DA-CCC3-3D4D-AD23-DB93079D100A} 0
-  MARKER 5 176 "Remove DC with Highpass" 0 0 1 B {53D32F56-73B5-6043-AA5E-9F7D6CC208FB} 0
+  RULERHEIGHT 86 100
+  RULERLANE 1 4 "" 0 -1
+  RULERLANE 2 8 "" 0 -1
+  MARKER 1 0 "DC Offset" 0 0 1 B {E5D025B2-8CF7-DA4D-8283-9EE3B879C204} 0 2
+  MARKER 2 44 "Remove DC Offset with DC Filter" 0 0 1 B {ECD249FF-D9D5-0548-A416-9591CC03CE2E} 0 2
+  MARKER 3 88 "Original with DC" 0 0 1 B {C54AB61C-444F-0F48-82A2-1781DC62D02A} 0 2
+  MARKER 4 132 "Sound with DC removed" 0 0 1 B {098579DA-CCC3-3D4D-AD23-DB93079D100A} 0 2
+  MARKER 5 176 "Remove DC with Highpass" 0 0 1 B {53D32F56-73B5-6043-AA5E-9F7D6CC208FB} 0 2
   <PROJBAY
   >
   <TRACK {8EE4CE48-BF8D-224F-A101-1DA66F9629F1}
@@ -119,8 +124,9 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -160,9 +166,9 @@
         FILE "Media/clm-guitar.wav"
       >
       <TAKEFX
-        WNDRECT 922 541 793 150
+        WNDRECT 669 0 793 579
         SHOW 0
-        LASTSEL 0
+        LASTSEL 1
         DOCKED 0
         BYPASS 0 0 0
         <JS filters/dc_remove ""
@@ -170,6 +176,13 @@
         >
         FLOATPOS 0 0 0 0
         FXID {C7A85166-3A3A-D24C-B39B-5136CD997B99}
+        WAK 0 0
+        BYPASS 1 0 0
+        <JS schwa/audio_statistics ""
+          300 -30 -155.37 -155.37 -20.94 134.43 -158.1 -158.1 -23.09 135.01 -8.38 -9.53 -25.87 -27.67 -0.000127 0.00011 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        >
+        FLOATPOS 0 0 0 0
+        FXID {E82582FA-6B6B-1749-AEC5-1CF43086C9BB}
         WAK 0 0
       >
     >
@@ -195,13 +208,13 @@
         FILE "Media/clm-guitar.wav"
       >
       <TAKEFX
-        WNDRECT 1106 432 793 579
+        WNDRECT 597 69 793 579
         SHOW 0
         LASTSEL 0
         DOCKED 0
         BYPASS 0 0 0
         <JS schwa/audio_statistics ""
-          300 -30 -18.17 -19.72 -15.76 3.96 -19.11 -20.28 -16.38 3.9 -8.61 -9.7 -17.62 -18.17 0.11975 -0.115012 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+          300 -30 -17.41 -17.67 -16.49 1.18 -17.48 -18.27 -17.11 1.16 -9.98 -10.82 -17.02 -17.58 0.131219 -0.125373 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
         >
         FLOATPOS 0 0 0 0
         FXID {45E9387E-BC8E-8945-A8CD-5E35F4D37AF5}
@@ -230,13 +243,13 @@
         FILE "Media/clm-guitar render 001.wav"
       >
       <TAKEFX
-        WNDRECT 1127 105 793 579
+        WNDRECT 622 6 793 579
         SHOW 0
         LASTSEL 0
         DOCKED 0
         BYPASS 0 0 0
         <JS schwa/audio_statistics ""
-          300 -30 -24.12 -30.26 -22.25 8.01 -27 -32.1 -24.22 7.88 -11.98 -14.16 -25.72 -27.85 -0.000053 0.000009 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+          300 -30 -23.59 -26.73 -22.66 4.07 -27.38 -29.34 -24.95 4.39 -12.68 -14.96 -24.51 -26.67 -0.000071 0.000013 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
         >
         FLOATPOS 0 0 0 0
         FXID {79923D0F-6E9C-E945-A593-1D42CCCE7304}
@@ -265,9 +278,9 @@
         FILE "Media/clm-guitar.wav"
       >
       <TAKEFX
-        WNDRECT 247 398 815 444
+        WNDRECT 247 263 793 579
         SHOW 0
-        LASTSEL 0
+        LASTSEL 1
         DOCKED 0
         BYPASS 0 0 0
         <VST "VST: ReaEQ (Cockos)" reaeq.vst.dylib 0 "" 1919247729<56535472656571726561657100000000> ""
@@ -278,6 +291,13 @@
         >
         FLOATPOS 0 0 0 0
         FXID {A681B7EF-EC00-A045-AA47-8CC49B7BDCAD}
+        WAK 0 0
+        BYPASS 1 0 0
+        <JS schwa/audio_statistics ""
+          300 -30 -27.06 -29.11 -22.95 6.16 -28.89 -30.43 -23.7 6.73 -12.92 -14.48 -25.25 -26.88 -0.000015 -0.000011 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        >
+        FLOATPOS 0 0 0 0
+        FXID {4F456798-E39B-5047-9502-4F9064F4CF7F}
         WAK 0 0
       >
     >
@@ -294,8 +314,9 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
