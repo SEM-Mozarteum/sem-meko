@@ -145,10 +145,9 @@
         <mxCell id="fRQu4YJESxOBhfQmVjDm-47" edge="1" parent="1" source="fRQu4YJESxOBhfQmVjDm-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#33FF33;strokeWidth=2;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="320" y="960" />
-              <mxPoint x="320" y="980" />
+              <mxPoint x="300" y="960" />
             </Array>
-            <mxPoint x="320" y="990" as="targetPoint" />
+            <mxPoint x="300" y="990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fRQu4YJESxOBhfQmVjDm-48" connectable="0" parent="fRQu4YJESxOBhfQmVjDm-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Output" vertex="1">
@@ -176,8 +175,8 @@
         <mxCell id="fRQu4YJESxOBhfQmVjDm-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Simple FM with index Control" vertex="1">
           <mxGeometry height="30" width="60" x="50" y="870" as="geometry" />
         </mxCell>
-        <mxCell id="fRQu4YJESxOBhfQmVjDm-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Here the Index is controlled by the VCA, changing the Modulator&#39;s amplitude.&amp;nbsp;&lt;br&gt;In addition, this can be developed by applying AM to the&amp;nbsp; &amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="256" x="354" y="920" as="geometry" />
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Here the Index is controlled by the VCA, changing the Modulator&#39;s amplitude.&amp;nbsp;&lt;br&gt;In addition, this can be developed by applying AM to the Control signal (with another LFO or ADSR into the CV of the VCA)&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="210" x="330" y="920" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
