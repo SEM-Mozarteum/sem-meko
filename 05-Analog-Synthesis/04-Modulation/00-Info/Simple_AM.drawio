@@ -1,0 +1,178 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36">
+  <diagram name="Seite-1" id="eTW3eASHWUkzyyMXdjpd">
+    <mxGraphModel dx="1972" dy="1260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Simple AM" vertex="1">
+          <mxGeometry height="30" width="60" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-2" edge="1" parent="1" source="fRQu4YJESxOBhfQmVjDm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontColor=#FF3333;strokeColor=#FF3333;strokeWidth=2;" target="fRQu4YJESxOBhfQmVjDm-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-3" connectable="0" parent="fRQu4YJESxOBhfQmVjDm-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="CV IN" vertex="1">
+          <mxGeometry relative="1" x="0.7882" y="1" as="geometry">
+            <mxPoint x="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" value="LFO&lt;div&gt;or VCO&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="40" x="40" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-5" edge="1" parent="1" source="fRQu4YJESxOBhfQmVjDm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fontColor=#FF3333;strokeColor=#FF3333;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-6" connectable="0" parent="fRQu4YJESxOBhfQmVjDm-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Output" vertex="1">
+          <mxGeometry relative="1" x="-0.5442" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=south;fontSize=8;" value="VCA" vertex="1">
+          <mxGeometry height="80" width="40" x="210" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-12" edge="1" parent="1" source="fRQu4YJESxOBhfQmVjDm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#33FF33;strokeWidth=3;" target="fRQu4YJESxOBhfQmVjDm-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-13" connectable="0" parent="fRQu4YJESxOBhfQmVjDm-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Audio&amp;nbsp;&lt;div&gt;IN&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.672" y="4" as="geometry">
+            <mxPoint x="-29" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" value="VCO&lt;div&gt;(or other source)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="40" x="90" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="AM (Amplitude Modulation) is the process of changing a Carrier signal&#39;s amplitude over time using another signal (Modulator).&amp;nbsp;&lt;div&gt;If the Modulator Signal is periodic and in audio range (&amp;gt; 20 hz), we will hear so called side bands, which are simple additions and subtractions of multiples of both frequencies.&lt;/div&gt;&lt;div&gt;In AM, the Carrier Signal is audible&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="240" x="280" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Simple RM" vertex="1">
+          <mxGeometry height="30" width="60" x="20" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" value="VCO or other source" vertex="1">
+          <mxGeometry height="80" width="40" x="90" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-19" edge="1" parent="1" source="fRQu4YJESxOBhfQmVjDm-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fontColor=#FF3333;strokeColor=#FF3333;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-20" connectable="0" parent="fRQu4YJESxOBhfQmVjDm-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Output" vertex="1">
+          <mxGeometry relative="1" x="-0.5442" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=south;fontSize=8;" value="Ring Mod" vertex="1">
+          <mxGeometry height="80" width="40" x="210" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-22" edge="1" parent="1" source="fRQu4YJESxOBhfQmVjDm-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#33FF33;strokeWidth=3;" target="fRQu4YJESxOBhfQmVjDm-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-23" connectable="0" parent="fRQu4YJESxOBhfQmVjDm-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="X in" vertex="1">
+          <mxGeometry relative="1" x="0.672" y="4" as="geometry">
+            <mxPoint x="-29" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" value="VCO or other source" vertex="1">
+          <mxGeometry height="80" width="40" x="90" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="RM (Ring Modulation) is a simple modulation of 2 signals (amplitudes).&amp;nbsp;&lt;br&gt;The result ist very similar to AM, but the carrier is not audible in its original form (only sidebands)." vertex="1">
+          <mxGeometry height="30" width="240" x="280" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-26" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#33FF33;strokeWidth=2;" target="fRQu4YJESxOBhfQmVjDm-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="480" />
+              <mxPoint x="190" y="480" />
+              <mxPoint x="190" y="440" />
+            </Array>
+            <mxPoint x="130" y="480" as="sourcePoint" />
+            <mxPoint x="250" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-27" connectable="0" parent="fRQu4YJESxOBhfQmVjDm-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Y in" vertex="1">
+          <mxGeometry relative="1" x="0.672" y="4" as="geometry">
+            <mxPoint x="-29" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Tip: Try different VCAs (linear and expontential)" vertex="1">
+          <mxGeometry height="30" width="170" x="280" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Simple FM" vertex="1">
+          <mxGeometry height="30" width="60" x="40" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-33" edge="1" parent="1" source="fRQu4YJESxOBhfQmVjDm-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FF3333;strokeColor=#FF3333;strokeWidth=2;" target="fRQu4YJESxOBhfQmVjDm-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-34" connectable="0" parent="fRQu4YJESxOBhfQmVjDm-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="CV IN" vertex="1">
+          <mxGeometry relative="1" x="0.7882" y="1" as="geometry">
+            <mxPoint x="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" value="LFO&lt;div&gt;or VCO&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="40" x="60" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-39" edge="1" parent="1" source="fRQu4YJESxOBhfQmVjDm-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#33FF33;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="730" />
+            </Array>
+            <mxPoint x="280" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-40" connectable="0" parent="fRQu4YJESxOBhfQmVjDm-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Output" vertex="1">
+          <mxGeometry relative="1" x="0.672" y="4" as="geometry">
+            <mxPoint x="-4" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" value="VCO&lt;div&gt;(or other source)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="40" x="150" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="FM (Frequency Modulation) is the process of changing a carrier signal&#39;s frequency over time with another signal (Modulator). If the Modulator Signal is periodic and in audio range (&amp;gt; 20 hz), we will hear so called side bands – additional frequencies (which are additions and subtractions of multiples of both frequencies.) Important here is that the spectrum changes according to the amplitude of the Modulator -&amp;gt; the higher the amplitude, the higher the overones is the spectrum ()so called INDEX)&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="200" x="320" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-51" edge="1" parent="1" source="fRQu4YJESxOBhfQmVjDm-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF3333;strokeWidth=2;" target="fRQu4YJESxOBhfQmVjDm-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" value="LFO&lt;div&gt;or VCO&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="40" x="60" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-47" edge="1" parent="1" source="fRQu4YJESxOBhfQmVjDm-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#33FF33;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="960" />
+            </Array>
+            <mxPoint x="300" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-48" connectable="0" parent="fRQu4YJESxOBhfQmVjDm-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Output" vertex="1">
+          <mxGeometry relative="1" x="0.672" y="4" as="geometry">
+            <mxPoint x="-4" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" value="VCO&lt;div&gt;(or other source)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="40" x="210" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-52" edge="1" parent="1" source="fRQu4YJESxOBhfQmVjDm-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF3333;strokeWidth=2;" target="fRQu4YJESxOBhfQmVjDm-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-57" connectable="0" parent="fRQu4YJESxOBhfQmVjDm-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="CV&lt;div&gt;IN&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.7337" y="1" as="geometry">
+            <mxPoint y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" value="&lt;div&gt;VCA&amp;nbsp;&lt;/div&gt;&lt;div&gt;(linear)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="40" x="130" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(attenuate&lt;div&gt;the CV&lt;/div&gt;&lt;div&gt;with the gain. )&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="110" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Simple FM with index Control" vertex="1">
+          <mxGeometry height="30" width="60" x="50" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="fRQu4YJESxOBhfQmVjDm-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Here the Index is controlled by the VCA, changing the Modulator&#39;s amplitude.&amp;nbsp;&lt;br&gt;In addition, this can be developed by applying AM to the Control signal (with another LFO or ADSR into the CV of the VCA)&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="210" x="330" y="920" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
