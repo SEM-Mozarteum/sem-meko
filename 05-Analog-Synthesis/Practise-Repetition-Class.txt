@@ -1,0 +1,17 @@
+- Klang mit ADSR
+	- mit LFO
+	- mit Keyboard
+- Steine
+- Zweiklang damit
+- Unterschiedliche Tonhöhen einstimmig S&H
+- 2 x unterschiedliche Tonhöhen (gesplitteter S&H)
+- Unterschiedliche Tonhöhen mit gleichzeitigem ADSR für beide Stimmen
+- das gleiche mit FM Sound, 
+- das gleiche mit AM Sound (2 VCAs für AM und ADSR
+- AM
+- RM
+- FM
+	- FM Glocke	
+- Scala
+- Double CV
+- Theremin
