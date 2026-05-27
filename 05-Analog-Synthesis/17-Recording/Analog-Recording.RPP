@@ -1,24 +1,14 @@
-<REAPER_PROJECT 0.1 "7.73/macOS-arm64" 1779387973 0
+<REAPER_PROJECT 0.1 "7.73/macOS-arm64" 1779861472 0
   TITLE Analog-Recording
   AUTHOR "Achim Bornhoeft"
   <NOTES 3 3
-    |Microphone Input via PRO FX6:
-    |—————————————————
-    |- Microphone in Channel 2
-    |- 48 V ON
-    |- GAIN U
-    |- LEVEL 0: only output from Synth, if LEVEL >0: Mix of Synth and Original
-    |- To PHONES: ON
-    |- PHONES U
-    |- Connect Phones Output (Jack) to Synth (Minijack)
-    |
     |Doepfer:
     |—————
     |
     |- Doepfer: MIXER OUTPUT 10
     |- PRO FX6: Chanel LEVEL U
     |- Click "Allow use of different input and output devices"
-    |- RAEPER: Devices: IN Pro Fx, OUT: Computer Out, Switch Monitor Input Off
+    |- RAEPER: Devices: IN Pro Fx, OUT: Computer Out
     |- In Channel: Switch Monitor Input Off
     |
     |Arp 2600:
@@ -49,7 +39,7 @@
   TIMEMODE 0 5 -1 30 0 0 -1 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 18
+  CURSOR 2
   ZOOM 20.64643085093796 0 0
   VZOOMEX 12.74315262 0
   USE_REC_CFG 0
