@@ -1,0 +1,9 @@
+Microphone Input via PRO FX6:
+—————————————————
+- Microphone in Channel 2
+- 48 V ON
+- GAIN U
+- LEVEL 0: only output from Synth, if LEVEL >0: Mix of Synth and Original
+- To PHONES: ON
+- PHONES U
+- Connect Phones Output (Jack) to Synth (Minijack)
