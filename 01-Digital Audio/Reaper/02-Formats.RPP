@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.81/macOS-arm64" 1791011930 0
+<REAPER_PROJECT 0.1 "7.82/macOS-arm64" 1791619557 0
   <NOTES 0 2
   >
   RIPPLE 0 0
@@ -17,8 +17,8 @@
   TIMEMODE 0 5 -1 30 0 0 -1 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 3.5
-  ZOOM 16.4153378288981 0 0
+  CURSOR 18
+  ZOOM 23.51080935218926 0 0
   VZOOMEX 12.74315262 0
   USE_REC_CFG 0
   RECMODE 1
@@ -66,8 +66,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4 0
   PLAYRATE 1 0 0.25 4
-  SELECTION 45 58.847
-  SELECTION2 45 58.847
+  SELECTION 0 0
+  SELECTION2 0 0
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -131,10 +131,10 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 146 0 0 0 0 0 0
+    TRACKHEIGHT 234 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -151,9 +151,11 @@
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
+      LOCK 1
       SEL 0
       IGUID {754A4D60-1C4E-374F-B7F6-5F2B8583CFC9}
       IID 13
+      SPECTROGRAM 1
       NAME gloria-44khz-16bit.aiff
       VOLPAN 1 0 1 -1
       SOFFS 0
@@ -173,9 +175,11 @@
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
+      LOCK 1
       SEL 0
       IGUID {FE51B763-5309-2240-84D4-11EDF5E46F1D}
       IID 14
+      SPECTROGRAM 1
       NAME gloria-48khz-24bit.wav
       VOLPAN 1 0 1 -1
       SOFFS 0
@@ -195,9 +199,11 @@
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
+      LOCK 1
       SEL 0
       IGUID {D2E76DBC-1429-3F49-8789-057CCF42656C}
       IID 15
+      SPECTROGRAM 1
       NAME gloria-44khz-128kbs.mp3
       VOLPAN 1 0 1 -1
       SOFFS 0
@@ -217,6 +223,7 @@
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
+      LOCK 1
       SEL 0
       IGUID {0522A8BF-AB8B-8E4A-8A1E-1170FA7ABA9C}
       IID 16
@@ -226,8 +233,7 @@
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {DC9DC07F-8D19-1E44-BC7E-699C0ECDA1B4}
-      <SOURCE VIDEO
-        FLIP 0 1
+      <SOURCE WAVE
         FILE "Media/gloria-44khz-128kbs.wma"
       >
     >
@@ -240,9 +246,11 @@
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
+      LOCK 1
       SEL 0
       IGUID {08E95282-FEA9-9245-9314-5B6DECC37257}
       IID 17
+      SPECTROGRAM 1
       NAME gloria-44khz-128kbs.m4a
       VOLPAN 1 0 1 -1
       SOFFS 0
@@ -263,9 +271,11 @@
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
+      LOCK 1
       SEL 0
       IGUID {5E7BDFE5-0107-A84C-88C3-40A446621D06}
       IID 18
+      SPECTROGRAM 1
       NAME gloria-44khz-128kkbs.ogg
       VOLPAN 1 0 1 -1
       SOFFS 0
@@ -285,9 +295,11 @@
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
+      LOCK 1
       SEL 0
       IGUID {9D14599A-7BB1-484F-A934-026D8A9CABFA}
       IID 19
+      SPECTROGRAM 1
       NAME gloria-44khz-16bit.flac
       VOLPAN 1 0 1 -1
       SOFFS 0
@@ -307,9 +319,11 @@
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
+      LOCK 1
       SEL 0
       IGUID {061BC905-7917-5749-98FF-1165C99BC607}
       IID 20
+      SPECTROGRAM 1
       NAME gloria-44khz-16bit.m4a
       VOLPAN 1 0 1 -1
       SOFFS 0
@@ -330,9 +344,11 @@
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
+      LOCK 1
       SEL 0
       IGUID {1015E4B6-8725-1C42-896A-973DB2DC436B}
       IID 21
+      SPECTROGRAM 1
       NAME gloria-8khz-64kbs.mp3
       VOLPAN 1 0 1 -1
       SOFFS 0
@@ -379,7 +395,7 @@
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {684A6477-0B6B-5048-9756-82C0ED2054DE}
       IID 22
       NAME "Supported Formats.png"
@@ -392,7 +408,5 @@
         FILE "Media/Supported Formats.png"
       >
     >
-  >
-  <EXTENSIONS
   >
 >
