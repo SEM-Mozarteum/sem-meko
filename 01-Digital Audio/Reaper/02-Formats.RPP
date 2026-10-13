@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.82/macOS-arm64" 1791619557 0
+<REAPER_PROJECT 0.1 "7.82/macOS-arm64" 1791886963 0
   <NOTES 0 2
   >
   RIPPLE 0 0
@@ -17,8 +17,8 @@
   TIMEMODE 0 5 -1 30 0 0 -1 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 18
-  ZOOM 23.51080935218926 0 0
+  CURSOR 3
+  ZOOM 13.0366419292768 0 0
   VZOOMEX 12.74315262 0
   USE_REC_CFG 0
   RECMODE 1
@@ -104,16 +104,16 @@
   MARKER 1 14.5 "" 1
   MARKER 2 7.5 WAV 0 0 1 B {8778AE58-FA9A-9C4D-8ABC-6150D19D97EA} 0 2
   MARKER 2 15 "lossy compressed" 1 0 1 B {5FFFB603-070D-F84A-A3EB-D4B5D1146FA4} 0 1
-  MARKER 2 44 "" 1
+  MARKER 2 52 "" 1
   MARKER 3 15 MP3 0 0 1 B {E07DACFC-6AD4-174D-9655-99BA3832C721} 0 2
-  MARKER 5 22.5 WMA 0 0 1 B {B141A714-8015-6A43-B562-61151DB6198E} 0 2
+  MARKER 5 22.5 Opus 0 0 1 B {B141A714-8015-6A43-B562-61151DB6198E} 0 2
   MARKER 4 30 AAC 0 0 1 B {83ED53FD-8D69-AC40-AFFD-B8F7EA97375B} 0 2
   MARKER 6 37.5 OGG 0 0 1 B {EC2C02FF-5BE3-0842-B109-6E0030217334} 0 2
-  MARKER 7 45 FLAC 0 0 1 B {32A44EA4-D57F-CE49-B746-48F702E57C13} 0 2
-  MARKER 3 45 "lossless compressed" 1 0 1 B {3C709B8C-23A9-4E41-AB51-9507A7515A4A} 0 1
-  MARKER 3 58.847 "" 1
-  MARKER 8 52 ALAC 0 0 1 B {706503E1-3EFE-1D44-80E8-DBC8170834BF} 0 2
-  MARKER 9 59.5 "MP4: 8KHZ-64KPS" 8 0 1 B {60EE2363-208F-3A47-B77E-1C7540AE76AF} 0 2
+  MARKER 9 45 "MP4: 8KHZ-64KPS" 0 0 1 B {60EE2363-208F-3A47-B77E-1C7540AE76AF} 0 2
+  MARKER 7 52.653 FLAC 0 0 1 B {32A44EA4-D57F-CE49-B746-48F702E57C13} 0 2
+  MARKER 3 52.653 "lossless compressed" 9 0 1 B {3C709B8C-23A9-4E41-AB51-9507A7515A4A} 0 1
+  MARKER 3 66.5 "" 9
+  MARKER 8 59.653 ALAC 0 0 1 B {706503E1-3EFE-1D44-80E8-DBC8170834BF} 0 2
   <PROJBAY
   >
   <TRACK {0402A84A-CFA7-9844-94C4-83474BE738FE}
@@ -131,10 +131,10 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 234 0 0 0 0 0 0
+    TRACKHEIGHT 259 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -151,7 +151,6 @@
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
-      LOCK 1
       SEL 0
       IGUID {754A4D60-1C4E-374F-B7F6-5F2B8583CFC9}
       IID 13
@@ -175,7 +174,6 @@
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
-      LOCK 1
       SEL 0
       IGUID {FE51B763-5309-2240-84D4-11EDF5E46F1D}
       IID 14
@@ -199,10 +197,31 @@
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
-      LOCK 1
       SEL 0
       IGUID {D2E76DBC-1429-3F49-8789-057CCF42656C}
       IID 15
+      <NOTES
+        |Ein lossy-Codec (MP3, AAC, Ogg Vorbis, Opus) wirft Information weg, die er für wahrnehmungsphysiologisch unwichtig hält, vor allem Anteile, die durch Maskierungseffekte ohnehin kaum hörbar sind. Die Bitrate ist das Budget, das dem Encoder dafür zur Verfügung steht: Je weniger Bits pro Sekunde, desto mehr muss er verwerfen oder grob quantisieren. Bei PCM/WAV ist die Datenrate dagegen fest durch Abtastrate, Bittiefe und Kanalzahl bestimmt (CD-Qualität: 1411 kbps), und es geht nichts verloren.
+        |
+        |Typische Artefakte bei zu niedriger Bitrate
+        |
+        |Höhenbeschneidung (Tiefpass, oft bei 16 kHz oder tiefer)
+        |Pre-Echo vor Transienten, “Wässrigkeit” oder Zwitschern in den Höhen
+        |Verschmierte Stereobild- und Raumeindrücke
+        |Bei sehr tiefen Raten: Quantisierungsrauschen, “Blubbern”
+        |
+        |Betriebsarten
+        |
+        |CBR (konstant): immer dieselbe Rate, vorhersagbare Dateigröße, aber ineffizient, weil einfache Passagen Bits verschwenden und komplexe zu wenige bekommen.
+        |VBR (variabel): Der Encoder verteilt die Bits nach Bedarf, bei gleicher Dateigröße meist bessere Qualität.
+        |ABR: ein Mittelweg, bei dem sich die Rate um einen Zielwert bewegt.
+        |
+        |Bitrate ist nicht gleich Qualität
+        |
+        |Die Zahlen sind nur zwischen gleichen Codecs direkt vergleichbar. Als Faustregel gilt: AAC und Vorbis erreichen bei gleicher Rate bessere Qualität als MP3, Opus nochmals mehr, besonders bei niedrigen Raten. 128 kbps MP3 klingt deutlich schlechter als 128 kbps Opus. Grobe Orientierung: MP3 ab etwa 192 kbps VBR (V2) oder 256 bis 320 kbps gilt für die meisten als transparent, bei AAC genügen oft 128 bis 192 kbps, bei Opus 96 bis 128 kbps.
+      >
+      IMGRESOURCEFLAGS 8
+      NOTESWND 50 474 597 876
       SPECTROGRAM 1
       NAME gloria-44khz-128kbs.mp3
       VOLPAN 1 0 1 -1
@@ -224,7 +243,7 @@
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       LOCK 1
-      SEL 0
+      SEL 1
       IGUID {0522A8BF-AB8B-8E4A-8A1E-1170FA7ABA9C}
       IID 16
       NAME gloria-44khz-128kbs.wma
@@ -238,6 +257,41 @@
       >
     >
     <ITEM
+      POSITION 22.5
+      SNAPOFFS 0
+      LENGTH 6.84654166666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {AD0329BB-1C1A-1642-8657-D10CC20179CA}
+      IID 88
+      <NOTES
+        |Opus ist ein offener, lizenzfreier lossy-Audiocodec, standardisiert 2012 von der IETF (RFC 6716). Er entstand aus zwei Vorläufern: SILK (von Skype, für Sprache optimiert) und CELT (von Xiph.Org, für Musik und niedrige Latenz). Opus kombiniert beide und wählt je nach Material und Bitrate den passenden Modus oder mischt sie.
+        |
+        |Wichtige Eigenschaften
+        |
+        |Sehr breiter Bitratenbereich: von etwa 6 bis 510 kbps, vom schmalbandigen Sprachsignal bis zu transparenter Musik in Stereo oder Mehrkanal.
+        |Geringe Latenz: Frame-Längen von 2,5 bis 60 ms, deshalb ist Opus der Standard für Echtzeitanwendungen (WebRTC, Videokonferenzen, Voice-Chat).
+        |Hohe Effizienz: Bei gleicher Bitrate klingt Opus meist besser als MP3 und AAC, besonders unter etwa 128 kbps.
+        |Bandbreite bis 20 kHz (Fullband), je nach Bitrate automatisch angepasst.
+      >
+      IMGRESOURCEFLAGS 8
+      NOTESWND 50 474 597 876
+      SPECTROGRAM 1
+      NAME gloria-48khz-24bit.opus
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {904DD759-FFBF-504D-BF8E-5CD3091A0D6B}
+      <SOURCE OPUS
+        FILE "Media/gloria-48khz-24bit.opus"
+      >
+    >
+    <ITEM
       POSITION 30
       SNAPOFFS 0
       LENGTH 6.847
@@ -246,7 +300,6 @@
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
-      LOCK 1
       SEL 0
       IGUID {08E95282-FEA9-9245-9314-5B6DECC37257}
       IID 17
@@ -271,7 +324,6 @@
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
-      LOCK 1
       SEL 0
       IGUID {5E7BDFE5-0107-A84C-88C3-40A446621D06}
       IID 18
@@ -289,13 +341,35 @@
     <ITEM
       POSITION 45
       SNAPOFFS 0
+      LENGTH 6.846625
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1015E4B6-8725-1C42-896A-973DB2DC436B}
+      IID 21
+      SPECTROGRAM 1
+      NAME gloria-8khz-64kbs.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7960143A-C85D-FC48-85F1-FB842C8DD773}
+      <SOURCE MP3
+        FILE "Media/gloria-8khz-64kbs.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 52.653
+      SNAPOFFS 0
       LENGTH 6.8465306122449
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
-      LOCK 1
       SEL 0
       IGUID {9D14599A-7BB1-484F-A934-026D8A9CABFA}
       IID 19
@@ -311,7 +385,7 @@
       >
     >
     <ITEM
-      POSITION 52
+      POSITION 59.653
       SNAPOFFS 0
       LENGTH 6.847
       LOOP 1
@@ -319,7 +393,6 @@
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
-      LOCK 1
       SEL 0
       IGUID {061BC905-7917-5749-98FF-1165C99BC607}
       IID 20
@@ -333,30 +406,6 @@
       <SOURCE VIDEO
         FLIP 0 1
         FILE "Media/gloria-44khz-16bit.m4a"
-      >
-    >
-    <ITEM
-      POSITION 59.5
-      SNAPOFFS 0
-      LENGTH 6.846625
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      LOCK 1
-      SEL 0
-      IGUID {1015E4B6-8725-1C42-896A-973DB2DC436B}
-      IID 21
-      SPECTROGRAM 1
-      NAME gloria-8khz-64kbs.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {7960143A-C85D-FC48-85F1-FB842C8DD773}
-      <SOURCE MP3
-        FILE "Media/gloria-8khz-64kbs.mp3" 1
       >
     >
   >
@@ -375,10 +424,10 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 168 0 0 0 0 0 0
+    TRACKHEIGHT 303 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -389,11 +438,11 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 66
+      LENGTH 66.5
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {684A6477-0B6B-5048-9756-82C0ED2054DE}
