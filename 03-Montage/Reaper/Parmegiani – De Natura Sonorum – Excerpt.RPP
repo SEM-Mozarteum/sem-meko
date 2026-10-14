@@ -1,5 +1,21 @@
-<REAPER_PROJECT 0.1 "7.82/macOS-arm64" 1791970490 0
-  <NOTES 0 2
+<REAPER_PROJECT 0.1 "7.82/macOS-arm64" 1791972770 0
+  TITLE "De Natura Sonorum (1975)  („On the Nature of Sound“)"
+  AUTHOR "Bernard Parmegiani (1927 – 2013) "
+  <NOTES 3 3
+    |Bernard Parmegiani (1927 – 2013) 
+    |De Natura Sonorum (1975)  („On the Nature of Sound“)
+    |	-> Daraus: II. Accidents / Harmoniques
+    |
+    |Part I: https://www.youtube.com/watch?v=lXs4RwvyIWw&list=OLAK5uy_l3-5wTbIm7pQDZ7LQ7HZQtUFDfeuTVaPc
+    |Part II: https://www.youtube.com/watch?v=3WlOcEjnvxA&list=OLAK5uy_l3-5wTbIm7pQDZ7LQ7HZQtUFDfeuTVaPc&index=2
+    |
+    |-> Aspects of Musique concréte:  an experimental music composition technique that uses recorded real-world or natural sounds as its primary raw material rather than traditional musical notation or live instruments. 
+    |
+    |https://en.wikipedia.org/wiki/Musique_concr%C3%A8te
+    |
+    |Acousmatic, adjective: referring to a sound that one hears without seeing the causes behind it.
+    |
+    |-> Extrapolate the sonic event from its corporal source and therefore free it from its semantics.
   >
   RIPPLE 0 0
   GROUPOVERRIDE 0 0 0 0
@@ -18,8 +34,8 @@
   TIMEMODE 1 5 -1 30 0 0 -1 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 270.66472534565781
-  ZOOM 3.33253621744793 341 0
+  CURSOR 0
+  ZOOM 0.96513895772158 0 0
   VZOOMEX 0 0
   USE_REC_CFG 0
   RECMODE 1
