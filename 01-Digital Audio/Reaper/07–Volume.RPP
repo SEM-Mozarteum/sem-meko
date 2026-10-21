@@ -1,0 +1,419 @@
+<REAPER_PROJECT 0.1 "7.82/macOS-arm64" 1792581030 0
+  <NOTES 0 2
+  >
+  RIPPLE 0 0
+  GROUPOVERRIDE 0 0 0 0
+  AUTOXFADE 129
+  ENVATTACH 2
+  POOLEDENVATTACH 0
+  TCPUIFLAGS 0
+  MIXERUIFLAGS 11 48 0
+  ENVFADESZ10 40
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 0
+  GRID 3454 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1 0
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 84.31582691887122
+  ZOOM 4.89550861125711 0 0
+  VZOOMEX 21.19735909 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 1
+  LOOPGRAN 0 4
+  RECORD_PATH "Media" ""
+  <RECORD_CFG
+    ZXZhdxgAAQ==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN ""
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  RENDER_TRIM 0.000001 0.000001 0 0
+  TIMELOCKMODE 0
+  TEMPOENVLOCKMODE 0
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    ZXZhdxgAAQ==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    BEATLEN 4
+    FREQ 800 1600 1
+    SAMPLES "" "" "" ""
+    SPLIGNORE 0 0
+    SPLDEF 2 660 "" 0 ""
+    SPLDEF 3 440 "" 0 ""
+    PATTERN 0 169
+    PATTERNSTR ABBB
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4 0
+  PLAYRATE 1 0 0.25 4
+  SELECTION 2.2716155050522 2.13559062451015
+  SELECTION2 2.2716155050522 2.13559062451015
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 32 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 1 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0 1
+  MASTERHWOUT 0 0 1 0 0 0 2048 -1
+  MASTER_NCH 4 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_FX 1
+  MASTER_TRACKID {6DB7097D-A283-9F4C-8CC8-12F740EC7E68}
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {69E47062-FADC-1E40-929F-6CA1FC57BC1A}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {20EA5837-F80B-7044-B48D-14962BBE604F}
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  RULERHEIGHT 66 61
+  RULERLANE 1 4 "" 0 -1 0
+  RULERLANE 2 8 "" 0 -1 0
+  MARKER 1 5 normalize 0 0 1 B {291DB505-61CF-B641-81C1-224502E378EE} 0 2
+  MARKER 2 9.5 "too much" 0 0 1 B {0037EDD6-104A-4E47-861B-5BCCCFC2D598} 0 2
+  MARKER 3 17 "half it" 0 0 1 B {3D5B6713-7E2F-174A-8DC8-AB5A2DEB47CE} 0 2
+  MARKER 4 40 "db doesnt always mean loudness" 0 0 1 B {E9E4596E-507A-7A48-8636-C6B28FD84095} 0 2
+  <PROJBAY
+  >
+  <TRACK {30234722-5C7F-ED4D-9FEF-E62C8666EB85}
+    NAME bach
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 341 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {30234722-5C7F-ED4D-9FEF-E62C8666EB85}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 32 138 727 774
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 4.10727083333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1C2E9A95-6191-7746-84BA-319A68B0A3F1}
+      IID 415
+      NAME cello.wav
+      VOLPAN 1 0 5.536502 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B3F5E91E-F9DA-394A-80DA-23B46586EFC4}
+      <SOURCE WAVE
+        FILE "Media/cello.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME /Users/alexbauer/Documents/GitHub/sem-meko/03-Montage/Reaper/Media/cello.wav
+      >
+    >
+    <ITEM
+      POSITION 5.08419135430094
+      SNAPOFFS 0
+      LENGTH 4.10727083333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {91AAE4F2-EF03-ED47-A60B-CEFCE3037556}
+      IID 415
+      NAME cello.wav
+      VOLPAN 1 0 7.820517 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2380163E-5D3D-D342-B1F6-73C59CC6AD0A}
+      <SOURCE WAVE
+        FILE "Media/cello.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME /Users/alexbauer/Documents/GitHub/sem-meko/03-Montage/Reaper/Media/cello.wav
+      >
+    >
+    <ITEM
+      POSITION 9.5
+      SNAPOFFS 0
+      LENGTH 4.10727083333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BC204088-7DDF-2F42-AF2C-64E00E119C64}
+      IID 415
+      NAME cello.wav
+      VOLPAN 1 0 7.820517 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D73D2A92-082F-724A-8EC8-1045E5B4EFEE}
+      <SOURCE WAVE
+        FILE "Media/cello.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME /Users/alexbauer/Documents/GitHub/sem-meko/03-Montage/Reaper/Media/cello.wav
+      >
+    >
+    <ITEM
+      POSITION 17
+      SNAPOFFS 0
+      LENGTH 4.10727083333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {85B709A4-8D8C-2443-8865-BCEB962F03A2}
+      IID 415
+      NAME "cello render 001.wav"
+      VOLPAN 1 0 3.981072 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D086E5F6-EB85-5A4E-BB41-8F2ABB79A0D6}
+      <SOURCE WAVE
+        FILE "Media/cello render 001.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "/Users/alexbauer/Documents/REAPER Media/cello render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 22.5
+      SNAPOFFS 0
+      LENGTH 4.10727083333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 2 0 0 2 0 1 1 1 0 0 1 0 0
+      FADEOUT 1 1.15427482131992 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {99BA0AAF-06A2-DD46-A9AA-5E01055D910B}
+      IID 415
+      NAME "cello render 001.wav"
+      VOLPAN 1 0 0.501187 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5E4DC5C3-741F-6C4F-BCDE-C17E70487849}
+      <SOURCE WAVE
+        FILE "Media/cello render 001.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "/Users/alexbauer/Documents/REAPER Media/cello render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 29.5
+      SNAPOFFS 0
+      LENGTH 4.10727083333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B964BF55-B66E-1F49-A615-755DBF0AFBCB}
+      IID 415
+      NAME "cello render 001.wav"
+      VOLPAN 1 0 0.251189 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E350CC5E-DCE3-7343-AE75-C7687B3CA0A3}
+      <SOURCE WAVE
+        FILE "Media/cello render 001.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "/Users/alexbauer/Documents/REAPER Media/cello render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 40
+      SNAPOFFS 0
+      LENGTH 4.10727083333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8953B3FB-790D-D44A-BF98-26162E82B343}
+      IID 415
+      NAME "cello render 001.wav"
+      VOLPAN 1 0 0.125893 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {33905F6F-917A-2040-9CC3-FE2498537A4A}
+      <SOURCE WAVE
+        FILE "Media/cello render 001.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "/Users/alexbauer/Documents/REAPER Media/cello render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 47.84276562323855
+      SNAPOFFS 0
+      LENGTH 22.43113021009478
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 2 0 0 2 0 1 1 1 0 0 1 0 0
+      FADEOUT 0 7.06774795228161 0 0 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7B5C0704-846F-C148-8A19-64E0C025705A}
+      IID 423
+      NAME high-street-of-gandia-valencia-spain.wav
+      VOLPAN 1 0 0.794328 -1
+      SOFFS 1.34276562323855
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {76DF27C3-1D56-7146-A202-15AAB8EB9EB9}
+      <SOURCE WAVE
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME /Users/alexbauer/Documents/GitHub/sem-meko/03-Montage/Reaper/Media/high-street-of-gandia-valencia-spain.wav
+      >
+    >
+    <ITEM
+      POSITION 75.59943334385753
+      SNAPOFFS 0
+      LENGTH 22.43113021009478
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 2 0 0 2 0 1 1 1 0 0 1 0 0
+      FADEOUT 2 7.06774795228161 0 2 0 -1 -1 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {404B680A-2EAD-074D-B134-16593B8CAB86}
+      IID 423
+      NAME high-street-of-gandia-valencia-spain.wav
+      VOLPAN 1 0 0.794328 -1
+      SOFFS 1.34276562323855
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E327F66A-4606-E84F-AC1B-9A31C9F5612E}
+      <SOURCE WAVE
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME /Users/alexbauer/Documents/GitHub/sem-meko/03-Montage/Reaper/Media/high-street-of-gandia-valencia-spain.wav
+      >
+    >
+  >
+  <TRACK {FEA48F56-331B-7745-A54F-E5B575889829}
+    NAME cello
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {FEA48F56-331B-7745-A54F-E5B575889829}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 9.5
+      SNAPOFFS 0
+      LENGTH 4.10727083333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A74D72F2-268C-B047-9D12-14A64C0AD0A7}
+      IID 415
+      NAME cello.wav
+      VOLPAN 1 0 7.820517 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A0B1E02B-FB24-034C-9F16-CCC5B1592E00}
+      <SOURCE WAVE
+        FILE "Media/cello.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME /Users/alexbauer/Documents/GitHub/sem-meko/03-Montage/Reaper/Media/cello.wav
+      >
+    >
+  >
+>
