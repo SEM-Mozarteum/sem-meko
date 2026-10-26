@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.82/macOS-arm64" 1792590529 0
+<REAPER_PROJECT 0.1 "7.83/macOS-arm64" 1793032469 0
   RIPPLE 0 0
   GROUPOVERRIDE 0 0 0 0
   AUTOXFADE 129
@@ -15,9 +15,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 328.82373284516279
-  ZOOM 65.89644290995513 21154 0
-  VZOOMEX 29.57892609 745
+  CURSOR 216.11930569464698
+  ZOOM 2.76205302316168 143 0
+  VZOOMEX 5.76664305 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -31,7 +31,7 @@
   RENDER_FILE ""
   RENDER_PATTERN Blende
   RENDER_FMT 0 2 0
-  RENDER_1X 0
+  RENDER_1X 0 0
   RENDER_RANGE 1 0 0 18 1000
   RENDER_RESAMPLE 3 0 1
   RENDER_ADDTOPROJ 0
@@ -132,7 +132,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -312,7 +312,7 @@
       CHANMODE 0
       GUID {FD46589F-7B07-F145-914B-9E62C1E7175C}
       <SOURCE WAVE
-        FILE "high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
       <EXT
         ORIGINAL_FILENAME "/Users/alexbauer/Documents/GitHub/sem-meko/01-Digital Audio/Reaper/Media/high-street-of-gandia-valencia-spain.wav"
@@ -349,7 +349,7 @@
       FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1.1 0 34.698693 1 1 0 0 1 0 0 1 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {EAF40822-78D2-1B43-80E8-E945BCE3DDF9}
       IID 1
       NAME high-street-of-gandia-valencia-spain.wav
@@ -359,7 +359,7 @@
       CHANMODE 0
       GUID {90CCE8CF-0649-AB4C-B83D-AEE4DA1C636B}
       <SOURCE WAVE
-        FILE "high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
       <EXT
         ORIGINAL_FILENAME "/Users/alexbauer/Documents/GitHub/sem-meko/01-Digital Audio/Reaper/Media/high-street-of-gandia-valencia-spain.wav"
@@ -406,7 +406,7 @@
       CHANMODE 0
       GUID {F28400B5-CB39-0346-BF68-C019359E79CC}
       <SOURCE WAVE
-        FILE "high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
       <EXT
         ORIGINAL_FILENAME "/Users/alexbauer/Documents/GitHub/sem-meko/01-Digital Audio/Reaper/Media/high-street-of-gandia-valencia-spain.wav"
@@ -497,7 +497,7 @@
       CHANMODE 0
       GUID {6596B55D-18C0-1240-B535-D477796B3239}
       <SOURCE WAVE
-        FILE "high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
       <EXT
         ORIGINAL_FILENAME "/Users/alexbauer/Documents/GitHub/sem-meko/01-Digital Audio/Reaper/Media/high-street-of-gandia-valencia-spain.wav"
@@ -566,7 +566,7 @@
       CHANMODE 0
       GUID {40036F3A-5E37-7644-BED8-575E4DB22B4D}
       <SOURCE WAVE
-        FILE "high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
       <EXT
         ORIGINAL_FILENAME "/Users/alexbauer/Documents/GitHub/sem-meko/01-Digital Audio/Reaper/Media/high-street-of-gandia-valencia-spain.wav"
@@ -591,7 +591,7 @@
       CHANMODE 0
       GUID {FF93C4BB-9C5C-BE4F-889B-87516CFE2D65}
       <SOURCE WAVE
-        FILE "high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
       <EXT
         ORIGINAL_FILENAME "/Users/alexbauer/Documents/GitHub/sem-meko/01-Digital Audio/Reaper/Media/high-street-of-gandia-valencia-spain.wav"
@@ -836,7 +836,7 @@
       CHANMODE 0
       GUID {A147C197-17C1-3146-A28C-79561A58CF5D}
       <SOURCE WAVE
-        FILE "high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
       <EXT
         ORIGINAL_FILENAME "/Users/alexbauer/Documents/GitHub/sem-meko/01-Digital Audio/Reaper/Media/high-street-of-gandia-valencia-spain.wav"
@@ -849,14 +849,14 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     LANEREC -1 -1 -1 0
-    SEL 0
+    SEL 1
     REC 0 0 0 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -957,7 +957,7 @@
       CHANMODE 2
       GUID {0C0FB48D-BD6E-2D42-B233-D188C757ECA9}
       <SOURCE WAVE
-        FILE "high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
       <EXT
         ORIGINAL_FILENAME "/Users/alexbauer/Documents/GitHub/sem-meko/01-Digital Audio/Reaper/Media/high-street-of-gandia-valencia-spain.wav"
@@ -982,7 +982,7 @@
       CHANMODE 2
       GUID {F8BA26F5-7AAA-F547-BD27-8A236CFE6387}
       <SOURCE WAVE
-        FILE "high-street-of-gandia-valencia-spain.wav"
+        FILE "Media/high-street-of-gandia-valencia-spain.wav"
       >
       <EXT
         ORIGINAL_FILENAME "/Users/alexbauer/Documents/GitHub/sem-meko/01-Digital Audio/Reaper/Media/high-street-of-gandia-valencia-spain.wav"
