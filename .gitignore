@@ -1,6 +1,10 @@
 # mac desktop files
 .DS_Store
 
+# ignore folder
+/Backups
+/peaks
+
 # temporary Opusmodus files
 *.opmo~
 *.lisp~
