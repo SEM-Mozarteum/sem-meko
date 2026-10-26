@@ -1,0 +1,1 @@
+To edit the files move them one level up to access the media files
