@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.83/macOS-arm64" 1793041104 0
+<REAPER_PROJECT 0.1 "7.82/macOS-arm64" 1793779306 0
   <NOTES 0 2
   >
   RIPPLE 0 0
@@ -18,8 +18,8 @@
   TIMEMODE 1 5 -1 30 0 0 -1 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 81.08966666666659
-  ZOOM 1.04589789493653 0 0
+  CURSOR 430.47422728163929
+  ZOOM 0.64257954561968 0 0
   VZOOMEX 0.55000001 0
   USE_REC_CFG 0
   RECMODE 1
@@ -35,7 +35,7 @@
   RENDER_FILE ""
   RENDER_PATTERN ""
   RENDER_FMT 0 2 0
-  RENDER_1X 0 0
+  RENDER_1X 0
   RENDER_RANGE 1 0 0 18 1000
   RENDER_RESAMPLE 3 0 1
   RENDER_ADDTOPROJ 0
@@ -107,9 +107,9 @@
   MARKER 3 81.08966666666659 schichtung 0 0 1 B {A2724F26-7775-F644-93A3-8598EC250627} 0 2
   MARKER 4 129.86711374495937 filter 0 0 1 B {DA12C045-CC78-434F-9DE0-78FFB7431B30} 0 2
   MARKER 5 245.36430570978828 "glitchy structure" 0 0 1 B {3EBA8F62-26A2-D14E-BDBF-DB46CD341D45} 0 2
-  MARKER 6 430.47422728163929 "" 0 0 1 B {37D85681-6008-5B48-A687-5498B7DEC7C4} 0 2
+  MARKER 6 430.47422728163929 "" 8 0 1 B {37D85681-6008-5B48-A687-5498B7DEC7C4} 0 2
   MARKER 7 607.76949177338167 "" 0 0 1 B {39C4573D-2309-D749-895B-88B534F96A2C} 0 2
-  MARKER 1 703.79514142284529 Stretchfläche 8 0 1 B {D2D378C4-A1B9-D348-844F-2A810E21CFE0} 0 2
+  MARKER 1 703.79514142284529 Stretchfläche 0 0 1 B {D2D378C4-A1B9-D348-844F-2A810E21CFE0} 0 2
   <PROJBAY
   >
   <TRACK {3C3D5639-AEDF-0649-913A-BF84CD1D1058}
@@ -682,7 +682,7 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -1002,12 +1002,12 @@
       WAK 0 0
       BYPASS 0 0 0
       <JS utility/volume_pan_sample_accurate_auto ""
-        0 35.4 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        0 -48.4 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       >
       MULTIFXLINK 0
       FLOATPOS 0 0 0 0
       FXID {AFC749C6-0221-4C47-89D0-A5A0970FB4B6}
-      <PARMENV 1 -100 100 0 "Pan / Volume/Pan Adjustment"
+      <PARMENV 1 -100 100 0 "Pan / Volume/Pan Smoother v5"
         EGUID {CF502450-1FC3-D745-B486-A7AD53D5F541}
         ACT 1 -1
         VIS 1 1 1
@@ -1016,7 +1016,7 @@
         DEFSHAPE 0 -1 -1
         PT 0 -12.2 0
       >
-      <PROGRAMENV 1 0 "Pan / Volume/Pan Adjustment"
+      <PROGRAMENV 1 0 "Pan / Volume/Pan Smoother v5"
         PARAMBASE 0
         LFO 1
         LFOWT 1 0
@@ -8597,12 +8597,12 @@
       DOCKED 0
       BYPASS 0 0 0
       <JS utility/volume_pan_sample_accurate_auto ""
-        0 2.4 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        0 -2.3 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       >
       MULTIFXLINK 0
       FLOATPOS 0 0 0 0
       FXID {618F3053-8F5D-D441-AE49-39348C065997}
-      <PARMENV 1 -100 100 0 "Pan / Volume/Pan Adjustment"
+      <PARMENV 1 -100 100 0 "Pan / Volume/Pan Smoother v5"
         EGUID {74A2CDFB-D72E-E246-8CD1-7B785E2509F7}
         ACT 1 -1
         VIS 1 1 1
@@ -8611,7 +8611,7 @@
         DEFSHAPE 0 -1 -1
         PT 0 -12.2 0
       >
-      <PROGRAMENV 1 0 "Pan / Volume/Pan Adjustment"
+      <PROGRAMENV 1 0 "Pan / Volume/Pan Smoother v5"
         PARAMBASE 0
         LFO 1
         LFOWT 1 0
@@ -15886,12 +15886,12 @@
       DOCKED 0
       BYPASS 0 0 0
       <JS utility/volume_pan_sample_accurate_auto ""
-        0 84.9 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        0 -93.3 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       >
       MULTIFXLINK 0
       FLOATPOS 0 0 0 0
       FXID {CF20C96E-30A3-BD40-964E-B0D5B44513F4}
-      <PARMENV 1 -100 100 0 "Pan / Volume/Pan Adjustment"
+      <PARMENV 1 -100 100 0 "Pan / Volume/Pan Smoother v5"
         EGUID {9691A4A0-6A07-6749-A527-7A135E3CECE6}
         ACT 1 -1
         VIS 1 1 1
@@ -15900,7 +15900,7 @@
         DEFSHAPE 0 -1 -1
         PT 0 -12.2 0
       >
-      <PROGRAMENV 1 0 "Pan / Volume/Pan Adjustment"
+      <PROGRAMENV 1 0 "Pan / Volume/Pan Smoother v5"
         PARAMBASE 0
         LFO 1
         LFOWT 1 0
@@ -20530,7 +20530,7 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0

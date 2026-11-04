@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.83/macOS-arm64" 1793114143 0
+<REAPER_PROJECT 0.1 "7.82/macOS-arm64" 1793621037 0
   TITLE "03 -Item Operations: Normalize / Reverse / Channel Modes / Pitchshift / Timestretch"
   <NOTES 3 3
     |All examples are done changing the Parameters in the Item's Settings.
@@ -16,13 +16,13 @@
   PANLAW 1
   PROJOFFS 0 0 0
   MAXPROJLEN 0 0
-  GRID 3199 8 1 8 1 0 0 0
+  GRID 3454 8 1 8 1 0 0 0
   TIMEMODE 1 5 -1 30 0 0 -1 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 200
-  ZOOM 1.78064683324091 0 0
-  VZOOMEX 9.19239235 0
+  CURSOR 1700.2511467657571
+  ZOOM 17.44624613629898 29038 0
+  VZOOMEX 13.75568199 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -37,7 +37,7 @@
   RENDER_FILE ""
   RENDER_PATTERN ""
   RENDER_FMT 0 2 0
-  RENDER_1X 0 0
+  RENDER_1X 0
   RENDER_RANGE 1 0 0 18 1000
   RENDER_RESAMPLE 3 0 1
   RENDER_ADDTOPROJ 0
@@ -69,8 +69,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4 0
   PLAYRATE 1 0 0.25 4
-  SELECTION 0 0
-  SELECTION2 0 0
+  SELECTION 1641 1856
+  SELECTION2 1641 1856
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 74 0
   MASTERPEAKCOL 16576
@@ -102,7 +102,7 @@
   RULERHEIGHT 86 86
   RULERLANE 1 4 "" 0 -1 0
   RULERLANE 2 8 "" 0 -1 0
-  MARKER 1 0 Original 8 0 1 B {63CF2C8C-EDC0-2242-ABCA-9D39A1D95D35} 0 2
+  MARKER 1 0 Original 0 0 1 B {63CF2C8C-EDC0-2242-ABCA-9D39A1D95D35} 0 2
   MARKER 1 0 Normalisation 1 0 1 B {85CFDD06-8A59-5F4B-A6C6-E95CC2A5E377} 0 1
   MARKER 1 40 "" 1
   MARKER 2 12 "Normalized to 0db" 0 0 1 B {287ACA98-6C94-8C48-BA22-1FA8345252CA} 0 2
@@ -118,24 +118,29 @@
   MARKER 10 82 Reverse 0 0 1 B {87090BA6-76EB-3743-BE54-6020738269BB} 0 2
   MARKER 3 82 Reverse 1 0 1 B {F5C41520-6B0A-A443-8018-21F18340C6CB} 0 1
   MARKER 3 89 "" 1
-  MARKER 11 92 "Timestretch/-compression without Pitch Correction" 0 0 1 B {A88D0857-5237-8145-97E8-2DE0BFBD11D6} 0 2
-  MARKER 4 92 "Modify time without pitch correction" 1 0 1 B {9540C5D8-7040-A544-9727-50872D198ED7} 0 1
-  MARKER 4 228 "" 1
-  MARKER 12 150.5 "Playback Rates Octaves" 0 0 1 B {E3BEF5E8-9F82-8A47-874E-E9913D4251A7} 0 2
-  MARKER 13 164 "Polyrhythms / Intervals" 0 0 1 B {0DDBAE47-CDD3-C344-B936-835CD1761403} 0 2
-  MARKER 14 232 "Timestretch with Pitch Correction" 0 0 1 B {CBE3E69A-70A4-6D45-B3F7-53388B3B8C90} 0 2
-  MARKER 5 232 "Modify time with pitch correction" 1 0 1 B {BA0C5A96-5935-2248-A2E9-E2D6F3184DD8} 0 1
-  MARKER 5 500 "" 1
-  MARKER 15 328 "Different Algorithms: Rrrrrreeeeaaa" 0 0 1 B {2AC9A701-1E2A-2C44-85FE-BD64B62E8534} 0 2
-  MARKER 16 420 "Different Algoriths: ReaReaRea" 0 0 1 B {CE5589F3-99B9-4B46-8898-355902767342} 0 2
-  MARKER 6 512 "Stretching Layers" 1 0 1 B {8065C245-E319-DE4C-927A-97DB5910637F} 0 1
-  MARKER 6 544 "" 1
-  MARKER 17 512 "" 0 0 1 B {89471A0D-C6E5-CC4D-BD59-7EB3D0B7B8C9} 0 2
-  MARKER 18 552 "Pitchshift: -1 Octave" 0 0 1 B {5C2A5E34-E5CE-0E45-9B80-05997B40413E} 0 2
-  MARKER 7 552 "Pitch shifting" 1 0 1 B {59B08240-D33C-7840-BE4A-594796F4137A} 0 1
-  MARKER 7 676 "" 1
-  MARKER 19 568 "" 0 0 1 B {8B4A6BFA-3A79-1541-87B3-85C9CDA4C620} 0 2
-  MARKER 20 584 "Playrates and pitch shifting" 0 0 1 B {350C5850-1CEC-B44D-8258-3B077D001FD9} 0 2
+  MARKER 11 228 "no change" 0 0 1 B {AB08B2F7-CB35-B842-A3FF-C7836074B22B} 0 2
+  MARKER 4 228 "Compare Playrate Change – Stretch" 1 0 1 B {0CC77EF8-0E38-5342-81C7-EFBEBD4934C6} 0 1
+  MARKER 4 376 "" 1
+  MARKER 12 248 "rate 0.75" 0 0 1 B {21D7563C-A081-084D-ADF9-B1EBF845B78B} 0 2
+  MARKER 13 276 "rate 0.5" 0 0 1 B {39212A9B-0245-F347-8221-58F22F6FCC15} 0 2
+  MARKER 14 312 "rate 0.1" 0 0 1 B {D3789F4F-69CB-E046-848B-2D1805E7D370} 0 2
+  MARKER 15 400 "Stretch Markers" 0 0 1 B {ADBC8C10-24F8-AB4F-B4C3-BC5476F53DD7} 0 2
+  MARKER 16 508 "elastique pro (FFT)" 0 0 1 B {B9F12F5D-D154-B243-9BAB-4AA97C017D92} 0 2
+  MARKER 5 508 "Compare Different Stretching Algorithms" 1 0 1 B {5004E346-E35C-5D43-89C0-63362E061221} 0 1
+  MARKER 5 1376 "" 1
+  MARKER 17 640 "Rubber Band Library (FFT)" 0 0 1 B {26C18AFF-57AA-4D4F-B8F4-A738B3AC2F1B} 0 2
+  MARKER 18 775 "Rrrrrreeeeeeaaaaaaaa (FFT)" 0 0 1 B {F26E9DE4-0F97-1E46-9C5A-E3B7933AC87F} 0 2
+  MARKER 19 918.5 "Soundtouch (Granular)" 8 0 1 B {3EFB8B66-5B41-0247-B9CB-8D126D198AC3} 0 2
+  MARKER 20 1064 "ReaReaRea (Granular)" 0 0 1 B {B8EC1087-8A39-254B-BCDA-4BF9F88B3B57} 0 2
+  MARKER 21 1256 "Simple Windowed (Granular)" 0 0 1 B {1B5210D5-7531-CB40-8304-A95417870A36} 0 2
+  MARKER 22 1641 0 0 0 1 B {B13F6D3D-E8B4-514D-B386-2DF24BD18FF7} 0 2
+  MARKER 6 1641 Pitchshift 1 0 1 B {0761708B-ADA9-3141-8680-CBFD9DAE1C9C} 0 1
+  MARKER 6 1856 "" 1
+  MARKER 23 1670.1198850048875 -5 0 0 1 B {F7EFEBAE-1ACB-264C-B7EB-700F3DBCF457} 0 2
+  MARKER 24 1699 -12 0 0 1 B {2D70BAB9-C24C-E24A-990D-C1FFDE2C64FA} 0 2
+  MARKER 25 1729 -48 0 0 1 B {F5E6859B-9ADB-4148-A048-C038999449F4} 0 2
+  MARKER 26 1762 "+ 12" 0 0 1 B {009F2881-D737-5D41-95CF-567540F7A047} 0 2
+  MARKER 27 1800.5 "+ 48" 0 0 1 B {55683886-9D81-3349-AD97-62D84CE389BC} 0 2
   <PROJBAY
   >
   <TRACK {6F07E114-F7EB-9849-85C1-620E1B3BD38A}
@@ -177,11 +182,13 @@
       PT 32 2 0
       PT 37 2 0
       PT 39 0.97723722 0
-      PT 162 0.97723722 0
-      PT 164 0.97723722 0
-      PT 502 0.97723722 0
-      PT 536 0.97723722 0
-      PT 686 0.97723722 0
+      PT 89 0.97723722 0
+      PT 198 0.97723722 0
+      PT 200 0.97723722 0
+      PT 538 0.97723722 0
+      PT 572 0.97723722 0
+      PT 680 0.97723722 0
+      PT 825 0.97723722 0
     >
     <PANENV2
       EGUID {A744CFCF-E709-B04D-8506-02F5073167FD}
@@ -191,15 +198,21 @@
       ARM 1
       DEFSHAPE 0 -1 -1
       PT 0 0 0
-      PT 162 -0.01449275 0
-      PT 164 -0.01449275 0
-      PT 502 -0.01449275 0
-      PT 536 -0.01449275 0
-      PT 686 -0.01449275 0
-      PT 690 -0.01449275 0
-      PT 690 -0.00740741 0
-      PT 708 -0.00885668 0
-      PT 708 -0.01449275 0
+      PT 89 -0.00796207 0
+      PT 198 -0.01449275 0
+      PT 200 -0.01449275 0
+      PT 538 -0.01449275 0
+      PT 572 -0.01449275 0
+      PT 580 -0.01449275 0
+      PT 580 -0.00796207 0
+      PT 680 -0.00796207 0
+      PT 683 -0.00823045 0
+      PT 683 -0.01449275 0
+      PT 825 -0.01449275 0
+      PT 829 -0.01449275 0
+      PT 829 -0.00740741 0
+      PT 847 -0.00885668 0
+      PT 847 -0.01449275 0
     >
     <ITEM
       POSITION 0
@@ -214,7 +227,7 @@
       IGUID {DC6D3D64-44DB-0843-A6AA-383C784D630D}
       IID 2
       NAME pianophase.wav
-      VOLPAN 1 0 1 -1
+      VOLPAN 1 0 2.62923 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 2
@@ -302,7 +315,7 @@
       IGUID {F6D4B82F-44D8-654C-9A69-605F8432601D}
       IID 125
       NAME piano_back_stereo.wav
-      VOLPAN 1 0 1 -1
+      VOLPAN 1 0 2.258859 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
@@ -324,7 +337,7 @@
       IGUID {3C0890A2-F6B0-F345-BD58-8208046DE5AE}
       IID 125
       NAME piano_back_stereo.wav
-      VOLPAN 1 0 1 -1
+      VOLPAN 1 0 2.258859 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 1
@@ -346,7 +359,7 @@
       IGUID {C60187DB-4395-CA4F-8F22-5C8973944387}
       IID 125
       NAME piano_back_stereo.wav
-      VOLPAN 1 0 1 -1
+      VOLPAN 1 0 2.258859 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 3
@@ -368,7 +381,7 @@
       IGUID {238C47C5-D653-5141-B8C5-D7515A7F1810}
       IID 125
       NAME piano_back_stereo.wav
-      VOLPAN 1 0 1 -1
+      VOLPAN 1 0 2.616161 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 4
@@ -378,9 +391,9 @@
       >
     >
     <ITEM
-      POSITION 71.5
+      POSITION 71.50940996670124
       SNAPOFFS 0
-      LENGTH 5
+      LENGTH 1.09694056813684
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
@@ -390,8 +403,8 @@
       IGUID {6BFA2B1C-1924-D740-B0B0-CED4452AC8C3}
       IID 125
       NAME piano_back_stereo.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
+      VOLPAN 1 0 3.753045 -1
+      SOFFS 3.89306238018605
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 2
       GUID {386D4C60-5295-F244-BA6E-2BF4ECD1A5FF}
@@ -427,479 +440,14 @@
         >
       >
     >
-    <ITEM
-      POSITION 92
-      SNAPOFFS 0
-      LENGTH 4
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {D181EBCE-64FC-5841-8FAB-6CED2EA5ACAD}
-      IID 2
-      <NOTES
-        |Ohne Pitch-Erhaltung ist die Rate-Änderung schlicht Resampling/Varispeed: 
-        |Reaper speichert pro Item eine Playrate (D_PLAYRATE) und eine davon 
-        |unabhängige Pitch-Adjust-Angabe in Halbtönen (D_PITCH), 
-        |plus ein Flag B_PPITCH für “Preserve pitch”. Ist das Flag aus, 
-        |wirkt die Rate direkt als Resampling-Verhältnis beim Abspielen
-        | – genau wie beim Verändern der Bandgeschwindigkeit einer 
-        |Tonbandmaschine: Tempo und Tonhöhe ändern sich gekoppelt. 
-        |Die resultierende Tonhöhenverschiebung in Halbtönen ergibt 
-        |sich mathematisch aus 12 · log2(rate). 
-        |Welche Resampling-Qualität dabei intern verwendet wird, 
-        |lässt sich in den Preferences unter Audio/Playback einstellen.
-      >
-      IMGRESOURCEFLAGS 8
-      NOTESWND 50 474 597 876
-      NAME pianophase.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 0.5 0 0 -1 0 0.0025
-      CHANMODE 2
-      GUID {FC68365E-41F5-6148-80EA-0BCA0B3AA712}
-      <SOURCE WAVE
-        FILE "Media/pianophase.wav"
-      >
-    >
-    <ITEM
-      POSITION 100
-      SNAPOFFS 0
-      LENGTH 19.868
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {D452D539-9D1D-A142-B382-A93EFCCF09B9}
-      IID 2
-      NAME pianophase.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 0.25 0 0 -1 0 0.0025
-      CHANMODE 2
-      GUID {7BCC01DA-8593-BD46-AAD0-88C689E86D27}
-      <SOURCE WAVE
-        FILE "Media/pianophase.wav"
-      >
-    >
-    <ITEM
-      POSITION 128
-      SNAPOFFS 0
-      LENGTH 2.4835
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {34D6809F-8290-D54E-93D8-ABB24BC0A356}
-      IID 2
-      NAME pianophase.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 2 0 0 -1 0 0.0025
-      CHANMODE 2
-      GUID {66396A43-014C-ED46-B1E9-AAC84A9BD98A}
-      <SOURCE WAVE
-        FILE "Media/pianophase.wav"
-      >
-    >
-    <ITEM
-      POSITION 132
-      SNAPOFFS 0
-      LENGTH 1.24175
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {ABCF3EF4-5659-D944-9FDE-CA9259BDB12B}
-      IID 2
-      NAME pianophase.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 4 0 0 -1 0 0.0025
-      CHANMODE 2
-      GUID {C2CB916B-29A3-A94E-9B81-98CF1CBED03C}
-      <SOURCE WAVE
-        FILE "Media/pianophase.wav"
-      >
-    >
-    <ITEM
-      POSITION 149.80812958325259
-      SNAPOFFS 0
-      LENGTH 2.05363541666668
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {E6982647-D04B-AA4D-A75E-0BE5B4597857}
-      IID 136
-      NAME cello.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 2 0 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {B2180A4F-9C66-B942-9004-7FE8B5BBBE2C}
-      <SOURCE WAVE
-        FILE "Media/cello.wav"
-      >
-    >
-    <ITEM
-      POSITION 164
-      SNAPOFFS 0
-      LENGTH 63.06065759637187
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {195E4C78-2E5F-EA49-83ED-5125A8891EB4}
-      IID 320
-      NAME ching_01.wav
-      VOLPAN 0.372549 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {1F5D523D-C565-DF4F-91D5-CD7C04E3809C}
-      <SOURCE WAVE
-        FILE "Media/ching_01.wav"
-      >
-    >
-    <ITEM
-      POSITION 232
-      SNAPOFFS 0
-      LENGTH 9.93856405409211
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {D447FC9C-051D-BD47-B318-D01FAD36B8BF}
-      IID 2
-      <NOTES
-        |Mit Pitch-Erhaltung schaltet Reaper von reinem Resampling 
-        |auf einen wählbaren Time-Stretch-Algorithmus um 
-        |(einstellbar pro Item im Dialog “Item Properties”, 
-        |per Doppelklick aufs Item oder F2 – dort finden sich Playback Rate, 
-        |Pitch Adjust und die Preserve-Pitch-Checkbox direkt nebeneinander).
-      >
-      IMGRESOURCEFLAGS 8
-      NOTESWND 50 474 597 876
-      NAME pianophase.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 0.49977038664402 1 0 -1 0 0.0025
-      CHANMODE 2
-      GUID {9CF92193-7B89-604D-9A1D-C485B461D8FF}
-      <SOURCE WAVE
-        FILE "Media/pianophase.wav"
-      >
-    >
-    <ITEM
-      POSITION 247
-      SNAPOFFS 0
-      LENGTH 19.868
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {5FCF46B3-303A-5D4D-94CE-267FA51EDCA9}
-      IID 2
-      NAME pianophase.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 0.25 1 0 -1 0 0.0025
-      CHANMODE 2
-      GUID {22630CA9-AA7D-5440-B69D-037586E25653}
-      <SOURCE WAVE
-        FILE "Media/pianophase.wav"
-      >
-    >
-    <ITEM
-      POSITION 270
-      SNAPOFFS 0
-      LENGTH 39.736
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {49ECE966-3521-F44C-A8B8-DB696EF1F1F2}
-      IID 2
-      NAME pianophase.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 0.125 1 0 -1 0 0.0025
-      CHANMODE 2
-      GUID {1C8541B4-9E28-9843-B138-5F6AF0F8A1BA}
-      <SOURCE WAVE
-        FILE "Media/pianophase.wav"
-      >
-    >
-    <ITEM
-      POSITION 328
-      SNAPOFFS 0
-      LENGTH 9.93856405409211
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      COLOR 33517312 B
-      SEL 0
-      IGUID {1312794B-A969-014D-8DF8-377EEC0417B1}
-      IID 2
-      <NOTES
-        |Élastique Pro von zplane ist der hybride Zeit-/Frequenzbereich-Algorithmus 
-        |und die Standard-Empfehlung für die meisten Materialien. Élastique Efficient 
-        |ist eine CPU-sparsamere Variante, Élastique Soloist speziell auf monophones 
-        |Material (Solostimme/Soloinstrument) getrimmt. 
-        |SoundTouch ist eine Open-Source-Alternative, die mit WSOLA 
-        |(zeitbereichbasiertes Stretching durch überlappendes Verschieben 
-        |von Wellenform-Segmenten) arbeitet – günstiger an CPU, 
-        |aber generischer in der Qualität. Simple Windowed arbeitet 
-        |eher FFT-/Phasenvocoder-artig und ist anfälliger für Artefakte, 
-        |eignet sich mehr als Spezialeffekt denn als transparente Korrektur. 
-        |DiracLE schließlich liefert hohe Qualität bei entsprechend höherer 
-        |Latenz und ist eher für Rendering als für Echtzeit-Tracking gedacht. 
-      >
-      IMGRESOURCEFLAGS 13
-      NOTESWND 50 474 597 876
-      NAME pianophase.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 0.49977038664402 1 0 917504 0 0.0025
-      CHANMODE 2
-      GUID {8A4CD3B3-46D8-114F-8B7C-F0AC8CFEB5AD}
-      <SOURCE WAVE
-        FILE "Media/pianophase.wav"
-      >
-    >
-    <ITEM
-      POSITION 343
-      SNAPOFFS 0
-      LENGTH 19.868
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      COLOR 33517312 B
-      SEL 0
-      IGUID {116DE98D-D546-754B-88BC-049B0853E970}
-      IID 2
-      NAME pianophase.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 0.25 1 0 917504 0 0.0025
-      CHANMODE 2
-      GUID {13605809-CE81-8540-8745-BBB6885E30CF}
-      <SOURCE WAVE
-        FILE "Media/pianophase.wav"
-      >
-    >
-    <ITEM
-      POSITION 366
-      SNAPOFFS 0
-      LENGTH 40
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      COLOR 33517312 B
-      SEL 0
-      IGUID {6FC9A2AF-BF5B-354E-8D24-91B0F47202FC}
-      IID 2
-      NAME pianophase.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 0.124175 1 0 917504 0 0.0025
-      CHANMODE 2
-      GUID {B18705D9-757E-564B-8955-D807C86D520C}
-      <SOURCE WAVE
-        FILE "Media/pianophase.wav"
-      >
-    >
-    <ITEM
-      POSITION 420
-      SNAPOFFS 0
-      LENGTH 9.93856405409211
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      COLOR 33517312 B
-      SEL 0
-      IGUID {B38A7B9F-EF7B-A443-ACA7-F5C474227E61}
-      IID 2
-      NAME pianophase.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 0.49977038664402 1 0 983040 0 0.0025
-      CHANMODE 2
-      GUID {2C0802A7-5C8A-0442-B722-0D2F840C939B}
-      <SOURCE WAVE
-        FILE "Media/pianophase.wav"
-      >
-    >
-    <ITEM
-      POSITION 435
-      SNAPOFFS 0
-      LENGTH 19.868
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      COLOR 33517312 B
-      SEL 0
-      IGUID {D8D4CF28-635B-6840-9B33-3AB1C09A9B1D}
-      IID 2
-      NAME pianophase.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 0.25 1 0 983040 0 0.0025
-      CHANMODE 2
-      GUID {05063B74-D16F-8046-9987-5379CA24CDE8}
-      <SOURCE WAVE
-        FILE "Media/pianophase.wav"
-      >
-    >
-    <ITEM
-      POSITION 458
-      SNAPOFFS 0
-      LENGTH 40
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      COLOR 33517312 B
-      SEL 0
-      IGUID {7BCB3344-1E17-6B45-B197-175BC82F80E9}
-      IID 2
-      NAME pianophase.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 0.124175 1 0 983040 0 0.0025
-      CHANMODE 2
-      GUID {33453521-9FA0-0448-A2F9-19595180984E}
-      <SOURCE WAVE
-        FILE "Media/pianophase.wav"
-      >
-    >
-    <ITEM
-      POSITION 512
-      SNAPOFFS 0
-      LENGTH 8.39207505648874
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 1.19887 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {10157083-40A6-5745-BDFE-B285562D73DF}
-      IID 123
-      NAME bach.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {4EF7F718-2CB9-FC45-A4F9-7B4593E20E98}
-      <SOURCE WAVE
-        FILE "Media/bach.wav"
-      >
-    >
-    <ITEM
-      POSITION 552
-      SNAPOFFS 0
-      LENGTH 4.967
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {5C8750D3-794A-F645-A44C-1EC591D7413D}
-      IID 2
-      NAME pianophase.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 -12 -1 0 0.0025
-      CHANMODE 2
-      GUID {3C71528D-68D9-384C-8C56-B3318E78F238}
-      <SOURCE WAVE
-        FILE "Media/pianophase.wav"
-      >
-    >
-    <ITEM
-      POSITION 568
-      SNAPOFFS 0
-      LENGTH 4.967
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {DE7FFE16-E147-DA4D-AB6A-D9A2483131CD}
-      IID 2
-      NAME pianophase.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 24 -1 0 0.0025
-      CHANMODE 2
-      GUID {FE2629AA-41E7-0E48-987A-F54DCCB6F5B8}
-      <SOURCE WAVE
-        FILE "Media/pianophase.wav"
-      >
-    >
-    <ITEM
-      POSITION 584
-      SNAPOFFS 0
-      LENGTH 92
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {476B4E35-281E-9B4A-A0DD-84208D82DA24}
-      IID 2
-      NAME pianophase.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 0.05340860215054 1 0 -1 0 0.0025
-      CHANMODE 2
-      GUID {27408D64-E6BB-F84D-AFD9-D758AEAC5A03}
-      <SOURCE WAVE
-        FILE "Media/pianophase.wav"
-      >
-    >
   >
-  <TRACK {BB9ED89B-8831-9D46-9BD4-18E3EEF5F045}
-    NAME "Material 2"
+  <TRACK {E3E7A90E-EC21-474D-AF90-FA8BB4B25AEE}
+    NAME Timestretch
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    PANLAWFLAGS 3
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -914,101 +462,657 @@
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
-    TRACKID {BB9ED89B-8831-9D46-9BD4-18E3EEF5F045}
+    TRACKID {E3E7A90E-EC21-474D-AF90-FA8BB4B25AEE}
     PERF 0
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 149.20462913331079
+      POSITION 228
       SNAPOFFS 0
-      LENGTH 4.10727083333333
+      LENGTH 16
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
-      IGUID {BBD6C0FA-0E56-E543-9E0C-24090B583DE2}
-      IID 136
-      NAME cello.wav
-      VOLPAN 1 0 1 -1
+      IGUID {E049AC6F-4C20-8543-A296-65D4DF437534}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
       SOFFS 0
       PLAYRATE 1 0 0 -1 0 0.0025
       CHANMODE 0
-      GUID {F38F8A4D-2248-E248-8EE5-C87E70944354}
+      GUID {5F70B04E-7FDB-5140-B67E-E54B2625607E}
       <SOURCE WAVE
-        FILE "Media/cello.wav"
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
       >
     >
     <ITEM
-      POSITION 170.42070476163644
+      POSITION 248
       SNAPOFFS 0
-      LENGTH 41.57929523836356
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {FB5E8C2A-CDA6-0344-B0BD-693262B07134}
-      IID 320
-      NAME ching_01.wav
-      VOLPAN 0.372549 0 1 -1
-      SOFFS 0
-      PLAYRATE 1.50120926037823 0 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {FDA0B348-DFF9-784E-8C72-B449AA09DE98}
-      <SOURCE WAVE
-        FILE "Media/ching_01.wav"
-      >
-    >
-    <ITEM
-      POSITION 512.10828483942896
-      SNAPOFFS 0
-      LENGTH 13.37317767065606
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0.848191 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {0314D5F4-9B43-2F49-8794-1F289C113C18}
-      IID 123
-      NAME bach.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 0.62753036437278 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {11BA805D-BCD4-B741-9CD2-391934B4FCF2}
-      <SOURCE WAVE
-        FILE "Media/bach.wav"
-      >
-    >
-    <ITEM
-      POSITION 584
-      SNAPOFFS 0
-      LENGTH 90
+      LENGTH 21.2929230094601
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
-      IGUID {2C96A796-C299-B640-84A8-6FA9E3547C14}
-      IID 2
-      NAME pianophase.wav
+      IGUID {18CE2648-4199-7A4F-A68E-FC1447A570CB}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.75142337164754 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {61ECAC02-EF6F-9247-9407-87D701C2B915}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
+      >
+    >
+    <ITEM
+      POSITION 276
+      SNAPOFFS 0
+      LENGTH 32.0000000000002
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {632213A1-1E07-AC43-8E62-B9549B99110E}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.5 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8762CDC9-93D2-AB48-9513-2BE2E1EA40E9}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
+      >
+    >
+    <ITEM
+      POSITION 312
+      SNAPOFFS 0
+      LENGTH 62
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3AF7F16C-02B5-4340-A05E-621D13F72DFC}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.10666666666667 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E080F067-206D-0546-83CA-54E36F53F18E}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
+      >
+    >
+    <ITEM
+      POSITION 399.99723607595865
+      SNAPOFFS 0
+      LENGTH 15.9063296688613
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6084F34B-AB5E-5948-9263-89622556E503}
+      IID 11
+      NAME Amen-break.wav
+      VOLPAN 0.733333 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C0F37E76-C187-BA4E-8972-4B3772F2C9DA}
+      SM 0.444225437 0.444225437 -0.643455067 + 3.911171273 1.760521923 0.408477543 + 6.960815947 1.9076077 0.310715101 + 9.717574739 2.203401372 0.497208376 + 11.667224476 3.07377297 0.000384062 + 13.612989009 5.017291711 + 14.282844544 5.241098603 -0.061391537 + 15.906329669 6.970770975
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/Amen-break.wav"
+      >
+    >
+    <ITEM
+      POSITION 508.2169668641551
+      SNAPOFFS 0
+      LENGTH 54.0102521228826
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C8BDB7CB-BE60-6D4D-AF32-908EA29849FF}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.10666666666667 1 0 589824 0 0.0025
+      CHANMODE 0
+      GUID {A6032A91-ADD9-5D45-8683-C34787AF9993}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
+      >
+    >
+    <ITEM
+      POSITION 570.70609976027754
+      SNAPOFFS 0
+      LENGTH 46.32722010417081
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D2F9A4CC-0B12-D04A-8A18-3B97229501C8}
+      IID 18
+      NAME Amen-break.wav
       VOLPAN 1 0 1 -1
       SOFFS 0
-      PLAYRATE 0.05518888888889 1 0.5 -1 0 0.0025
-      CHANMODE 2
-      GUID {73136E99-3A9B-DE4F-9C80-11BCBA16936F}
+      PLAYRATE 0.15046814722278 1 0 589824 0 0.0025
+      CHANMODE 0
+      GUID {5315D8FE-A8AA-DE46-AA95-C108723F4A6F}
       <SOURCE WAVE
-        FILE "Media/pianophase.wav"
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/Amen-break.wav"
+      >
+    >
+    <ITEM
+      POSITION 640
+      SNAPOFFS 0
+      LENGTH 62
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E1DC4280-238A-EE42-BE1C-694D3E5EAC33}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.10666666666667 1 0 851968 0 0.0025
+      CHANMODE 0
+      GUID {B1801E13-280E-2742-A808-084F00173A09}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
+      >
+    >
+    <ITEM
+      POSITION 705.97837390573079
+      SNAPOFFS 0
+      LENGTH 46.32722010417081
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {64E0421C-58F8-D840-8C1E-1D73AD8096AD}
+      IID 18
+      NAME Amen-break.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.15046814722278 1 0 851968 0 0.0025
+      CHANMODE 0
+      GUID {DC30594B-988D-8B49-AFC5-6298EC160455}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/Amen-break.wav"
+      >
+    >
+    <ITEM
+      POSITION 775.2520218281901
+      SNAPOFFS 0
+      LENGTH 62
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F5AFE288-1078-024B-8229-8D646F460F30}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.10666666666667 1 0 917504 0 0.0025
+      CHANMODE 0
+      GUID {9EE5E27A-0D0F-3245-B6C0-F43AB22CB792}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
+      >
+    >
+    <ITEM
+      POSITION 841.23039573395033
+      SNAPOFFS 0
+      LENGTH 46.32722010417081
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {73791950-A048-E247-9250-5856F594615D}
+      IID 18
+      NAME Amen-break.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.15046814722278 1 0 917504 0 0.0025
+      CHANMODE 0
+      GUID {5E928928-D1E9-9C44-A418-9741E274DEA1}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/Amen-break.wav"
+      >
+    >
+    <ITEM
+      POSITION 918.81068029687378
+      SNAPOFFS 0
+      LENGTH 62
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DE9D36E2-3A50-E647-90DB-F3B625DA43A6}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.10666666666667 1 0 0 0 0.0025
+      CHANMODE 0
+      GUID {D8BC8CF9-57BF-444D-9FCD-D9D3A6A0497E}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
+      >
+    >
+    <ITEM
+      POSITION 984.78905420263391
+      SNAPOFFS 0
+      LENGTH 46.32722010417081
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C1B331CE-A7D8-4C43-89EB-210E83DC4E10}
+      IID 18
+      NAME Amen-break.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.15046814722278 1 0 0 0 0.0025
+      CHANMODE 0
+      GUID {7175E789-9CED-DE40-8AF0-497BD394A979}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/Amen-break.wav"
+      >
+    >
+    <ITEM
+      POSITION 1064.5503024639684
+      SNAPOFFS 0
+      LENGTH 62
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4ED7BB00-1449-5640-90BB-FDBFE163C1E6}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.10666666666667 1 0 983040 0 0.0025
+      CHANMODE 0
+      GUID {2DEA66F3-3A74-8F4A-8B8E-6C9A6B5A69FA}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
+      >
+    >
+    <ITEM
+      POSITION 1130.5286763697286
+      SNAPOFFS 0
+      LENGTH 46.32722010417081
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D91A0C3B-47FF-BF4F-A0AD-097F7BDAC42F}
+      IID 18
+      NAME Amen-break.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.15046814722278 1 0 983040 0 0.0025
+      CHANMODE 0
+      GUID {AF6B26D7-D667-7241-98A0-086CE3F15E60}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/Amen-break.wav"
+      >
+    >
+    <ITEM
+      POSITION 1255.9144693707676
+      SNAPOFFS 0
+      LENGTH 62
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DD6A720B-9F9B-4F40-A810-68E3251AD7BB}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.10666666666667 1 0 131072 0 0.0025
+      CHANMODE 0
+      GUID {58FAF1AE-1053-D64B-B9BD-0DA62C1A4A83}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
+      >
+    >
+    <ITEM
+      POSITION 1321.8928432765279
+      SNAPOFFS 0
+      LENGTH 46.32722010417081
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {430E4DF2-396B-484E-8B7A-C005A1F36455}
+      IID 18
+      NAME Amen-break.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.15046814722278 1 0 131072 0 0.0025
+      CHANMODE 0
+      GUID {74707A57-7224-5548-BC1A-4E5FF6101F5D}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/Amen-break.wav"
+      >
+    >
+    <ITEM
+      POSITION 1641.0391187569689
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A6D9DEC1-BAA0-3149-B252-0FB987ECABBA}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -65536 0 0.0025
+      CHANMODE 0
+      GUID {A71F0446-3442-9A4E-86B2-E527D588D8E7}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
+      >
+    >
+    <ITEM
+      POSITION 1670.1198850048875
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E3143B6F-212F-4747-BBCD-1EDB9B8FB43D}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 -5 -65536 0 0.0025
+      CHANMODE 0
+      GUID {3B0DD861-F2DA-E04E-8037-FF55E1B82BB8}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
+      >
+    >
+    <ITEM
+      POSITION 1698.8161515395225
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {05E6D7EA-7141-0E43-ABDE-E025065A6093}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 -12 -65536 0 0.0025
+      CHANMODE 0
+      GUID {DA00061E-ABC9-F64D-BA01-7A279A731AB6}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
+      >
+    >
+    <ITEM
+      POSITION 1729.3095453540905
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {858D6F33-94A9-7F4E-B1CB-8863B907C6F9}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -48 -65536 0 0.0025
+      CHANMODE 0
+      GUID {C6DC51AC-DAC3-8E40-87FF-A9A5C330F084}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
+      >
+    >
+    <ITEM
+      POSITION 1761.8297733253444
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E132C53E-CEB3-BE43-A4CD-74D7B0D8A535}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 12 -65536 0 0.0025
+      CHANMODE 0
+      GUID {3A45D9A3-C6D6-2348-A925-DE13220A878A}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
+      >
+    >
+    <ITEM
+      POSITION 1800.5775131749099
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0B61B9BF-D29F-FA4F-86DC-E55F57EA5E0D}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 48 -65536 0 0.0025
+      CHANMODE 0
+      GUID {0E91B21C-64D1-5440-8AA0-0C846C5330A3}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
       >
     >
   >
-  <TRACK {6F7006CC-296A-A44A-8C31-DB654A33791A}
-    NAME "Material 3"
+  <TRACK {3E50E882-4DA1-4041-A11B-979B2B0A0302}
+    NAME "Preserve pitch"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {3E50E882-4DA1-4041-A11B-979B2B0A0302}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 228
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5958EC3F-C3B0-0D46-BD67-C1B264EDFA31}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {87BC450E-07B9-D746-BBDB-2BCB1623356B}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
+      >
+    >
+    <ITEM
+      POSITION 248
+      SNAPOFFS 0
+      LENGTH 21.2929230094601
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CF52570C-18D2-584E-A191-A662C7054521}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.75142337164754 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {713BB2FA-0E02-9843-817A-3DF66C88B5BB}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
+      >
+    >
+    <ITEM
+      POSITION 276
+      SNAPOFFS 0
+      LENGTH 32.0000000000002
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A4BC2B7F-2065-F749-867B-0EAC5597D283}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.5 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1407714F-6571-0C4D-AD3B-EE3315B9C741}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
+      >
+    >
+    <ITEM
+      POSITION 312
+      SNAPOFFS 0
+      LENGTH 62
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4CE3FF2B-EC4E-1A40-B2D9-09B3C30EE133}
+      IID 1
+      NAME monte.wav
+      VOLPAN 0.59375 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.10666666666667 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {82770966-EEB5-0049-B63C-ACEA3BFEB4E6}
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/monte.wav"
+      >
+    >
+    <ITEM
+      POSITION 400
+      SNAPOFFS 0
+      LENGTH 19.26928172014374
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9B80142D-662C-0F4B-A26A-92D4EDDC3641}
+      IID 11
+      NAME Amen-break.wav
+      VOLPAN 0.714286 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {11458A96-811A-A341-8EAD-EEA1F52C5F4F}
+      SM 0.444225437 0.444225437 -0.978239367 + 3.048174964 1.760521923 0.57989978 + 5.113413976 1.814598613 -0.963975147 + 8.235401858 1.901260671 0.982707148 + 13.460276216 2.203401372 0.803712706 + 15.030176527 3.07377297 0.000384062 + 16.97594106 5.017291711 + 17.645796595 5.241098603 -0.061391537 + 19.26928172 6.970770975
+      <SOURCE WAVE
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/Amen-break.wav"
+      >
+    >
+  >
+  <TRACK {695D2F85-3C31-8A47-B532-9A0B84187855}
+    NAME "Bildschirmfoto 2024-10-16 um 09.01.19"
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
@@ -1029,216 +1133,52 @@
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
-    TRACKID {6F7006CC-296A-A44A-8C31-DB654A33791A}
+    TRACKID {695D2F85-3C31-8A47-B532-9A0B84187855}
     PERF 0
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 147.14725607421497
+      POSITION 228
       SNAPOFFS 0
-      LENGTH 6.17783237242318
+      LENGTH 6
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
-      IGUID {F80FF95A-39F1-2E45-93C6-1A96DEB9B617}
-      IID 136
-      NAME cello.wav
+      IGUID {23F74891-9B90-BD43-8CE9-18434FB8673D}
+      IID 47
+      NAME "Bildschirmfoto 2024-10-16 um 09.01.03.png"
       VOLPAN 1 0 1 -1
       SOFFS 0
-      PLAYRATE 0.50012789214907 0 0 -1 0 0.0025
+      PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {AB6853E7-57A9-AF4C-93F5-886A7542E532}
-      <SOURCE WAVE
-        FILE "Media/cello.wav"
+      GUID {84651FA4-5369-A340-8D38-B18C77BAC3FF}
+      <SOURCE VIDEO
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/Bildschirmfoto 2024-10-16 um 09.01.03.png"
       >
     >
     <ITEM
-      POSITION 174.63703311653808
+      POSITION 236.55826389438823
       SNAPOFFS 0
-      LENGTH 34.36296688346192
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {268746DD-530A-F445-BA3B-FBAD31E4AD78}
-      IID 320
-      NAME ching_01.wav
-      VOLPAN 0.372549 0 1 -1
-      SOFFS 0
-      PLAYRATE 1.78784212026932 0 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {E8BC0C39-5B5F-6A45-BFE3-F671E0A59740}
-      <SOURCE WAVE
-        FILE "Media/ching_01.wav"
-      >
-    >
-    <ITEM
-      POSITION 512.05414241971448
-      SNAPOFFS 0
-      LENGTH 17.70457124819384
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0.762055 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {2CB2B712-9C15-FA46-8579-C454E4059FA2}
-      IID 123
-      NAME bach.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 0.47400611620826 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {CB0ADFB4-465C-5A41-B810-43EB444F3C41}
-      <SOURCE WAVE
-        FILE "Media/bach.wav"
-      >
-    >
-  >
-  <TRACK {B6FC3270-EB77-914D-B468-37F0A8063A6D}
-    NAME "Material 4"
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    PANLAWFLAGS 3
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
-    SEL 0
-    REC 0 0 1 0 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {B6FC3270-EB77-914D-B468-37F0A8063A6D}
-    PERF 0
-    MIDIOUT -1 -1
-    MAINSEND 1 0
-    <ITEM
-      POSITION 144.5
-      SNAPOFFS 0
-      LENGTH 8.85598670216118
+      LENGTH 7
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
-      IGUID {89843302-C637-C647-99BE-369F44A52BD1}
-      IID 136
-      NAME cello.wav
+      IGUID {7886FE46-2F70-5F47-818A-2DBDF52EAA58}
+      IID 46
+      NAME "Bildschirmfoto 2024-10-16 um 09.01.19.png"
       VOLPAN 1 0 1 -1
       SOFFS 0
-      PLAYRATE 0.25106032228748 0 0 -1 0 0.0025
+      PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {893E3674-7551-7445-A4F7-FEAAB7555460}
-      <SOURCE WAVE
-        FILE "Media/cello.wav"
-      >
-    >
-    <ITEM
-      POSITION 178.20484427153133
-      SNAPOFFS 0
-      LENGTH 29.79515572846867
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {70875300-8A1C-014A-B312-FA62DDC5BC6D}
-      IID 320
-      NAME ching_01.wav
-      VOLPAN 0.372549 0 1 -1
-      SOFFS 0
-      PLAYRATE 2.0003030684199 0 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {B6C9C3C8-968E-0442-BFAC-1898B5D41DF0}
-      <SOURCE WAVE
-        FILE "Media/ching_01.wav"
-      >
-    >
-    <ITEM
-      POSITION 512.05414241971448
-      SNAPOFFS 0
-      LENGTH 23.76852225675344
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 1.272605 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {95AEAA54-4582-F94F-8EE7-8FFE621EB875}
-      IID 123
-      NAME bach.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 0.35307517084299 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {6F6DC90C-77DB-4A4D-9A01-C7C05801ACBC}
-      <SOURCE WAVE
-        FILE "Media/bach.wav"
-      >
-    >
-  >
-  <TRACK {446C9CD2-9FFD-1B46-A9CE-A7BF823F9B52}
-    NAME "Material 5"
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    PANLAWFLAGS 3
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
-    SEL 0
-    REC 0 0 1 0 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {446C9CD2-9FFD-1B46-A9CE-A7BF823F9B52}
-    PERF 0
-    MIDIOUT -1 -1
-    MAINSEND 1 0
-    <ITEM
-      POSITION 512
-      SNAPOFFS 0
-      LENGTH 29.72418842586968
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0.770717 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {89EC5F53-7F3B-5841-AE31-70571248D22A}
-      IID 123
-      NAME bach.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 0.28233151183986 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {7AC1157D-7E8E-E440-BEDB-A80673E7314D}
-      <SOURCE WAVE
-        FILE "Media/bach.wav"
+      GUID {0FA7FA39-032F-6E4E-9C56-67805C844A53}
+      <SOURCE VIDEO
+        FILE "/Users/alexbauer/Documents/GitHub/sem-meko/04-Sound Synthesis/02-Timestretch-Transposition/Reaper/Media/Bildschirmfoto 2024-10-16 um 09.01.19.png"
       >
     >
   >
