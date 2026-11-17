@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.84/macOS-arm64" 1793787965 0
+<REAPER_PROJECT 0.1 "7.86/macOS-arm64" 1794958331 0
   <NOTES 0 2
   >
   RIPPLE 0 0
@@ -17,8 +17,8 @@
   TIMEMODE 0 5 -1 30 0 0 -1 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 0
-  ZOOM 1.38190416205105 0 0
+  CURSOR 324
+  ZOOM 2.7534805398777 485 0
   VZOOMEX 5.74880934 0
   USE_REC_CFG 0
   RECMODE 1
@@ -371,10 +371,10 @@
       CHANMODE 0
       GUID {613FB091-AAA3-E644-AC22-14A26A2F5D9E}
       <SOURCE WAVE
-        FILE "/Users/bornhoeft/Documents/code/github/sem-meko/01-Digital Audio/Reaper/Todo/Filter_NEW/bach.wav"
+        FILE "Media/bach.wav"
       >
       <TAKEFX
-        WNDRECT 333 205 815 446
+        WNDRECT 179 387 815 446
         SHOW 0
         LASTSEL 0
         DOCKED 0
@@ -401,9 +401,46 @@
       FADEIN 1 2.82443 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 5.730073 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {E645A8DD-DC2F-6446-8C42-169EB0A9FAF8}
       IID 138
+      <NOTES
+        |Ein FIR-Filter (Finite Impulse Response) ist im Kern ein gleitender gewichteter Mittelwert.
+        |
+        |Die Idee: Du nimmst den aktuellen Samplewert und die letzten paar Samplewerte davor. Jeden multiplizierst du mit einer festen Zahl (einem Koeffizienten) und addierst alles auf. Das Ergebnis ist der neue Ausgabewert. Dann rückt das Fenster um ein Sample weiter, und alles beginnt von vorn.
+        |
+        |Tiefpass: y = 0.5·x[n] + 0.5·x[n-1]
+        |
+        |Das ist der Mittelwert aus dem aktuellen und dem vorigen Sample. Zwei Extremfälle zeigen, was passiert:
+        |
+        |Konstantes Signal (0 Hz): 1, 1, 1, 1, …. Der Mittelwert aus zwei Einsen ist wieder 1. Das Signal kommt unverändert durch.
+        |Schnellstmögliche Schwingung (Nyquist-Frequenz, fs/2): +1, -1, +1, -1, …. Das Signal springt bei jedem Sample das Vorzeichen. Der Mittelwert aus +1 und -1 ist 0. Das Signal verschwindet.
+        |
+        |Je schneller das Signal schwingt, desto stärker unterscheiden sich zwei aufeinanderfolgende Samples. Bei einem Mittelwert hebt sich dieser Unterschied zunehmend auf. Langsame Anteile bleiben, schnelle werden gedämpft.
+        |
+        |Hochpass: y = 0.5·x[n] - 0.5·x[n-1]
+        |
+        |Hier wird statt der Summe die Differenz der beiden Samples gebildet:
+        |
+        |Konstantes Signal: 1, 1, 1, …. Die Differenz ist 0. Das Signal verschwindet.
+        |Schnellstmögliche Schwingung: +1, -1, +1, …. Die Differenz ist 0.5·(+1) - 0.5·(-1) = 1. Das Signal kommt voll durch.
+        |
+        |Die Differenz misst, wie stark sich das Signal von einem Sample zum nächsten ändert. Bei einer langsamen Schwingung ändert sich fast nichts, also kommt fast nichts heraus. Bei einer schnellen Schwingung ändert sich viel, also kommt viel heraus.
+        |
+        |Was dazwischen passiert
+        |
+        |Das vorige Sample ist eine um ein Sample verzögerte Kopie des Signals. Bei einem Sinus bedeutet diese Verzögerung eine Phasenverschiebung. Sie ist umso größer, je höher die Frequenz ist:
+        |
+        |Frequenz		Verschiebung der Kopie	Summe (Tiefpass)	Differenz (Hochpass)
+        |
+        |sehr tief		fast 0° (nahezu in Phase)	addiert sich voll		fast Auslöschung
+        |
+        |mittel (fs/4)	90°					teilweise			teilweise
+        |
+        |fs/2	180° 		(genau gegenphasig)		Auslöschung		addiert sich voll
+      >
+      IMGRESOURCEFLAGS 8
+      NOTESWND 560 458 1107 860
       NAME bach.wav
       VOLPAN 1 0 1 -1
       SOFFS 11.03602988607048
@@ -411,10 +448,10 @@
       CHANMODE 0
       GUID {2E4101CE-7154-A649-B0E6-93D8B8DE739C}
       <SOURCE WAVE
-        FILE "/Users/bornhoeft/Documents/code/github/sem-meko/01-Digital Audio/Reaper/Todo/Filter_NEW/bach.wav"
+        FILE "Media/bach.wav"
       >
       <TAKEFX
-        WNDRECT 874 474 924 504
+        WNDRECT 579 438 933 510
         SHOW 0
         LASTSEL 0
         DOCKED 0
@@ -422,7 +459,7 @@
         <VST "VST: ReaFir (FFT EQ+Dynamics Processor) (Cockos)" reafir.vst.dylib 0 "" 1919247986<56535472656672726561666972666674> ""
           cmZlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAYAAAAAEAAAAAABAA
           nBIAAAAAtMIAAMBBABAAAAAAgD8AAAAAAgAAAAMAAACxQstCLDaqQQDFKkPLOLPCwlJvQgAAtMIAAAAAAAAAAK1VAzzhyX5As6IEOAAAAD4AAAAAAAAAAAIAAAAAAIA/
-          AFByb2dyYW0gMQAQAAAA
+          AAAQAAAA
         >
         MULTIFXLINK 0
         FLOATPOS 0 0 0 0
@@ -452,7 +489,7 @@
         FILE "Media/bach.wav"
       >
       <TAKEFX
-        WNDRECT 874 474 924 504
+        WNDRECT 579 438 933 510
         SHOW 0
         LASTSEL 0
         DOCKED 0
@@ -460,7 +497,7 @@
         <VST "VST: ReaFir (FFT EQ+Dynamics Processor) (Cockos)" reafir.vst.dylib 0 "" 1919247986<56535472656672726561666972666674> ""
           cmZlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAYAAAAAEAAAAAABAA
           nBIAAAAAtMIAAMBBABAAAAAAgD8AAAAAAgAAAAMAAAB+OhtDLTaqQSZeYEPLOLPCrdviQgAAtMIAAAAAAAAAAK1VAzzhyX5As6IEOAAAAD4AAAAAAAAAAAIAAAAAAIA/
-          AFByb2dyYW0gMQAQAAAA
+          AAAQAAAA
         >
         MULTIFXLINK 0
         FLOATPOS 0 0 0 0
@@ -631,7 +668,7 @@
         FILE "Media/bach.wav"
       >
       <TAKEFX
-        WNDRECT 677 494 835 450
+        WNDRECT 470 43 835 450
         SHOW 0
         LASTSEL 0
         DOCKED 0
@@ -639,7 +676,7 @@
         <VST "VST: ReaEQ (Cockos)" reaeq.vst.dylib 0 "" 1919247729<56535472656571726561657100000000> ""
           cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAASQAAAAEAAAAAABAA
           IQAAAAEAAAAAAAAAAQAAAMKjoqtg31NAgTBmZw2YCUA/NV66SQzSPwEBAAAAAQAAAAAAAAAAAPA/AAAAAFQCAABwAQAAAgAAAA==
-          AFByb2dyYW0gMQAQAAAA
+          AAAQAAAA
         >
         MULTIFXLINK 0
         FLOATPOS 0 0 0 0
@@ -1150,10 +1187,10 @@
       CHANMODE 0
       GUID {421A1D62-DC10-A243-94A4-EE3D9C71C7B7}
       <SOURCE WAVE
-        FILE "/Users/bornhoeft/Documents/code/github/sem-meko/01-Digital Audio/Reaper/Todo/Filter_NEW/bach.wav"
+        FILE "Media/bach.wav"
       >
       <TAKEFX
-        WNDRECT 655 41 815 445
+        WNDRECT 655 40 815 446
         SHOW 0
         LASTSEL 0
         DOCKED 0
@@ -1190,7 +1227,7 @@
       CHANMODE 0
       GUID {E4429F84-F34C-C54E-8804-EF615B10E4AF}
       <SOURCE WAVE
-        FILE "/Users/bornhoeft/Documents/code/github/sem-meko/01-Digital Audio/Reaper/Todo/Filter_NEW/bach.wav"
+        FILE "Media/bach.wav"
       >
       <TAKEFX
         WNDRECT 874 469 924 509
@@ -2109,10 +2146,10 @@
       CHANMODE 0
       GUID {8C242B98-D41B-4843-9F7E-F4F3D189462F}
       <SOURCE WAVE
-        FILE "/Users/bornhoeft/Documents/code/github/sem-meko/01-Digital Audio/Reaper/Todo/Filter_NEW/bach.wav"
+        FILE "Media/bach.wav"
       >
       <TAKEFX
-        WNDRECT 653 600 807 444
+        WNDRECT 653 503 815 445
         SHOW 0
         LASTSEL 0
         DOCKED 0
@@ -2121,8 +2158,8 @@
           cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAzQAAAAEAAAAAABAA
           IQAAAAUAAAAEAAAAAQAAAKlgJQtHu51AAAAAAAAA8D8AAAAAAAAAQAEIAAAAAAAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAAAAAAAAAAAAQI9AAAAAAAAA
           8D8AAAAAAAAAQAEBAAAAAAAAAAAAAAAAiLNAAAAAAAAA8D+amZmZmZnpPwEEAAAAAAAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAA
-          AEACAABrAQAAAgAAAA==
-          AFByb2dyYW0gMQAQAAAA
+          AEACAABsAQAAAgAAAA==
+          AAAQAAAA
         >
         MULTIFXLINK 0
         FLOATPOS 0 0 0 0
@@ -2149,7 +2186,7 @@
       CHANMODE 0
       GUID {09D25160-327F-084A-90F3-3C8BE226CD72}
       <SOURCE WAVE
-        FILE "/Users/bornhoeft/Documents/code/github/sem-meko/01-Digital Audio/Reaper/Todo/Filter_NEW/bach.wav"
+        FILE "Media/bach.wav"
       >
       <TAKEFX
         WNDRECT 874 469 924 509
@@ -2252,7 +2289,7 @@
       CHANMODE 0
       GUID {E3A2F472-807D-9A4F-BA12-3A0587B752FE}
       <SOURCE WAVE
-        FILE "/Users/bornhoeft/Documents/code/github/sem-meko/01-Digital Audio/Reaper/Todo/Filter_NEW/bach.wav"
+        FILE "Media/bach.wav"
       >
       <TAKEFX
         WNDRECT 874 474 924 504
@@ -2355,7 +2392,7 @@
       CHANMODE 0
       GUID {37C73BD7-EB08-0049-BD78-D28BEFE03E6C}
       <SOURCE WAVE
-        FILE "/Users/bornhoeft/Documents/code/github/sem-meko/01-Digital Audio/Reaper/Todo/Filter_NEW/bach.wav"
+        FILE "Media/bach.wav"
       >
       <TAKEFX
         WNDRECT 642 42 924 509
